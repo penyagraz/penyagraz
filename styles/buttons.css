@@ -1,62 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
+/* BARCA BUTTON */
 .button-barca {
+    position: relative; /* wichtig für ::before */
     display: inline-block;
     padding: 12px 20px !important;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f0ed15;/*#A50044;*/ /* Garnet text initially */
+    color: #f0ed15;
     background: transparent;
-    border: 5px solid;
-    /*border-image: linear-gradient(135deg, #A50044, #004D98) 1;*/
-    border-image: linear-gradient(135deg, #A50044, #feffff) 1;
-    border-radius: 8px;
+    border: 5px solid #A50044;
+    border-radius: 150px;
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: none;
+    overflow: hidden; /* alles außerhalb abschneiden */
+    z-index: 0; /* Basis */
 }
 
-.button-barca:hover {
-    color: #FFD700; /* Gold text on hover */
+/* Hintergrund-Verlauf für Hover */
+.button-barca::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
     background: linear-gradient(135deg, #A50044, #004D98);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transform: translateY(-2px);
-    border: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 150px;
+    z-index: 0;
 }
 
+/* Beim Hover Verlauf sichtbar machen */
+.button-barca:hover::before {
+    opacity: 1;
+}
+
+/* Text immer ganz oben */
+.button-barca span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hover Effekte (nur Textfarbe & Bewegung) */
+.button-barca:hover {
+    color: #FFD700;
+    border: 5px solid transparent;
+    transform: translateY(-2px);
+}
+
+/* Klick Effekt */
 .button-barca:active {
     transform: translateY(1px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
-
+/* STYRIA BUTTON */
 .button-styria {
+    position: relative;
     display: inline-block;
     padding: 12px 20px !important;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f0ed15; /* Dark Green text initially */
+    color: #f0ed15;
     background: transparent;
-    border: 5px solid;
-    border-image: linear-gradient(135deg, #006400, #309e76) 1;
-    border-radius: 8px;
+    border: 5px solid #006400;
+    border-radius: 150px;
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: none;
+    overflow: hidden;
+    z-index: 0;
 }
 
-.button-styria:hover {
-    color: #FFD700; /* White text on hover */
+/* Hintergrund-Verlauf für Hover */
+.button-styria::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
     background: linear-gradient(135deg, #006400, #309e76);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    transform: translateY(-2px);
-    border: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 150px;
+    z-index: 0;
 }
 
+/* Hover Verlauf sichtbar */
+.button-styria:hover::before {
+    opacity: 1;
+}
+
+/* Text oben */
+.button-styria span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hover Effekte */
+.button-styria:hover {
+    color: #FFD700;
+    border: 5px solid transparent;
+    transform: translateY(-2px);
+}
+
+/* Klick Effekt */
 .button-styria:active {
     transform: translateY(1px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
