@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/buttons.css">
   <link rel="stylesheet" href="styles/menubar.css">
+
+
 </head>
 <body>
   <!-- Intro Animation -->
@@ -31,11 +33,27 @@
 
   <!-- Navigation Bar -->
     <nav class="navbar">
-      <a href="index.html" class="button-barca">Home</a>
-      <a href="faq.html" class="button-barca">FAQ</a>
-      <a href="contact.html" class="button-barca">Contact</a>
-      <a href="aboutus.html" class="button-styria">About Us</a>
+      <div class="navbar-left">
+        <a href="index.html" class="logo-link" aria-label="Home">
+          <img src="images/logos/penya-logo-transparent.png" alt="Penya Logo" class="nav-logo" />
+        </a>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="navbar-center">
+        <a href="index.html" class="button-barca">Home</a>
+        <a href="faq.html" class="button-barca">FAQ</a>
+        <a href="contact.html" class="button-barca">Contact</a>
+        <a href="aboutus.html" class="button-styria">About Us</a>
+      </div>
     </nav>
+
+
+
+
 
 
   <!-- Main Content -->
@@ -47,5 +65,6 @@
       </p>
     </div>
   </div>
+<script src="js/menubar.js"></script>
 </body>
 </html>

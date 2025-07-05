@@ -2,15 +2,16 @@
 
 .button-barca {
     display: inline-block;
-    padding: 12px 30px;
+    padding: 12px 20px !important;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     color: #f0ed15;/*#A50044;*/ /* Garnet text initially */
     background: transparent;
-    border: 2px solid;
-    border-image: linear-gradient(135deg, #A50044, #004D98) 1;
+    border: 5px solid;
+    /*border-image: linear-gradient(135deg, #A50044, #004D98) 1;*/
+    border-image: linear-gradient(135deg, #A50044, #feffff) 1;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -22,6 +23,7 @@
     background: linear-gradient(135deg, #A50044, #004D98);
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     transform: translateY(-2px);
+    border: none;
 }
 
 .button-barca:active {
@@ -32,14 +34,14 @@
 
 .button-styria {
     display: inline-block;
-    padding: 12px 30px;
+    padding: 12px 20px !important;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #006400; /* Dark Green text initially */
+    color: #f0ed15; /* Dark Green text initially */
     background: transparent;
-    border: 2px solid;
+    border: 5px solid;
     border-image: linear-gradient(135deg, #006400, #309e76) 1;
     border-radius: 8px;
     cursor: pointer;
@@ -48,10 +50,11 @@
 }
 
 .button-styria:hover {
-    color: #FFFFFF; /* White text on hover */
+    color: #FFD700; /* White text on hover */
     background: linear-gradient(135deg, #006400, #309e76);
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     transform: translateY(-2px);
+    border: none;
 }
 
 .button-styria:active {
