@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.button-barca {
+    display: inline-block;
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f0ed15;/*#A50044;*/ /* Garnet text initially */
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(135deg, #A50044, #004D98) 1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+.button-barca:hover {
+    color: #FFD700; /* Gold text on hover */
+    background: linear-gradient(135deg, #A50044, #004D98);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+.button-barca:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+.button-styria {
+    display: inline-block;
+    padding: 12px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #006400; /* Dark Green text initially */
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(135deg, #006400, #309e76) 1;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: none;
+}
+
+.button-styria:hover {
+    color: #FFFFFF; /* White text on hover */
+    background: linear-gradient(135deg, #006400, #309e76);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+}
+
+.button-styria:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
