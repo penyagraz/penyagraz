@@ -5,7 +5,9 @@
     position: relative; /* wichtig für ::before */
     display: inline-block;
     padding: 12px 20px !important;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-family: 'Courier New', Courier, monospace;*/
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -61,7 +63,9 @@
     position: relative;
     display: inline-block;
     padding: 12px 20px !important;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-weight: bold;*/
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
@@ -110,4 +114,81 @@
 .button-styria:active {
     transform: translateY(1px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+/* SOCIAL MEDIA BUTTONS */
+
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social-media-buttons ul {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.social-media-buttons ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+.social-media-buttons ul li a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+/* Normal icon */
+.social-media-buttons ul li a .fa-brands {
+    font-size: 3em;
+    color: #222;
+    line-height: 80px;
+    text-align: center;
+    transition: opacity 0.4s ease-in-out;
+}
+
+/* Colored hover icon */
+.social-media-buttons ul li a::before {
+    font-family: "Font Awesome 6 Brands";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 3em;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.social-media-buttons ul li:nth-child(1) a::before {
+    content: "\f16d"; /* Instagram */
+    background-image: linear-gradient(45deg, 
+        #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
+        #bc1888 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 3px solid #dc2743;
+}
+
+.social-media-buttons ul li:nth-child(2) a::before {
+    content: "\e07b"; /* TikTok */
+    color: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+/* Hover effect: show colored icon, hide normal icon */
+.social-media-buttons ul li:hover a::before {
+    height: 100%;
+}
+.social-media-buttons ul li:hover a .fa-brands {
+    opacity: 0;
 }
