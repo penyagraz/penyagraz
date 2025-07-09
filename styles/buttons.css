@@ -192,3 +192,30 @@
 .social-media-buttons ul li:hover a .fa-brands {
     opacity: 0;
 }
+
+
+
+
+
+/*FOR CENTERING THE LOGO PICTURE IN ONE OF THE FAQ QUESTIONS!*/
+.center-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.center-link:hover .click-indicator {
+  color: #A50044; /* z.B. Barça-Rot beim Hover */
+  transform: scale(1.3);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.click-indicator {
+  font-size: 1.8em;
+  color: #666;
+  user-select: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
