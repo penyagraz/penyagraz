@@ -210,3 +210,15 @@ body {
   list-style-position: outside; /* Bullets stehen außerhalb */
 }
 
+
+
+
+/*Everything for the registration!*/
+.registration-info {
+  font-size: 1.2em;
+  color: #333;
+  margin: 20px 0;
+  text-align: center;
+}
+
+

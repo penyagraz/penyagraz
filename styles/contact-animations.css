@@ -1,0 +1,232 @@
+body {
+  background: white;
+}
+
+/* Envelope Animation */
+.letter-image {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.animated-mail {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  transition: 0.4s;
+}
+
+.animated-mail .body {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 200px;
+  border-color: transparent transparent #e95f55 transparent;
+  z-index: 2;
+}
+
+.animated-mail .top-fold {
+  position: absolute;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 100px 0 100px;
+  transform-origin: 50% 0%;
+  transition: transform 0.4s 0.4s, z-index 0.2s 0.4s;
+  border-color: #cf4a43 transparent transparent transparent;
+  z-index: 2;
+}
+
+.animated-mail .back-fold {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  height: 100px;
+  background: #cf4a43;
+  z-index: 0;
+}
+
+.animated-mail .left-fold {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0 50px 100px;
+  border-color: transparent transparent transparent #e15349;
+  z-index: 2;
+}
+
+.animated-mail .letter {
+  left: 20px;
+  bottom: 0px;
+  position: absolute;
+  width: 160px;
+  height: 60px;
+  background: white;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.4s 0.2s;
+}
+
+.animated-mail .letter-border {
+  height: 10px;
+  width: 100%;
+  background: repeating-linear-gradient(-45deg, #cb5a5e, #cb5a5e 8px, transparent 8px, transparent 18px);
+}
+
+.animated-mail .letter-title {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 10px;
+  width: 40%;
+  background: #cb5a5e;
+}
+
+.animated-mail .letter-context {
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 10px;
+  width: 20%;
+  background: #cb5a5e;
+}
+
+.animated-mail .letter-stamp {
+  margin-top: 30px;
+  margin-left: 120px;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  background: #cb5a5e;
+  opacity: 0.3;
+}
+
+/*
+.shadow {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  width: 400px;
+  height: 30px;
+  transition: 0.4s;
+  transform: translateX(-50%);
+  border-radius: 100%;
+  background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0));
+}
+*/
+
+.letter-image:hover .animated-mail {
+  transform: translateY(50px);
+}
+
+.letter-image:hover .animated-mail .top-fold {
+  transition: transform 0.4s, z-index 0.2s;
+  transform: rotateX(180deg);
+  z-index: 0;
+}
+
+.letter-image:hover .animated-mail .letter {
+  height: 180px;
+}
+
+.letter-image:hover .shadow {
+  width: 250px;
+}
+
+/* Contact logic */
+.contact-info {
+  background: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.5s ease;
+  pointer-events: none;
+}
+
+.contact-info.show {
+  opacity: 1;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+
+.copy-icon {
+  cursor: pointer;
+  color: #444;
+  font-size: 1.4em;
+}
+
+.contact-section {
+  position: relative;
+  height: 400px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.phone-icon {
+  width: 1000px; /* etwas größer */
+  height: 1000px;
+  background: url('../images/icons/phone-icon.png') no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+/* Hover-based vibration */
+.phone-icon:hover {
+  animation: vibrate 0.5s linear;
+}
+/*
+.phone-icon.vibrate {
+  animation: vibrate 0.5s linear 3;
+}*/
+
+@keyframes vibrate {
+  0% { transform: translate(0); }
+  25% { transform: translate(2px, -2px); }
+  50% { transform: translate(-2px, 2px); }
+  75% { transform: translate(2px, 2px); }
+  100% { transform: translate(0); }
+}
+
+
+
+
+
+
+#email-display {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + 130px);
+  transform: translateY(-50%);
+}
+
+#phone-display {
+  position: absolute;
+  top: calc(50% + 170px); /* weiter unten */
+  left: calc(50% + 130px);
+  transform: translateY(-50%);
+}
