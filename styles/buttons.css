@@ -11,7 +11,7 @@
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f0ed15;
+    color: #ffffff;
     background: transparent;
     border: 5px solid #A50044;
     border-radius: 150px;
@@ -69,7 +69,7 @@
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f0ed15;
+    color: #ffffff;
     background: transparent;
     border: 5px solid #006400;
     border-radius: 150px;
@@ -105,7 +105,7 @@
 
 /* Hover Effekte */
 .button-styria:hover {
-    color: #FFD700;
+    color: #ffffff;
     border: 5px solid transparent;
     transform: translateY(-2px);
 }
