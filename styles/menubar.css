@@ -19,9 +19,13 @@
 .navbar-center {
   flex: 1 1 auto;
   display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* Version (Menubar on right side)
   justify-content: right;
   margin-right: 50px;
   gap: 20px;
+  */
 }
 
 .logo-link {
@@ -31,7 +35,10 @@
 }
 
 .nav-logo {
+  height: 120px;
+  /* Version where Menubar is a bit smaller...
   height: 90px;
+  */
   width: auto;
   user-select: none;
   transition: transform 0.3s ease;
