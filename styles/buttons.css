@@ -11,7 +11,9 @@
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
+
+    color: #ffffff;/*#f0ed15;*/
+
     background: transparent;
     border: 5px solid #A50044;
     border-radius: 150px;
@@ -69,7 +71,9 @@
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #ffffff;
+
+    color: #ffffff;/*#f0ed15;*/
+
     background: transparent;
     border: 5px solid #006400;
     border-radius: 150px;
@@ -105,7 +109,8 @@
 
 /* Hover Effekte */
 .button-styria:hover {
-    color: #ffffff;
+
+    color: #ffffff;/*#FFD700;*/
     border: 5px solid transparent;
     transform: translateY(-2px);
 }
@@ -286,4 +291,65 @@
 .button-barca-centered:active {
     transform: translateY(1px);
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* Fix: PDF-Generierung-Button als <a> soll sich wie echter Button verhalten */
+#generate-pdf-btn.button-barca-centered {
+  display: inline-block;
+  margin: 20px auto 0 auto;
+  position: relative;
+  padding: 10px 16px !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #004D98;
+  background: transparent;
+  border: 5px solid #A50044;
+  border-radius: 150px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: none;
+  overflow: hidden;
+  z-index: 0;
+  text-align: center;
+}
+
+#generate-pdf-btn.button-barca-centered::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, #A50044, #004D98);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 150px;
+  z-index: 0;
+}
+
+#generate-pdf-btn.button-barca-centered:hover::before {
+  opacity: 1;
+}
+
+#generate-pdf-btn.button-barca-centered span {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+#generate-pdf-btn.button-barca-centered:hover span {
+  color: inherit;
+}
+
+#generate-pdf-btn.button-barca-centered:hover {
+  border: 5px solid transparent;
+  transform: translateY(-2px);
+  color: #f0ed15;
+}
+
+#generate-pdf-btn.button-barca-centered:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }

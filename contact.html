@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <meta charset="UTF-8">
   <title>Penya FC Barcelona Styria</title>
   <!-- CSS Files in order -->
@@ -9,6 +11,7 @@
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/buttons.css">
   <link rel="stylesheet" href="styles/menubar.css">
+  <link rel="stylesheet" href="styles/contact-animations.css">
 
 
 </head>
@@ -30,8 +33,52 @@
 
   <!-- Main Content -->
 <div class="main-content">
+
   <div class="welcome-container">
     <h1>KONTAKT</h1>
+    <p>
+    Viele häufige Fragen haben wir bereits in unserem 
+    <a href="faq.html" class="faq-link">FAQ</a> beantwortet. 
+    Sollten Sie dort nicht fündig werden, zögern Sie nicht, uns zu kontaktieren. 
+    Rufen Sie uns einfach an oder schreiben Sie uns eine E-Mail.
+    </p>
+
+
+
+
+
+
+    <div class="contact-section">
+  <!-- Email envelope -->
+  <div class="letter-image" id="email-icon">
+    <div class="animated-mail">
+      <div class="back-fold"></div>
+      <div class="letter">
+        <div class="letter-border"></div>
+        <div class="letter-title"></div>
+        <div class="letter-context"></div>
+        <div class="letter-stamp"></div>
+      </div>
+      <div class="top-fold"></div>
+      <div class="body"></div>
+      <div class="left-fold"></div>
+    </div>
+    <div class="shadow"></div>
+  </div>
+  <div class="contact-info" id="email-display">
+    <span>penyabarcelonistadegraz@gmail.com</span>
+    <i class="fa-solid fa-copy copy-icon" onclick="copyToClipboard('penyabarcelonistadegraz@gmail.com')"></i>
+  </div>
+
+  <!-- Phone icon -->
+  <div class="phone-icon" id="phone-icon"></div>
+  <div class="contact-info" id="phone-display">
+    <span>+43 664 1973291</span>
+    <i class="fa-solid fa-copy copy-icon" onclick="copyToClipboard('+43 664 1973291')"></i>
+  </div>
+</div>
+
+    
 
   </div>
 </div>
@@ -41,5 +88,7 @@
 
 <script src="js/menubar.js"></script>
 <script src="js/intro-control.js"></script>
+<script src="js/contact-functionality.js"></script>
+
 </body>
 </html>
