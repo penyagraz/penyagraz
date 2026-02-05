@@ -10,15 +10,15 @@
     </button>
 
     <a class="brand" href="index.html" aria-label="Startseite">
-      <span class="brand__title">FC Barcelonista Penya Graz</span>
-      <span class="brand__subtitle">Die steirische Penya in Graz</span>
+      <span class="brand__title" data-i18n="site.brandTitle">FC Barcelonista Penya Graz</span>
+      <span class="brand__subtitle" data-i18n="site.brandSubtitle">Die steirische Penya in Graz</span>
     </a>
 
     <div class="lang" aria-label="Sprache wählen">
-      <button class="lang__btn is-active" type="button" aria-label="Deutsch">
+      <button class="lang__btn is-active" type="button" aria-label="Deutsch" data-lang="de">
         <img class="lang__flag" src="assets/img/language/german.png" alt="Deutsch">
       </button>
-      <button class="lang__btn" type="button" aria-label="English">
+      <button class="lang__btn" type="button" aria-label="English" data-lang="en">
         <img class="lang__flag" src="assets/img/language/english.png" alt="English">
       </button>
     </div>
@@ -28,18 +28,18 @@
 
   <nav class="offcanvas" id="offcanvas" aria-label="Hauptmenü" hidden>
     <ul class="menu">
-      <li><a class="menu__link" href="index.html">Home</a></li>
-      <li><a class="menu__link" href="mitglied-werden.html">Mitglied werden</a></li>
-      <li><a class="menu__link" href="kontakt.html">Kontakt</a></li>
-      <li><a class="menu__link" href="faq.html">FAQ</a></li>
+      <li><a class="menu__link" href="index.html" data-i18n="site.menu.home">Home</a></li>
+      <li><a class="menu__link" href="mitglied-werden.html" data-i18n="site.menu.join">Mitglied werden</a></li>
+      <li><a class="menu__link" href="kontakt.html" data-i18n="site.menu.contact">Kontakt</a></li>
+      <li><a class="menu__link" href="faq.html" data-i18n="site.menu.faq">FAQ</a></li>
 
       <li class="menu-divider"></li>
 
-      <li><a class="menu__link" href="ueber-uns.html">Über uns</a></li>
+      <li><a class="menu__link" href="ueber-uns.html" data-i18n="site.menu.about">Über uns</a></li>
     </ul>
 
     <div class="offcanvas__footer">
-      <small class="muted">Visca Barça i visca Catalunya! · Graz</small>
+      <small class="muted" data-i18n="site.menuFooter">Visca Barça i visca Catalunya! · Graz</small>
     </div>
   </nav>
 </header>

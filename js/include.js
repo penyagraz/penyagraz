@@ -13,14 +13,15 @@
     return true;
   }
 
-  // 1) Header: keep your original functionality
+  // Header
   const headerLoaded = await include("#site-header", "partials/header.html");
-
-  // Important: initHeader after header is injected (same as before)
   if (headerLoaded && typeof window.initHeader === "function") {
     window.initHeader();
   }
 
-  // 2) Optional footer support (won't do anything if #site-footer doesn't exist)
+  // Footer (optional)
   await include("#site-footer", "partials/footer.html");
+
+  // ✅ CRITICAL: tell i18n that header/footer exist now
+  document.dispatchEvent(new CustomEvent("includes:loaded"));
 })();
