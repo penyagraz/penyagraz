@@ -355,7 +355,7 @@ body{
 
 .offcanvas__footer{
   margin-top: auto;
-  padding: 14px 16px;
-  border-top: 1px solid var(--stroke);
+  padding: 20px 20px;/*14px 16px;*/
+  border-top: 2px solid var(--stroke);
 }
 .muted{ color: var(--muted); }
