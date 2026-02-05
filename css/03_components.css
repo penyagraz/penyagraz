@@ -109,3 +109,48 @@
 }
 .meta__label{ display:block; font-size: 0.8rem; color: var(--muted); }
 .meta__value{ display:block; font-weight: 750; }
+
+.instagram-only {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.instagram-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 18px;
+  border-radius: 999px;
+
+  font-weight: 800;
+  font-size: 1rem;
+
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+
+  border: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.instagram-btn i {
+  font-size: 1.3rem;
+}
+
+.instagram-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.45);
+}
