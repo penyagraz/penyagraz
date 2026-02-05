@@ -1,0 +1,251 @@
+/*05_header.css*/
+
+:root{
+  --bg: #ffffff;
+  --text: #101828;
+  --muted: #667085;
+  --stroke: rgba(16, 24, 40, 0.12);
+  --shadow: 0 16px 40px rgba(16,24,40,0.14);
+
+  --fcb-navy: #0a1f44;
+  --fcb-maroon: #7a0b2e;
+
+  --r-lg: 14px;
+
+  --font-noble: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
+  /*--font-ui: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;*/
+  --font-ui: "Courier New", Courier, monospace;
+
+  --font-title: Copperplate, Papyrus, fantasy;
+  --font-menu: ui-sans-serif, system-ui, -apple-system,
+               Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* demo only */
+body{
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-ui);
+  background: #f7f8fa;
+}
+.demo{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 16px;
+}
+
+/* ===== Header ===== */
+.site-header{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--stroke);
+}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 35px 35px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.brand{
+  text-decoration: none;
+  color: var(--text);
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brand__title{
+  font-family: var(--font-title);
+  font-size: 27px;
+  letter-spacing: 0.6px;
+  font-weight: 400; /* Copperplate looks best not bold */
+}
+
+.brand__subtitle{
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--muted);
+}
+
+
+/* ===== Hamburger ===== */
+.hamburger{
+  width: 44px;
+  height: 44px;
+  border-radius: var(--r-lg);
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 6px 18px rgba(16,24,40,0.08);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+.hamburger:focus-visible{
+  outline: 3px solid rgba(10,31,68,0.25);
+  outline-offset: 2px;
+}
+.hamburger__lines{
+  width: 18px;
+  height: 2px;
+  position: relative;
+  display: inline-block;
+  background: var(--text);
+  border-radius: 2px;
+}
+.hamburger__lines::before,
+.hamburger__lines::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+}
+.hamburger__lines::before{ top: -5px; }
+.hamburger__lines::after{ top: 5px; }
+
+
+/* ===== Language flags (PURE IMAGE BUTTONS) ===== */
+.lang{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang__btn{
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0; /* remove extra space */
+}
+
+/* the flag IS the button */
+.lang__flag{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+
+  /* subtle depth so it doesn’t look flat */
+  box-shadow: 0 4px 12px rgba(16,24,40,0.25);
+
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease,
+    outline 120ms ease;
+}
+
+/* hover = gentle lift */
+.lang__btn:hover .lang__flag{
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(16,24,40,0.30);
+}
+
+/* keyboard focus */
+.lang__btn:focus-visible .lang__flag{
+  outline: 3px solid rgba(10,31,68,0.35);
+  outline-offset: 3px;
+}
+
+/* active language = clean ring */
+.lang__btn.is-active .lang__flag{
+  outline: 3px solid rgba(10,31,68,0.45);
+  outline-offset: 2px;
+  box-shadow: 0 6px 18px rgba(10,31,68,0.35);
+}
+
+
+
+/* ===== Overlay + Offcanvas ===== */
+.overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(16,24,40,0.45);
+  backdrop-filter: blur(2px);
+  z-index: 60;
+}
+
+.offcanvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: min(84vw, 360px);
+  background: rgba(255,255,255,0.92);
+  border-right: 1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  z-index: 70;
+
+  transform: translateX(-105%);
+  transition: transform 200ms ease;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas.is-open{
+  transform: translateX(0);
+}
+
+.offcanvas__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--stroke);
+}
+.offcanvas__title{
+  font-family: var(--font-noble);
+  font-size: 16px;
+}
+.offcanvas__close{
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--stroke);
+  background: rgba(255,255,255,0.92);
+  cursor: pointer;
+}
+
+.menu{
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0;
+  display: grid;
+  gap: 6px;
+}
+.menu__link{
+  display: block;
+  padding: 12px 12px;
+  border-radius: 14px;
+  text-decoration: none;
+
+  font-family: var(--font-menu);
+  font-weight: 600;           /* ✅ SemiBold */
+  font-size: 15px;
+  letter-spacing: 0.25px;
+
+  color: var(--text);
+  border: 1px solid transparent;
+}
+
+.menu__link:hover{
+  border-color: rgba(16,24,40,0.10);
+  background: rgba(10,31,68,0.06);
+}
+
+.offcanvas__footer{
+  margin-top: auto;
+  padding: 14px 16px;
+  border-top: 1px solid var(--stroke);
+}
+.muted{ color: var(--muted); }
