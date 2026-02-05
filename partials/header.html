@@ -14,73 +14,53 @@
 
 <body>
 
-  <header class="site-header" role="banner">
-    <div class="topbar">
-      <button class="hamburger" type="button"
-              aria-label="Menü öffnen"
-              aria-controls="offcanvas"
-              aria-expanded="false"
-              id="menuToggle">
-        <span class="hamburger__lines" aria-hidden="true"></span>
-        <span class="hamburger__badge" aria-hidden="true"></span>
+<header class="site-header" role="banner">
+  <div class="topbar">
+    <button class="hamburger" type="button"
+            aria-label="Menü öffnen"
+            aria-controls="offcanvas"
+            aria-expanded="false"
+            id="menuToggle">
+      <span class="hamburger__lines" aria-hidden="true"></span>
+      <span class="hamburger__badge" aria-hidden="true"></span>
+    </button>
+
+    <a class="brand" href="index.html" aria-label="Startseite">
+      <span class="brand__title">FC Barcelonista Penya Graz</span>
+      <span class="brand__subtitle">Die steirische Penya in Graz</span>
+    </a>
+
+    <div class="lang" aria-label="Sprache wählen">
+      <button class="lang__btn is-active" type="button" aria-label="Deutsch">
+        <img class="lang__flag" src="../assets/img/language/german.png" alt="Deutsch">
       </button>
-
-
-      <a class="brand" href="../index.html" aria-label="Startseite">
-        <span class="brand__title">FC Barcelonista Penya Graz</span>
-        <span class="brand__subtitle">Die steirische Penya in Graz</span>
-      </a>
-
-      <!-- Flags instead of DE/EN -->
-      <div class="lang" aria-label="Sprache wählen">
-        <button class="lang__btn is-active" type="button" aria-label="Deutsch" title="Deutsch">
-          <img class="lang__flag"
-               src="../assets/img/language/german.png"
-               alt="Deutsch"
-               width="22" height="22" />
-        </button>
-
-        <button class="lang__btn" type="button" aria-label="English" title="English">
-          <img class="lang__flag"
-               src="../assets/img/language/english.png"
-               alt="English"
-               width="22" height="22" />
-        </button>
-      </div>
+      <button class="lang__btn" type="button" aria-label="English">
+        <img class="lang__flag" src="../assets/img/language/english.png" alt="English">
+      </button>
     </div>
+  </div>
 
-    <!-- dim background -->
-    <div class="overlay" id="overlay" hidden></div>
+  <div class="overlay" id="overlay" hidden></div>
 
-    <!-- slide menu -->
-    <nav class="offcanvas" id="offcanvas" aria-label="Hauptmenü" hidden>
-      <!--<div class="offcanvas__header">
-        <span class="offcanvas__title">Menü</span>
-      </div>-->
+  <nav class="offcanvas" id="offcanvas" aria-label="Hauptmenü" hidden>
+    <ul class="menu">
+      <li><a class="menu__link" href="index.html">Home</a></li>
+      <li><a class="menu__link" href="mitglied-werden.html">Mitglied werden</a></li>
+      <li><a class="menu__link" href="kontakt.html">Kontakt</a></li>
+      <li><a class="menu__link" href="faq.html">FAQ</a></li>
+
+      <li class="menu-divider"></li>
+
+      <li><a class="menu__link" href="ueber-uns.html">Über uns</a></li>
+    </ul>
+
+    <div class="offcanvas__footer">
+      <small class="muted">Visca Barça i visca Catalunya! · Graz</small>
+    </div>
+  </nav>
+</header>
 
 
-      <ul class="menu">
-        <li><a class="menu__link" href="../index.html">Home</a></li>
-        <li><a class="menu__link" href="../mitglied-werden.html">Mitglied werden</a></li>
-        <li><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
-        <li><a class="menu__link" href="../faq.html">FAQ</a></li>
-      
-        <li class="menu-divider"></li>
-      
-        <li><a class="menu__link" href="../ueber-uns.html">Über uns</a></li>
-      </ul>
-
-
-      <div class="offcanvas__footer">
-        <small class="muted">Visca Barça i visca Catalunya! · Graz</small>
-      </div>
-    </nav>
-  </header>
-
-  <main class="demo">
-    <h1>Header Preview</h1>
-    <p>Klicke auf das Hamburger-Menü links oben.</p>
-  </main>
 
   <script src="../js/header.js"></script>
 </body>
