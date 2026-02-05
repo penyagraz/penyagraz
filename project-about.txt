@@ -1,0 +1,25 @@
+I want to create a Penya website for the football club FCBarcelona.
+A penya in some sense is a fan club for FCBarcelona in a city. In my case this is for the penya in Graz.
+
+I'd like to have a simplistic, user friendly website, proving fans with all the information they'd need. This website must be published at the end.
+
+I like colors but it should't be to colored. Same with pictures. It should simply look elegantly appealing, themed to FCB. This is my Project-Idea.
+
+The website must be built using CSS, HTML and JSON for logic.
+
+It should be switchable to German and English. German is Default.
+There must be a general Menubar. Menubar must contain the sections "Home", "Mitglied werden", "Kontakt", "FAQ", "Über uns".
+Each section is very important.
+
+* In Home we must introduce the Penya. (Home is also the default starting point).
+* Mitglied werden gives us a tutorial on how to become a penya member.
+* Kontakt tells the Client how to get in touch.
+* FAQ, answers frequently asked questions about penyas.
+* Über uns, tells the story of our creation as a Graz Penya.
+
+This is the core Idea.
+
+
+Would you need more input? Let's focus on file structure. Do you have suggestions? Also please analyze website's from other penya's from different countries and cities for FCB. Can you also give new Ideas for the website too, beside the structure?
+
+

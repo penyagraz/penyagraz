@@ -1,0 +1,34 @@
+/penya-graz-site
+├── index.html
+├── mitglied-werden.html
+├── kontakt.html
+├── faq.html
+├── ueber-uns.html
+│
+├── /partials
+│   ├── header.html          # menubar + language switch
+│   └── footer.html          # imprint/privacy links etc.
+│
+├── /css
+│   ├── 00_tokens.css
+│   ├── 01_base.css
+│   ├── 02_layout.css
+│   ├── 03_components.css
+│   └── 04_pages.css
+│
+├── /js
+│   ├── app.js               # bootstraps: loads header/footer + i18n
+│   ├── i18n.js              # language switch + apply translations
+│   ├── include.js           # loads partials into pages (header/footer)
+│   └── page.js              # page-specific “fill data” (FAQ, membership steps)
+│
+├── /data
+│   ├── i18n.de.json
+│   ├── i18n.en.json
+│   ├── faq.json
+│   ├── membership.json
+│   └── contact.json
+│
+└── /assets
+    ├── /img
+    └── /icons
