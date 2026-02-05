@@ -17,6 +17,8 @@
   --font-ui: "Courier New", Courier, monospace;
 
   --font-title: Copperplate, Papyrus, fantasy;
+  --font-nav: Copperplate, Papyrus, fantasy;
+
   --font-menu: ui-sans-serif, system-ui, -apple-system,
                Segoe UI, Roboto, Arial, sans-serif;
 }
@@ -289,7 +291,7 @@ body{
   top: 0;
   left: 0;
   height: 100dvh;
-  width: min(84vw, 360px);
+  width: min(84vw, 520px);
   background: rgba(255,255,255,0.92);
   border-right: 1px solid var(--stroke);
   box-shadow: var(--shadow);
@@ -313,18 +315,13 @@ body{
   padding: 14px 16px;
   border-bottom: 1px solid var(--stroke);
 }
+
+/*
 .offcanvas__title{
   font-family: var(--font-noble);
   font-size: 16px;
-}
-.offcanvas__close{
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  border: 1px solid var(--stroke);
-  background: rgba(255,255,255,0.92);
-  cursor: pointer;
-}
+}*/
+
 
 .menu{
   list-style: none;
@@ -348,10 +345,103 @@ body{
   border: 1px solid transparent;
 }
 
-.menu__link:hover{
-  border-color: rgba(16,24,40,0.10);
-  background: rgba(10,31,68,0.06);
+.menu{
+  list-style: none;
+  padding: 20px 18px;
+  margin: 0;
+  display: grid;
+  gap: 15px;
 }
+
+/* Catalunya stripes whoosh from RIGHT to HALF */
+.menu__link{
+  position: relative;
+  display: block;
+  padding: 16px 16px;
+  border-radius: 16px;
+  text-decoration: none;
+
+  font-family: var(--font-nav);
+  font-weight: 400;
+  font-size: 23px;
+  letter-spacing: 0.7px;
+
+  color: var(--text);
+
+  /* ❌ no border */
+  border: none;
+
+  /* very subtle base */
+  background: rgba(255,255,255,0.0);
+  overflow: hidden;
+
+  transition:
+    transform 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    text-shadow 180ms ease;
+}
+
+/* soft sheen (optional but nice) */
+.menu__link::before{
+  content:"";
+  position:absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.75), rgba(255,255,255,0.0) 60%);
+  opacity: 0.0;
+  transition: opacity 180ms ease;
+  pointer-events: none;
+}
+
+/* Catalunya stripes: whoosh from right to half */
+.menu__link::after{
+  content:"";
+  position:absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(214, 0, 28, 0.22) 0px,
+    rgba(214, 0, 28, 0.22) 10px,
+    rgba(255, 199, 44, 0.22) 10px,
+    rgba(255, 199, 44, 0.22) 20px
+  );
+  transform: translateX(110%);
+  transition: transform 260ms cubic-bezier(.2,.9,.2,1);
+  pointer-events: none;
+}
+
+/* ✅ Hover: no blur, instead Blaugrana text + glow */
+.menu__link:hover{
+  transform: none;
+  background: transparent;
+  color: var(--text);
+  text-shadow: none;
+}
+
+
+
+
+
+.menu__link:hover::after{
+  transform: translateX(0%);
+}
+
+.menu__link:hover::before{
+  opacity: 0;/*0.85;*/
+}
+
+/* optional: active/current page */
+.menu__link[aria-current="page"]{
+  background: rgba(10,31,68,0.06);
+  color: #0a1f44;
+}
+.menu__link[aria-current="page"]::after{
+  transform: translateX(0%);
+}
+
 
 .offcanvas__footer{
   margin-top: auto;

@@ -1,8 +1,5 @@
-//header.js
-
 (function () {
   const toggleBtn = document.getElementById("menuToggle");
-  const closeBtn  = document.getElementById("menuClose");
   const overlay   = document.getElementById("overlay");
   const offcanvas = document.getElementById("offcanvas");
 
@@ -12,7 +9,6 @@
     offcanvas.hidden = false;
     overlay.hidden = false;
 
-    // let browser apply hidden=false before transition
     requestAnimationFrame(() => offcanvas.classList.add("is-open"));
 
     toggleBtn.setAttribute("aria-expanded", "true");
@@ -35,9 +31,10 @@
     expanded ? closeMenu() : openMenu();
   });
 
+  // ✅ Only close when clicking outside (overlay)
   overlay.addEventListener("click", closeMenu);
-  closeBtn?.addEventListener("click", closeMenu);
 
+  // (Optional) ESC close — remove if you want STRICTLY outside click only
   window.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && toggleBtn.getAttribute("aria-expanded") === "true") {
       closeMenu();
