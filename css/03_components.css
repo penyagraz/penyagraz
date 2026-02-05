@@ -155,3 +155,60 @@
   transform: translateY(-2px);
   box-shadow: 0 14px 35px rgba(0,0,0,0.45);
 }
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 18px;
+  border-radius: 999px;
+
+  font-weight: 800;
+  font-size: 1rem;
+  color: white;
+
+  border: none;
+  text-decoration: none;
+
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.social-btn i {
+  font-size: 1.3rem;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 35px rgba(0,0,0,0.45);
+}
+
+/* Platform colors */
+.social-btn.instagram {
+  background: linear-gradient(
+    135deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+
+.social-btn.tiktok {
+  background: linear-gradient(
+    135deg,
+    #010101,
+    #111111,
+    #25f4ee,
+    #fe2c55
+  );
+}
+

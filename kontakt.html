@@ -1,22 +1,115 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" data-lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Penya Graz</title>
+  <title>Kontakt – Penya Graz</title>
 
+  <!-- Global styles (same as other pages) -->
+  <link rel="stylesheet" href="css/00_tokens.css">
+  <link rel="stylesheet" href="css/01_base.css">
+  <link rel="stylesheet" href="css/02_layout.css">
+  <link rel="stylesheet" href="css/03_components.css">
+  <link rel="stylesheet" href="css/04_pages.css">
+
+  <!-- Header -->
   <link rel="stylesheet" href="css/05_header.css">
-</head>
-<body>
 
+  <!-- Icons (Instagram / TikTok) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" />
+</head>
+
+<body>
   <div id="site-header"></div>
 
-  <main class="demo">
-    <h1>kontakt</h1>
-    <p>text</p>
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h1 class="section__title">Kontakt</h1>
+          <p class="section__lead">
+            Du hast Fragen zur Mitgliedschaft, zu Events oder zur Penya allgemein?
+            Kontaktiere uns gerne über einen der folgenden Wege.
+          </p>
+        </header>
+
+        <div class="split">
+          <!-- LEFT: Direct contact -->
+          <section class="card">
+            <div class="card__header">
+              <h2 class="card__title">Direkter Kontakt</h2>
+              <p class="card__subtitle">Wir melden uns so schnell wie möglich zurück</p>
+            </div>
+
+            <div class="card__content">
+              <p class="muted">E-Mail</p>
+              <div class="pill">
+                penyabarcelonistadegraz@gmail.com
+              </div>
+
+              <div class="divider"></div>
+
+              <p class="muted">Telefon</p>
+              <div class="pill">
+                +43 XXX XXX XXX
+              </div>
+
+              <div class="divider"></div>
+
+              <p class="muted" style="margin:0;">
+                Am schnellsten erreichst du uns per E-Mail oder über Social Media.
+              </p>
+            </div>
+          </section>
+
+          <!-- RIGHT: Social Media -->
+          <aside class="card">
+            <div class="card__header">
+              <h2 class="card__title">Social Media</h2>
+              <p class="card__subtitle">News, Events & Eindrücke aus der Penya</p>
+            </div>
+
+            <div class="card__content social-links">
+              <a
+                class="social-btn instagram"
+                href="https://www.instagram.com/penyablaugranagraz/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+
+              <a
+                class="social-btn tiktok"
+                href="https://www.tiktok.com/@penyablaugrana_graz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-brands fa-tiktok"></i>
+                <span>TikTok</span>
+              </a>
+
+              <div class="divider"></div>
+
+              <p class="muted" style="margin:0;">
+                Folge uns für kurzfristige Infos zu Spielabenden, Events und Neuigkeiten.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <div id="site-footer"></div>
 
   <script src="js/header.js"></script>
   <script src="js/include.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>
