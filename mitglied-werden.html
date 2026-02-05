@@ -1,5 +1,3 @@
-<!--mitglied-werden.html-->
-
 <!doctype html>
 <html lang="de" data-lang="de">
 <head>
@@ -9,14 +7,14 @@
   <title>Mitglied werden – Penya Graz</title>
   <meta name="i18n-title-key" content="join.pageTitle">
 
-  <!-- Global styles (same as index.html) -->
+  <!-- Global styles -->
   <link rel="stylesheet" href="css/00_tokens.css">
   <link rel="stylesheet" href="css/01_base.css">
   <link rel="stylesheet" href="css/02_layout.css">
   <link rel="stylesheet" href="css/03_components.css">
   <link rel="stylesheet" href="css/04_pages.css">
 
-  <!-- Existing header styles -->
+  <!-- Header -->
   <link rel="stylesheet" href="css/05_header.css">
 </head>
 
@@ -37,14 +35,9 @@
           <!-- Step 1 -->
           <article class="card feature">
             <div class="feature__icon">1️⃣</div>
-            <h2 class="feature__title" data-i18n="join.step1.title">Formular herunterladen</h2>
+            <h2 class="feature__title" data-i18n="join.step1">Formular herunterladen</h2>
 
-            <a
-              class="btn btn--ghost"
-              href="files/mitgliedschaftsformular.pdf"
-              download
-              data-i18n="join.step1.button"
-            >
+            <a class="btn btn--ghost" href="files/mitgliedschaftsformular.pdf" download>
               📄
               mitgliedschaftsformular.pdf
             </a>
@@ -53,8 +46,8 @@
           <!-- Step 2 -->
           <article class="card feature">
             <div class="feature__icon">2️⃣</div>
-            <h2 class="feature__title" data-i18n="join.step2.title">Formular ausfüllen</h2>
-            <p class="feature__text" data-i18n="join.step2.text">
+            <h2 class="feature__title" data-i18n="join.step2">Formular ausfüllen</h2>
+            <p class="feature__text" data-i18n="join.step2Text">
               Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder,
               die am Ende noch unterschrieben werden müssen.
             </p>
@@ -63,8 +56,8 @@
           <!-- Step 3 -->
           <article class="card feature">
             <div class="feature__icon">3️⃣</div>
-            <h2 class="feature__title" data-i18n="join.step3.title">Unterschreiben</h2>
-            <p class="feature__text" data-i18n="join.step3.text">
+            <h2 class="feature__title" data-i18n="join.step3">Unterschreiben</h2>
+            <p class="feature__text" data-i18n="join.step3Text">
               Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag
               leider nicht bearbeiten.
             </p>
@@ -73,8 +66,8 @@
           <!-- Step 4 -->
           <article class="card feature">
             <div class="feature__icon">4️⃣</div>
-            <h2 class="feature__title" data-i18n="join.step4.title">Den Mitgliedsbeitrag einzahlen</h2>
-            <p class="feature__text" data-i18n="join.step4.text">
+            <h2 class="feature__title" data-i18n="join.step4">Den Mitgliedsbeitrag einzahlen</h2>
+            <p class="feature__text" data-i18n="join.step4Text">
               Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit.
             </p>
           </article>
@@ -82,8 +75,8 @@
           <!-- Step 5 -->
           <article class="card feature">
             <div class="feature__icon">5️⃣</div>
-            <h2 class="feature__title" data-i18n="join.step5.title">Per E-Mail senden</h2>
-            <p class="feature__text" data-i18n="join.step5.text">
+            <h2 class="feature__title" data-i18n="join.step5">Per E-Mail senden</h2>
+            <p class="feature__text" data-i18n="join.step5Text">
               Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail.
               Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.
             </p>
@@ -93,17 +86,17 @@
         <div class="divider"></div>
 
         <div class="split">
-          <!-- Left: contact + notes -->
+          <!-- Left: contact + payment -->
           <section class="card">
             <div class="card__header">
-              <h2 class="card__title" data-i18n="join.contact.title">Kontakt für die Mitgliedschaft</h2>
-              <p class="card__subtitle" data-i18n="join.contact.subtitle">
+              <h2 class="card__title" data-i18n="join.memberContactTitle">Kontakt für die Mitgliedschaft</h2>
+              <p class="card__subtitle" data-i18n="join.memberContactSubtitle">
                 Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.
               </p>
             </div>
 
             <div class="card__content">
-              <p class="muted" style="margin-top:0;" data-i18n="join.contact.emailLabel">E-Mail:</p>
+              <p class="muted" style="margin-top:0;" data-i18n="join.emailLabel">E-Mail:</p>
 
               <div class="pill" style="display:inline-flex;">
                 penyabarcelonistadegraz@gmail.com
@@ -111,23 +104,23 @@
 
               <div class="divider"></div>
 
-              <h2 class="card__title" data-i18n="join.payment.title">Einzahlungsdetails</h2>
+              <h2 class="card__title" data-i18n="join.paymentTitle">Einzahlungsdetails</h2>
 
-              <p class="muted" style="margin-top:0;" data-i18n="join.payment.ownerLabel">Kontoinhaber:</p>
+              <p class="muted" style="margin-top:0;" data-i18n="join.owner">Kontoinhaber:</p>
               <div class="pill" style="display:inline-flex;">
                 Penya Barcelonista de Seiersberg-Gr
               </div>
 
               <div style="height:14px;"></div>
 
-              <p class="muted" style="margin-top:0;" data-i18n="join.payment.ibanLabel">IBAN:</p>
+              <p class="muted" style="margin-top:0;" data-i18n="join.iban">IBAN:</p>
               <div class="pill" style="display:inline-flex;">
                 AT38 2081 5000 4681 3689
               </div>
 
               <div style="height:14px;"></div>
 
-              <a class="btn btn--primary" href="kontakt.html" data-i18n="join.contact.moreBtn">
+              <a class="btn btn--primary" href="kontakt.html" data-i18n="join.moreContactsBtn">
                 Weitere Kontaktmöglichkeiten
               </a>
             </div>
@@ -136,35 +129,35 @@
           <!-- Right: pricing -->
           <aside class="card">
             <div class="card__header">
-              <h2 class="card__title" data-i18n="join.pricing.title">Geplanter Mitgliedsbeitrag pro Jahr</h2>
+              <h2 class="card__title" data-i18n="join.pricingTitle">Geplanter Mitgliedsbeitrag pro Jahr</h2>
             </div>
 
             <div class="card__content">
               <div class="price-list">
                 <div class="price-row">
-                  <span class="muted" data-i18n="join.pricing.adultsLabel">Erwachsene:</span>
-                  <span class="price-val" data-i18n="join.pricing.adultsVal">20 € im ersten Jahr, danach 15 € pro Jahr</span>
+                  <span class="muted" data-i18n="join.pAdult">Erwachsene:</span>
+                  <span class="price-val" data-i18n="join.pAdultVal">20 € im ersten Jahr, danach 15 € pro Jahr</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted" data-i18n="join.pricing.reducedLabel">Schüler / Studenten / Senioren (65+)</span>
-                  <span class="price-val" data-i18n="join.pricing.reducedVal">17 € im ersten Jahr, danach 15 € pro Jahr</span>
+                  <span class="muted" data-i18n="join.pReduced">Schüler / Studenten / Senioren (65+)</span>
+                  <span class="price-val" data-i18n="join.pReducedVal">17 € im ersten Jahr, danach 15 € pro Jahr</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted" data-i18n="join.pricing.kidsLabel">Kinder unter 14 Jahren</span>
-                  <span class="price-val" data-i18n="join.pricing.kidsVal">8 € jährlich</span>
+                  <span class="muted" data-i18n="join.pKids">Kinder unter 14 Jahren</span>
+                  <span class="price-val" data-i18n="join.pKidsVal">8 € jährlich</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted" data-i18n="join.pricing.familyLabel">Familienpakete</span>
-                  <span class="price-val" data-i18n="join.pricing.familyVal">35 € jährlich</span>
+                  <span class="muted" data-i18n="join.pFamily">Familienpakete</span>
+                  <span class="price-val" data-i18n="join.pFamilyVal">35 € jährlich</span>
                 </div>
               </div>
             </div>

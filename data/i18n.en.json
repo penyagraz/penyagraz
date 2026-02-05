@@ -18,26 +18,26 @@
     "title": "Penya Blaugrana Graz",
     "lead": "Welcome to the Penya in Graz — a place for Culés to watch matches together, make friends, and celebrate Barça culture in Styria.",
     "ctaAbout": "About us and our founding",
-  
+
     "meta": {
       "venueLabel": "Our venue",
       "locationLabel": "Location",
       "idLabel": "Our official Penya ID"
     },
-  
+
     "infoTitle": "Info / Events",
     "infoSubtitle": "For updates about events, giveaways and more — follow us on Instagram.",
     "infoText": "We’d love to hear from you. Feel free to message us anytime.",
-  
+
     "whyTitle": "Why a Penya?",
     "whyLead": "A Penya is more than just being a fan — it’s community, tradition, and shared emotions.",
-  
+
     "f1Title": "Experience together",
     "f1Text": "Watching matches is simply more fun together — league games or Champions League.",
-  
+
     "f2Title": "Community in Graz",
     "f2Text": "Meet Culés from Graz and the region — open, respectful, international.",
-  
+
     "f3Title": "Blaugrana spirit",
     "f3Text": "Values, history, culture — “Més que un club” here with us too."
   },
@@ -67,8 +67,10 @@
   },
 
   "join": {
+    "pageTitle": "Join – Penya Graz",
     "title": "Join",
     "lead": "Here is a simple step-by-step guide on how to become a member of our Penya.",
+
     "step1": "Download the form",
     "step2": "Fill in the form",
     "step2Text": "Fill out the membership form completely. Pay special attention to fields that must be signed at the end.",
@@ -78,12 +80,17 @@
     "step4Text": "Please pay the fee for your chosen membership and keep the transfer confirmation ready.",
     "step5": "Send by email",
     "step5Text": "Email us the completed membership form and the transfer confirmation as PDFs. We’ll contact you personally with the next steps.",
+
     "memberContactTitle": "Membership contact",
     "memberContactSubtitle": "For questions or to send your documents, feel free to contact us by email.",
+    "emailLabel": "Email:",
+
     "paymentTitle": "Payment details",
     "owner": "Account holder:",
     "iban": "IBAN:",
+
     "moreContactsBtn": "More contact options",
+
     "pricingTitle": "Planned yearly membership fee",
     "pAdult": "Adults:",
     "pAdultVal": "€20 in the first year, then €15 per year",
