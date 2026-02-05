@@ -276,3 +276,17 @@
   padding: 18px;
   text-align: center;
 }
+
+.about-images {
+  display: grid;
+  gap: 14px;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.04);
+}
+
