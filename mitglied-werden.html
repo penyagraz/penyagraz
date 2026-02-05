@@ -1,9 +1,13 @@
+<!--mitglied-werden.html-->
+
 <!doctype html>
 <html lang="de" data-lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Mitglied werden – Penya Graz</title>
+  <meta name="i18n-title-key" content="join.pageTitle">
 
   <!-- Global styles (same as index.html) -->
   <link rel="stylesheet" href="css/00_tokens.css">
@@ -23,10 +27,9 @@
     <section class="section">
       <div class="container">
         <header class="section__header">
-          <h1 class="section__title">Mitglied werden</h1>
-          <p class="section__lead">
+          <h1 class="section__title" data-i18n="join.title">Mitglied werden</h1>
+          <p class="section__lead" data-i18n="join.lead">
             Hier findest du eine einfache Schritt-für-Schritt Anleitung, wie du Mitglied unserer Penya wirst.
-            
           </p>
         </header>
 
@@ -34,24 +37,24 @@
           <!-- Step 1 -->
           <article class="card feature">
             <div class="feature__icon">1️⃣</div>
-            <h2 class="feature__title">Formular herunterladen</h2>
-              
-              <a
-                class="btn btn--ghost"
-                href="files/mitgliedschaftsformular.pdf"
-                download
-              >
-                📄
-                mitgliedschaftsformular.pdf
-              </a>
-          </article>
+            <h2 class="feature__title" data-i18n="join.step1.title">Formular herunterladen</h2>
 
+            <a
+              class="btn btn--ghost"
+              href="files/mitgliedschaftsformular.pdf"
+              download
+              data-i18n="join.step1.button"
+            >
+              📄
+              mitgliedschaftsformular.pdf
+            </a>
+          </article>
 
           <!-- Step 2 -->
           <article class="card feature">
             <div class="feature__icon">2️⃣</div>
-            <h2 class="feature__title">Formular ausfüllen</h2>
-            <p class="feature__text">
+            <h2 class="feature__title" data-i18n="join.step2.title">Formular ausfüllen</h2>
+            <p class="feature__text" data-i18n="join.step2.text">
               Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder,
               die am Ende noch unterschrieben werden müssen.
             </p>
@@ -60,8 +63,8 @@
           <!-- Step 3 -->
           <article class="card feature">
             <div class="feature__icon">3️⃣</div>
-            <h2 class="feature__title">Unterschreiben</h2>
-            <p class="feature__text">
+            <h2 class="feature__title" data-i18n="join.step3.title">Unterschreiben</h2>
+            <p class="feature__text" data-i18n="join.step3.text">
               Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag
               leider nicht bearbeiten.
             </p>
@@ -70,39 +73,37 @@
           <!-- Step 4 -->
           <article class="card feature">
             <div class="feature__icon">4️⃣</div>
-            <h2 class="feature__title">Den Mitgliedsbeitrag einzahlen</h2>
-            <p class="feature__text">
+            <h2 class="feature__title" data-i18n="join.step4.title">Den Mitgliedsbeitrag einzahlen</h2>
+            <p class="feature__text" data-i18n="join.step4.text">
               Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit.
             </p>
           </article>
 
-          <!-- Step 4 -->
+          <!-- Step 5 -->
           <article class="card feature">
             <div class="feature__icon">5️⃣</div>
-            <h2 class="feature__title">Per E-Mail senden</h2>
-            <p class="feature__text">
-              Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.
+            <h2 class="feature__title" data-i18n="join.step5.title">Per E-Mail senden</h2>
+            <p class="feature__text" data-i18n="join.step5.text">
+              Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail.
+              Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.
             </p>
           </article>
-        
-
-
         </div>
-        
+
         <div class="divider"></div>
 
         <div class="split">
           <!-- Left: contact + notes -->
           <section class="card">
             <div class="card__header">
-              <h2 class="card__title">Kontakt für die Mitgliedschaft</h2>
-              <p class="card__subtitle">Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.</p>
+              <h2 class="card__title" data-i18n="join.contact.title">Kontakt für die Mitgliedschaft</h2>
+              <p class="card__subtitle" data-i18n="join.contact.subtitle">
+                Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.
+              </p>
             </div>
 
             <div class="card__content">
-              <p class="muted" style="margin-top:0;">
-                E-Mail:
-              </p>
+              <p class="muted" style="margin-top:0;" data-i18n="join.contact.emailLabel">E-Mail:</p>
 
               <div class="pill" style="display:inline-flex;">
                 penyabarcelonistadegraz@gmail.com
@@ -110,28 +111,23 @@
 
               <div class="divider"></div>
 
+              <h2 class="card__title" data-i18n="join.payment.title">Einzahlungsdetails</h2>
 
-              <h2 class="card__title">Einzahlungsdetails</h2>
-                <p class="muted" style="margin-top:0;">
-                Kontoinhaber:
-                </p>
-                <div class="pill" style="display:inline-flex;">
-                  Penya Barcelonista de Seiersberg-Gr
-                </div>
-
-                <div style="height:14px;"></div>
-
-                <p class="muted" style="margin-top:0;">
-                IBAN:
-                </p>
-                <div class="pill" style="display:inline-flex;">
-                  AT38 2081 5000 4681 3689
-                </div>
-
+              <p class="muted" style="margin-top:0;" data-i18n="join.payment.ownerLabel">Kontoinhaber:</p>
+              <div class="pill" style="display:inline-flex;">
+                Penya Barcelonista de Seiersberg-Gr
+              </div>
 
               <div style="height:14px;"></div>
 
-              <a class="btn btn--primary" href="kontakt.html">
+              <p class="muted" style="margin-top:0;" data-i18n="join.payment.ibanLabel">IBAN:</p>
+              <div class="pill" style="display:inline-flex;">
+                AT38 2081 5000 4681 3689
+              </div>
+
+              <div style="height:14px;"></div>
+
+              <a class="btn btn--primary" href="kontakt.html" data-i18n="join.contact.moreBtn">
                 Weitere Kontaktmöglichkeiten
               </a>
             </div>
@@ -140,35 +136,35 @@
           <!-- Right: pricing -->
           <aside class="card">
             <div class="card__header">
-              <h2 class="card__title">Geplanter Mitgliedsbeitrag pro Jahr</h2>
+              <h2 class="card__title" data-i18n="join.pricing.title">Geplanter Mitgliedsbeitrag pro Jahr</h2>
             </div>
 
             <div class="card__content">
               <div class="price-list">
                 <div class="price-row">
-                  <span class="muted">Erwachsene: </span>
-                  <span class="price-val">20 € im ersten Jahr, danach 15 € pro Jahr</span>
+                  <span class="muted" data-i18n="join.pricing.adultsLabel">Erwachsene:</span>
+                  <span class="price-val" data-i18n="join.pricing.adultsVal">20 € im ersten Jahr, danach 15 € pro Jahr</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted">Schüler / Studenten / Senioren (65+)</span>
-                  <span class="price-val">17 € im ersten Jahr, danach 15 € pro Jahr</span>
+                  <span class="muted" data-i18n="join.pricing.reducedLabel">Schüler / Studenten / Senioren (65+)</span>
+                  <span class="price-val" data-i18n="join.pricing.reducedVal">17 € im ersten Jahr, danach 15 € pro Jahr</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted">Kinder unter 14 Jahren</span>
-                  <span class="price-val">8 € jährlich</span>
+                  <span class="muted" data-i18n="join.pricing.kidsLabel">Kinder unter 14 Jahren</span>
+                  <span class="price-val" data-i18n="join.pricing.kidsVal">8 € jährlich</span>
                 </div>
 
                 <div class="divider"></div>
 
                 <div class="price-row">
-                  <span class="muted">Familienpakete</span>
-                  <span class="price-val"> 35 € jährlich</span>
+                  <span class="muted" data-i18n="join.pricing.familyLabel">Familienpakete</span>
+                  <span class="price-val" data-i18n="join.pricing.familyVal">35 € jährlich</span>
                 </div>
               </div>
             </div>

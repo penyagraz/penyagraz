@@ -13,19 +13,31 @@
   },
 
   "home": {
+    "pageTitle": "Penya Graz",
     "badge": "FC Barcelona fan club in Graz",
     "title": "Penya Blaugrana Graz",
     "lead": "Welcome to the Penya in Graz — a place for Culés to watch matches together, make friends, and celebrate Barça culture in Styria.",
     "ctaAbout": "About us and our founding",
+  
+    "meta": {
+      "venueLabel": "Our venue",
+      "locationLabel": "Location",
+      "idLabel": "Our official Penya ID"
+    },
+  
     "infoTitle": "Info / Events",
     "infoSubtitle": "For updates about events, giveaways and more — follow us on Instagram.",
     "infoText": "We’d love to hear from you. Feel free to message us anytime.",
+  
     "whyTitle": "Why a Penya?",
     "whyLead": "A Penya is more than just being a fan — it’s community, tradition, and shared emotions.",
+  
     "f1Title": "Experience together",
     "f1Text": "Watching matches is simply more fun together — league games or Champions League.",
+  
     "f2Title": "Community in Graz",
     "f2Text": "Meet Culés from Graz and the region — open, respectful, international.",
+  
     "f3Title": "Blaugrana spirit",
     "f3Text": "Values, history, culture — “Més que un club” here with us too."
   },
@@ -84,11 +96,20 @@
   },
 
   "about": {
+    "pageTitle": "About us – Penya Graz",
     "title": "About us",
     "lead": "Who we are, what we stand for — and why Penya Blaugrana Graz exists.",
+
     "storyTitle": "Our story",
     "storySubtitle": "Official FC Barcelona Penya in Graz",
+
+    "p1": "We are an official FC Barcelona Penya, founded in 2025 in Graz–Seiersberg. Our community brings together people from all across Styria who share one passion: FC Barcelona.",
+    "p2": "Our mission is to bring the club’s values and passion to life here in our region. Whether we watch matches together, discuss tactics, or celebrate big victories — we always stand united behind Barça.",
+    "p3": "Everyone is warmly welcome. We’re looking forward to many unforgettable blaugrana moments!",
+
     "cityTitle": "Graz & Blaugrana",
     "citySubtitle": "Our city, our colors!"
   }
+
+
 }

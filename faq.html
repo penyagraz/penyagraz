@@ -1,11 +1,15 @@
+<!--faq.html-->
+
 <!doctype html>
 <html lang="de" data-lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FAQ – Penya Graz</title>
 
-  <!-- Global styles (same as other pages) -->
+  <title>FAQ – Penya Graz</title>
+  <meta name="i18n-title-key" content="faq.pageTitle">
+
+  <!-- Global styles -->
   <link rel="stylesheet" href="css/00_tokens.css">
   <link rel="stylesheet" href="css/01_base.css">
   <link rel="stylesheet" href="css/02_layout.css">
@@ -23,20 +27,27 @@
     <section class="section">
       <div class="container">
         <header class="section__header">
-          <h1 class="section__title">FAQ</h1>
-          <p class="section__lead">
+          <h1 class="section__title" data-i18n="faq.title">
+            FAQ
+          </h1>
+
+          <p class="section__lead" data-i18n="faq.lead">
             Häufig gestellte Fragen rund um Penyes und unsere Penya in Graz.
           </p>
         </header>
 
         <div class="faq-list">
+          <!-- Q1 -->
           <details class="card faq-item" open>
             <summary class="faq-q">
-              Was ist eine Penya? (FC Barcelonas Penya)
+              <span data-i18n="faq.q1.title">
+                Was ist eine Penya? (FC Barcelonas Penya)
+              </span>
               <span class="faq-icon" aria-hidden="true">+</span>
             </summary>
+
             <div class="card__content faq-a">
-              <p class="muted" style="margin-top:0;">
+              <p class="muted" style="margin-top:0;" data-i18n="faq.q1.text">
                 Eine Penya ist ein offizieller Fanclub von FC Barcelona – also eine organisierte Gruppe von Fans,
                 die ihre Leidenschaft für den Verein teilen. Penyes sind weltweit verteilt und bieten eine Plattform,
                 um gemeinsam Spiele zu verfolgen, Events zu organisieren und die Werte des Clubs zu leben –
@@ -45,13 +56,17 @@
             </div>
           </details>
 
+          <!-- Q2 -->
           <details class="card faq-item">
             <summary class="faq-q">
-              Wann und warum macht es Sinn, einer Penya beizutreten?
+              <span data-i18n="faq.q2.title">
+                Wann und warum macht es Sinn, einer Penya beizutreten?
+              </span>
               <span class="faq-icon" aria-hidden="true">+</span>
             </summary>
+
             <div class="card__content faq-a">
-              <p class="muted" style="margin-top:0;">
+              <p class="muted" style="margin-top:0;" data-i18n="faq.q2.text">
                 Es macht Sinn, einer Penya beizutreten, wenn du deine Begeisterung für FC Barcelona mit
                 Gleichgesinnten teilen willst und Teil einer starken Gemeinschaft sein möchtest.
                 In einer Penya erlebst du Spiele nicht nur alleine, sondern in einer lebendigen Atmosphäre
@@ -61,42 +76,56 @@
             </div>
           </details>
 
+          <!-- Q3 -->
           <details class="card faq-item">
             <summary class="faq-q">
-              Welche Vorteile gibt es, Penya-Mitglied zu sein?
+              <span data-i18n="faq.q3.title">
+                Welche Vorteile gibt es, Penya-Mitglied zu sein?
+              </span>
               <span class="faq-icon" aria-hidden="true">+</span>
             </summary>
+
             <div class="card__content faq-a">
               <ul class="faq-ul">
-                <li>Gemeinsames Schauen von Spielen in Fan-Atmosphäre</li>
-                <li>Zugang zu Fan-Events, Reisen und Sonderaktionen</li>
-                <li>Rabatte auf Merchandise und Tickets (je nach Verfügbarkeit/Aktionen)</li>
-                <li>Möglichkeit, den Verein zu unterstützen und Kultur/Traditionen mitzuleben</li>
-                <li>Vernetzung mit Fans weltweit und neue Freundschaften</li>
-                <li>Offizielle Anerkennung als Teil der Barça-Familie</li>
+                <li data-i18n="faq.q3.li1">Gemeinsames Schauen von Spielen in Fan-Atmosphäre</li>
+                <li data-i18n="faq.q3.li2">Zugang zu Fan-Events, Reisen und Sonderaktionen</li>
+                <li data-i18n="faq.q3.li3">Rabatte auf Merchandise und Tickets (je nach Verfügbarkeit/Aktionen)</li>
+                <li data-i18n="faq.q3.li4">Möglichkeit, den Verein zu unterstützen und Kultur/Traditionen mitzuleben</li>
+                <li data-i18n="faq.q3.li5">Vernetzung mit Fans weltweit und neue Freundschaften</li>
+                <li data-i18n="faq.q3.li6">Offizielle Anerkennung als Teil der Barça-Familie</li>
               </ul>
             </div>
           </details>
 
+          <!-- More info -->
           <div class="card">
             <div class="card__header">
-              <h2 class="card__title">Mehr Infos über Penyes</h2>
-              <p class="card__subtitle">
+              <h2 class="card__title" data-i18n="faq.more.title">
+                Mehr Infos über Penyes
+              </h2>
+
+              <p class="card__subtitle" data-i18n="faq.more.subtitle">
                 Offizielle Penyes-Seite von FC Barcelona
               </p>
             </div>
+
             <div class="card__content">
-              <p class="muted" style="margin-top:0;">
+              <p class="muted" style="margin-top:0;" data-i18n="faq.more.text">
                 Wenn du mehr über Penyes im Allgemeinen erfahren möchtest, findest du hier die offizielle Übersicht:
               </p>
 
-              <a class="btn btn--ghost" href="https://penyes.fcbarcelona.com/en/" target="_blank" rel="noopener noreferrer">
+              <a
+                class="btn btn--ghost"
+                href="https://penyes.fcbarcelona.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="faq.more.button"
+              >
                 ▶ Zur offiziellen Penyes-Website
               </a>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   </main>

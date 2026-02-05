@@ -13,22 +13,35 @@
   },
 
   "home": {
+    "pageTitle": "Penya Graz",
     "badge": "Der FC Barcelona Fanclub in Graz",
     "title": "Penya Blaugrana Graz",
     "lead": "Willkommen bei der Penya in Graz — ein Treffpunkt für Culés, die Spiele gemeinsam erleben, Freunde finden und die Barça-Kultur in der Steiermark feiern wollen.",
     "ctaAbout": "Über uns und unsere Gründung",
+  
+    "meta": {
+      "venueLabel": "Unser Treff-Lokal",
+      "locationLabel": "Ort",
+      "idLabel": "Unsere offizielle Penya-ID"
+    },
+  
     "infoTitle": "Informationen / Events",
     "infoSubtitle": "Für aktuelle News zu Events, Gewinnspielen und mehr – folge uns doch auf Instagram.",
     "infoText": "Wir würden uns freuen, von dir zu hören. Schreib uns gerne jederzeit an.",
+  
     "whyTitle": "Warum eine Penya?",
     "whyLead": "Eine Penya ist mehr als nur „Fan sein“ — es ist Gemeinschaft, Tradition und gemeinsame Emotion.",
+  
     "f1Title": "Gemeinsam erleben",
     "f1Text": "Spiele schauen macht zusammen einfach mehr Spaß — ob Liga Spiel oder Champions League.",
+  
     "f2Title": "Community in Graz",
     "f2Text": "Lerne Culés aus Graz und Umgebung kennen — offen, respektvoll, international.",
+  
     "f3Title": "Blaugrana Spirit",
     "f3Text": "Werte, Geschichte und Kultur — „Més que un club“ auch hier bei uns."
   },
+
 
   "faq": {
     "title": "FAQ",
@@ -84,10 +97,17 @@
   },
 
   "about": {
+    "pageTitle": "Über uns – Penya Graz",
     "title": "Über uns",
     "lead": "Wer wir sind, wofür wir stehen – und warum es die Penya Blaugrana Graz gibt.",
+  
     "storyTitle": "Unsere Geschichte",
     "storySubtitle": "Offizielle Penya des FC Barcelona in Graz",
+  
+    "p1": "Wir sind eine offizielle Penya des FC Barcelona, gegründet im Jahr 2025 in Graz-Seiersberg. Unsere Gemeinschaft vereint Menschen aus der ganzen Steiermark, die eine gemeinsame Leidenschaft teilen: den FC Barcelona.",
+    "p2": "Unsere Mission ist es, die Werte und die Begeisterung des Vereins hier in unserer Region erlebbar zu machen. Ob beim gemeinsamen Ansehen der Spiele, bei Diskussionen über Taktik oder beim Feiern großer Siege – wir stehen immer zusammen hinter Barça.",
+    "p3": "Jede und jeder ist bei uns herzlich willkommen. Wir freuen uns auf viele unvergessliche Momente in blaugrana!",
+  
     "cityTitle": "Graz & Blaugrana",
     "citySubtitle": "Unsere Stadt, unsere Farben!"
   }
