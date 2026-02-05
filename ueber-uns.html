@@ -1,22 +1,151 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" data-lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Penya Graz</title>
+  <title>Über uns – Penya Graz</title>
 
+  <!-- Global styles (same as other pages) -->
+  <link rel="stylesheet" href="css/00_tokens.css">
+  <link rel="stylesheet" href="css/01_base.css">
+  <link rel="stylesheet" href="css/02_layout.css">
+  <link rel="stylesheet" href="css/03_components.css">
+  <link rel="stylesheet" href="css/04_pages.css">
+
+  <!-- Header -->
   <link rel="stylesheet" href="css/05_header.css">
-</head>
-<body>
 
+  <!-- Icons (Instagram / TikTok) -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" />
+</head>
+
+<body>
   <div id="site-header"></div>
 
-  <main class="demo">
-    <h1>ueber uns</h1>
-    <p>text</p>
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h1 class="section__title">Über uns</h1>
+          <p class="section__lead">
+            Wer wir sind, wofür wir stehen – und warum es die Penya Blaugrana Graz gibt.
+          </p>
+        </header>
+
+        <div class="split">
+          <!-- LEFT: Story -->
+          <section class="card">
+            <div class="card__header">
+              <h2 class="card__title">Unsere Geschichte</h2>
+              <p class="card__subtitle">Offizielle Penya des FC Barcelona in Graz</p>
+            </div>
+
+            <div class="card__content">
+              <p class="muted" style="margin-top:0;">
+                Wir sind eine offizielle Penya des FC Barcelona, gegründet im Jahr 2025 in Graz-Seiersberg.
+                Unsere Gemeinschaft vereint Menschen aus der ganzen Steiermark, die eine gemeinsame Leidenschaft teilen:
+                den FC Barcelona.
+              </p>
+
+              <p class="muted">
+                Unsere Mission ist es, die Werte und die Begeisterung des Vereins hier in unserer Region erlebbar zu machen.
+                Ob beim gemeinsamen Ansehen der Spiele, bei Diskussionen über Taktik oder beim Feiern großer Siege –
+                wir stehen immer zusammen hinter Barça.
+              </p>
+
+              <p class="muted" style="margin-bottom:0;">
+                Jede und jeder ist bei uns herzlich willkommen. Wir freuen uns auf viele unvergessliche Momente
+                in blaugrana!
+              </p>
+
+              <div class="divider"></div>
+
+              <div class="grid grid--3">
+                <article class="feature">
+                  <div class="feature__icon">🤝</div>
+                  <h3 class="feature__title">Gemeinschaft</h3>
+                  <p class="feature__text">Respektvoll, offen, international – Culés aus der Steiermark.</p>
+                </article>
+
+                <article class="feature">
+                  <div class="feature__icon">⚽️</div>
+                  <h3 class="feature__title">Erlebnis</h3>
+                  <p class="feature__text">Spiele gemeinsam schauen, diskutieren und feiern.</p>
+                </article>
+
+                <article class="feature">
+                  <div class="feature__icon">🔵🔴</div>
+                  <h3 class="feature__title">Werte</h3>
+                  <p class="feature__text">„Més que un club“ – auch in Graz leben wir den Spirit.</p>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <!-- RIGHT: Social + Image -->
+          <aside class="card card--glass">
+            <div class="card__header">
+              <h2 class="card__title">Folge uns</h2>
+              <p class="card__subtitle">News, Events & Eindrücke</p>
+            </div>
+
+            <div class="card__content">
+              <div class="social-links">
+                <a
+                  class="social-btn instagram"
+                  href="https://www.instagram.com/penyablaugranagraz/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+
+                <a
+                  class="social-btn tiktok"
+                  href="https://www.tiktok.com/@penyablaugrana_graz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-brands fa-tiktok"></i>
+                  <span>TikTok</span>
+                </a>
+              </div>
+
+              <div class="divider"></div>
+
+              <p class="muted" style="margin-top:0;">
+                Unser Treffpunkt und unsere Stadt sind Teil unserer Identität – Graz ist blaugrana!
+              </p>
+
+              <!-- Optional image block (only if you add an image file later) -->
+              <div class="about-image">
+                <div class="about-image__placeholder">
+                  <span class="muted">Optional: Bild (z.B. Schlossberg) später hier einfügen</span>
+                </div>
+              </div>
+
+              <div style="height:12px;"></div>
+
+              <a class="btn btn--ghost" href="kontakt.html">
+                Kontakt
+              </a>
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </section>
   </main>
+
+  <div id="site-footer"></div>
 
   <script src="js/header.js"></script>
   <script src="js/include.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>

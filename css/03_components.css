@@ -264,3 +264,15 @@
   display: grid;
   gap: 8px;
 }
+
+.about-image{
+  margin-top: 12px;
+}
+
+.about-image__placeholder{
+  border-radius: 18px;
+  border: 1px dashed rgba(255,255,255,0.18);
+  background: rgba(255,255,255,0.04);
+  padding: 18px;
+  text-align: center;
+}
