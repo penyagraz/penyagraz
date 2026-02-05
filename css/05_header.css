@@ -74,12 +74,10 @@ body{
 }
 
 
-/* ===== Hamburger: borderless RGB lines -> badge on hover ===== */
+/* ===== Hamburger: borderless Blaugrana lines -> refined badge reveal ===== */
 .hamburger{
-  width: 56px;
-  height: 56px;
-
-  /* borderless / boxless */
+  width: 65px;
+  height: 65px;
   border: none;
   background: transparent;
   box-shadow: none;
@@ -94,116 +92,133 @@ body{
   transition: transform 160ms ease;
 }
 
-.hamburger:hover{
-  transform: translateY(-1px);
-}
-
-.hamburger:active{
-  transform: translateY(0px) scale(0.98);
-}
+.hamburger:hover{ transform: translateY(-1px); }
+.hamburger:active{ transform: translateY(0px) scale(0.985); }
 
 .hamburger:focus-visible{
-  outline: 3px solid rgba(10,31,68,0.30);
-  outline-offset: 4px;
+  outline: 3px solid rgba(10,31,68,0.22);
+  outline-offset: 5px;
   border-radius: 14px;
 }
 
-/* --- 3 colored lines --- */
+/* --- 3 refined lines (adult tones, less pill) --- */
 .hamburger__lines{
-  width: 28px;
-  height: 5px;
-  border-radius: 999px;
-
-  /* middle = yellow */
-  background: #a4234b;
+  width: 30px;
+  height: 4px;
+  border-radius: 6px; /* less “candy” than 999px */
+  background: #7a0b2e; /* top-to-bottom: maroon, gold, navy (more Barça) */
 
   position: relative;
   display: block;
   z-index: 2;
 
   transition:
-    transform 260ms cubic-bezier(.2,.8,.2,1),
-    opacity 200ms ease,
-    filter 200ms ease;
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    opacity 160ms ease;
 }
 
 .hamburger__lines::before,
 .hamburger__lines::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 5px;
-  border-radius: 999px;
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  height: 4px;
+  border-radius: 6px;
 
   transition:
-    transform 260ms cubic-bezier(.2,.8,.2,1),
-    opacity 200ms ease,
-    filter 200ms ease;
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    opacity 160ms ease;
 }
 
-/* top = red, bottom = blue */
+/* top = maroon, bottom = navy, middle = gold */
 .hamburger__lines::before{
-  top: -9px;
-  background: #004b95;
+  top: -10px;
+  background: #7a0b2e;
+}
+.hamburger__lines{
+  background: #d6aa00;
 }
 .hamburger__lines::after{
-  top: 9px;
-  background: #ffdf00;
+  top: 10px;
+  background: #0a1f44;
 }
 
-/* --- badge layer (hidden by default) --- */
+/* subtle “premium” underline glide on hover */
+.hamburger::after{
+  content:"";
+  position:absolute;
+  left: 50%;
+  bottom: 6px;
+  width: 26px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #0a1f44, #7a0b2e);
+  opacity: 0;
+  transform: translateX(-50%) scaleX(0.7);
+  transition: opacity 180ms ease, transform 240ms cubic-bezier(.2,.9,.2,1);
+}
+
+/* --- badge layer (hidden) --- */
 .hamburger__badge{
-  position: absolute;
-  inset: 0;
-  z-index: 1;
+  position:absolute;
+  inset:0;
+  z-index:1;
 
   background-image: url("../assets/icons/fcbarcelonabadge.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 44px 44px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 60px 60px;
 
   opacity: 0;
-  transform: scale(0.78) rotate(-6deg);
-  filter: drop-shadow(0 10px 18px rgba(16,24,40,0.18));
+  transform: scale(0.90);
+  filter: drop-shadow(0 10px 18px rgba(16,24,40,0.16));
 
   transition:
-    opacity 220ms ease,
-    transform 320ms cubic-bezier(.2,.9,.2,1),
-    filter 220ms ease;
+    opacity 170ms ease,
+    transform 260ms cubic-bezier(.2,.9,.2,1),
+    filter 170ms ease;
 }
 
-/* ===== Hover morph: lines disappear + badge appears ===== */
+/* ===== Hover: lines “step back” + underline appears + badge comes in ===== */
+.hamburger:hover::after{
+  opacity: 0.9;
+  transform: translateX(-50%) scaleX(1);
+}
+
 .hamburger:hover .hamburger__lines{
   opacity: 0;
-  transform: scale(0.7) translateY(2px);
-  filter: blur(0.6px);
+  transform: translateY(1px) scale(0.92);
 }
+
 .hamburger:hover .hamburger__lines::before{
   opacity: 0;
-  transform: translateY(6px);
-  filter: blur(0.6px);
+  transform: translateY(3px);
 }
+
 .hamburger:hover .hamburger__lines::after{
   opacity: 0;
-  transform: translateY(-6px);
-  filter: blur(0.6px);
+  transform: translateY(-3px);
 }
 
 .hamburger:hover .hamburger__badge{
   opacity: 1;
-  transform: scale(1) rotate(0deg);
-  filter: drop-shadow(0 14px 22px rgba(16,24,40,0.22));
+  transform: scale(1);
+  filter: drop-shadow(0 14px 22px rgba(16,24,40,0.20));
 }
 
-/* Optional: if menu is open, keep badge visible */
+/* ===== Open state: keep badge visible (clean, no wobble) ===== */
+.hamburger[aria-expanded="true"]::after{
+  opacity: 0; /* hide underline when open */
+}
 .hamburger[aria-expanded="true"] .hamburger__lines{
   opacity: 0;
 }
 .hamburger[aria-expanded="true"] .hamburger__badge{
   opacity: 1;
-  transform: scale(1) rotate(0deg);
+  transform: scale(1);
 }
+
 
 
 
