@@ -43,10 +43,11 @@
   background: rgba(255,255,255,0.06);
   font-weight: 700;
   transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+  /*color: rgb(245, 213, 69);*/
 }
 .btn:hover{ transform: translateY(-1px); border-color: rgba(255,255,255,0.24); }
 .btn--primary{
-  background: linear-gradient(90deg, rgba(11,42,91,0.9), rgba(122,16,33,0.85));
+  background: linear-gradient(90deg, rgba(240, 196, 52, 0.9), rgba(122,16,33,0.85));
   border-color: rgba(255,255,255,0.16);
 }
 .btn--ghost{

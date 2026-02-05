@@ -1,22 +1,142 @@
 <!doctype html>
-<html lang="de">
+<html lang="de" data-lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Penya Graz</title>
+  <title>Mitglied werden – Penya Graz</title>
 
+  <!-- Global styles (same as index.html) -->
+  <link rel="stylesheet" href="css/00_tokens.css">
+  <link rel="stylesheet" href="css/01_base.css">
+  <link rel="stylesheet" href="css/02_layout.css">
+  <link rel="stylesheet" href="css/03_components.css">
+  <link rel="stylesheet" href="css/04_pages.css">
+
+  <!-- Existing header styles -->
   <link rel="stylesheet" href="css/05_header.css">
 </head>
-<body>
 
+<body>
   <div id="site-header"></div>
 
-  <main class="demo">
-    <h1>mitglied werden</h1>
-    <p>text</p>
+  <main class="page">
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h1 class="section__title">Mitglied werden</h1>
+          <p class="section__lead">
+            Hier findest du eine einfache Schritt-für-Schritt Anleitung, wie du Mitglied unserer Penya wirst.
+            
+          </p>
+        </header>
+
+        <div class="grid grid--3">
+          <!-- Step 1 -->
+          <article class="card feature">
+            <div class="feature__icon">1️⃣</div>
+            <h2 class="feature__title">Formular ausfüllen</h2>
+            <p class="feature__text">
+              Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder,
+              die am Ende noch unterschrieben werden müssen.
+            </p>
+          </article>
+
+          <!-- Step 2 -->
+          <article class="card feature">
+            <div class="feature__icon">2️⃣</div>
+            <h2 class="feature__title">Unterschreiben</h2>
+            <p class="feature__text">
+              Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag
+              leider nicht bearbeiten.
+            </p>
+          </article>
+
+          <!-- Step 3 -->
+          <article class="card feature">
+            <div class="feature__icon">3️⃣</div>
+            <h2 class="feature__title">Per E-Mail senden</h2>
+            <p class="feature__text">
+              Schick uns das ausgefüllte Formular bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.
+            </p>
+          </article>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="split">
+          <!-- Left: contact + notes -->
+          <section class="card">
+            <div class="card__header">
+              <h2 class="card__title">Kontakt für die Mitgliedschaft</h2>
+              <p class="card__subtitle">Für Fragen oder zum Einsenden des Formulars kannst du uns über diese E-Mail-Adresse kontaktieren.</p>
+            </div>
+
+            <div class="card__content">
+              <p class="muted" style="margin-top:0;">
+                E-Mail:
+              </p>
+
+              <div class="pill" style="display:inline-flex;">
+                penyabarcelonistadegraz@gmail.com
+              </div>
+
+              <div class="divider"></div>
+
+              <div style="height:14px;"></div>
+
+              <a class="btn btn--primary" href="kontakt.html">
+                Unsere anderen Kontaktstellen
+              </a>
+            </div>
+          </section>
+
+          <!-- Right: pricing -->
+          <aside class="card">
+            <div class="card__header">
+              <h2 class="card__title">Geplanter Mitgliedsbeitrag pro Jahr</h2>
+              <p class="card__subtitle">Richtwerte (finale Infos folgen)</p>
+            </div>
+
+            <div class="card__content">
+              <div class="price-list">
+                <div class="price-row">
+                  <span class="muted">Erwachsene</span>
+                  <span class="price-val">18 €</span>
+                </div>
+                <div class="price-row">
+                  <span class="muted">Studierende</span>
+                  <span class="price-val">14 €</span>
+                </div>
+                <div class="price-row">
+                  <span class="muted">Kinder unter 10 Jahren</span>
+                  <span class="price-val">8 €</span>
+                </div>
+                <div class="price-row">
+                  <span class="muted">Familienpakete</span>
+                  <span class="price-val">ab 30 €</span>
+                </div>
+              </div>
+
+              <div class="divider"></div>
+
+              <p class="muted" style="margin:0;">
+                Sobald die Funktionalität fertig ist, findest du hier direkt den Download (leer)
+                und das generierte Formular.
+              </p>
+            </div>
+          </aside>
+        </div>
+
+      </div>
+    </section>
   </main>
+
+  <div id="site-footer"></div>
 
   <script src="js/header.js"></script>
   <script src="js/include.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/i18n.js"></script>
 </body>
 </html>
