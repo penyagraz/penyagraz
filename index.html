@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="de" data-lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Penya Graz</title>
+  <meta name="i18n-title-key" content="home.pageTitle">
+
+  <!-- Global styles -->
+  <link rel="stylesheet" href="css/00_tokens.css">
+  <link rel="stylesheet" href="css/01_base.css">
+  <link rel="stylesheet" href="css/02_layout.css">
+  <link rel="stylesheet" href="css/03_components.css">
+  <link rel="stylesheet" href="css/04_pages.css">
+
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+  <!-- Header styles -->
+  <link rel="stylesheet" href="css/05_header.css">
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <main class="page">
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <div class="badge">
+            <img class="badge__icon" src="assets/icons/fcbarcelonabadge.png" alt="FC Barcelona">
+            <span class="badge__text" data-i18n="home.badge">Der FC Barcelona Fanclub in Graz</span>
+          </div>
+
+          <h1 class="hero__title" data-i18n="home.title">
+            Penya Blaugrana Graz
+          </h1>
+
+          <p class="hero__lead" data-i18n="home.lead">
+            Willkommen bei der Penya in Graz — ein Treffpunkt für Culés, die Spiele gemeinsam erleben,
+            Freunde finden und die Barça-Kultur in der Steiermark feiern wollen.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--ghost" href="ueber-uns.html" data-i18n="home.ctaAbout">
+              Über uns und unsere Gründung
+            </a>
+          </div>
+
+          <ul class="meta hero__meta" aria-label="Kurzinfos">
+            <li class="meta__item">
+              <span class="meta__label" data-i18n="home.meta.venueLabel">Unser treff-lokal</span>
+              <span class="meta__value">Bar28 [Gartengasse 28, 8010 Graz]</span>
+            </li>
+            <li class="meta__item">
+              <span class="meta__label" data-i18n="home.meta.locationLabel">Ort</span>
+              <span class="meta__value">Graz, Steiermark, Österreich</span>
+            </li>
+            <li class="meta__item">
+              <span class="meta__label" data-i18n="home.meta.idLabel">Unsere offizielle Penya-ID</span>
+              <span class="meta__value">2396</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__card card card--glass">
+          <div class="card__header">
+            <h2 class="card__title" data-i18n="home.infoTitle">Informationen / Events</h2>
+            <p class="card__subtitle" data-i18n="home.infoSubtitle">
+              Für aktuelle News zu Events, Gewinnspielen und mehr – folge uns doch auf Instagram.
+            </p>
+          </div>
+
+          <div class="card__content instagram-only">
+            <p class="muted" data-i18n="home.infoText">
+              Wir würden uns freuen, von dir zu hören. Schreib uns gerne jederzeit an.
+            </p>
+
+            <a
+              class="instagram-btn"
+              href="https://www.instagram.com/penyablaugranagraz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Penya Blaugrana Graz auf Instagram"
+            >
+              <i class="fa-brands fa-instagram"></i>
+              <span>@penyablaugranagraz</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY PENYA -->
+    <section class="section">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title" data-i18n="home.whyTitle">Warum eine Penya?</h2>
+          <p class="section__lead" data-i18n="home.whyLead">
+            Eine Penya ist mehr als nur „Fan sein“ — es ist Gemeinschaft, Tradition und gemeinsame Emotion.
+          </p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="feature card">
+            <div class="feature__icon">⚽️</div>
+            <h3 class="feature__title" data-i18n="home.f1Title">Gemeinsam erleben</h3>
+            <p class="feature__text" data-i18n="home.f1Text">
+              Spiele schauen macht zusammen einfach mehr Spaß — ob Liga Spiel oder Champions League.
+            </p>
+          </article>
+
+          <article class="feature card">
+            <div class="feature__icon">🤝</div>
+            <h3 class="feature__title" data-i18n="home.f2Title">Community in Graz</h3>
+            <p class="feature__text" data-i18n="home.f2Text">
+              Lerne Culés aus Graz und Umgebung kennen — offen, respektvoll, international.
+            </p>
+          </article>
+
+          <article class="feature card">
+            <div class="feature__icon">🔵🔴</div>
+            <h3 class="feature__title" data-i18n="home.f3Title">Blaugrana Spirit</h3>
+            <p class="feature__text" data-i18n="home.f3Text">
+              Werte, Geschichte und Kultur — „Més que un club“ auch hier bei uns.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/header.js"></script>
+  <script src="js/include.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,466 @@
+/* 05_header.css
+   Drop-in file: polished topbar + hamburger badge hover + offcanvas + menu stripes whoosh + arrows + divider
+*/
+
+:root{
+  --bg: #ffffff;
+  --text: #101828;
+  --muted: #667085;
+  --stroke: rgba(16, 24, 40, 0.12);
+  --shadow: 0 16px 40px rgba(16,24,40,0.14);
+
+  --fcb-navy: #0a1f44;
+  --fcb-maroon: #7a0b2e;
+  --fcb-gold: #d6aa00;
+
+  --r-lg: 14px;
+
+  --font-noble: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, Garamond, Georgia, serif;
+  --font-ui: "Courier New", Courier, monospace;
+
+  --font-title: Copperplate, Papyrus, fantasy;
+  --font-nav: Copperplate, Papyrus, fantasy;
+}
+
+/* demo only */
+body{
+  margin: 0;
+  color: var(--text);
+  font-family: var(--font-ui);
+  background: #f7f8fa;
+}
+.demo{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 16px;
+}
+
+/* ===== Header ===== */
+.site-header{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--stroke);
+}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+
+  padding: 35px 35px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.brand{
+  text-decoration: none;
+  color: var(--text);
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brand__title{
+  font-family: var(--font-title);
+  font-size: 27px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+}
+.brand__subtitle{
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--muted);
+}
+
+/* ===== Hamburger: borderless Blaugrana lines -> badge reveal ===== */
+.hamburger{
+  width: 65px;
+  height: 65px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding: 0;
+
+  transition: transform 160ms ease;
+}
+
+.hamburger:hover{ transform: translateY(-1px); }
+.hamburger:active{ transform: translateY(0px) scale(0.985); }
+
+.hamburger:focus-visible{
+  outline: 3px solid rgba(10,31,68,0.22);
+  outline-offset: 5px;
+  border-radius: 14px;
+}
+
+/* --- 3 lines --- */
+.hamburger__lines{
+  width: 30px;
+  height: 4px;
+  border-radius: 6px;
+  background: var(--fcb-gold);
+
+  position: relative;
+  display: block;
+  z-index: 2;
+
+  transition:
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    opacity 160ms ease;
+}
+
+.hamburger__lines::before,
+.hamburger__lines::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  height: 4px;
+  border-radius: 6px;
+
+  transition:
+    transform 220ms cubic-bezier(.2,.8,.2,1),
+    opacity 160ms ease;
+}
+
+.hamburger__lines::before{
+  top: -10px;
+  background: var(--fcb-maroon);
+}
+.hamburger__lines::after{
+  top: 10px;
+  background: var(--fcb-navy);
+}
+
+/* subtle underline glide on hover */
+.hamburger::after{
+  content:"";
+  position:absolute;
+  left: 50%;
+  bottom: 6px;
+  width: 26px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--fcb-navy), var(--fcb-maroon));
+  opacity: 0;
+  transform: translateX(-50%) scaleX(0.7);
+  transition: opacity 180ms ease, transform 240ms cubic-bezier(.2,.9,.2,1);
+}
+
+/* badge layer (hidden) */
+.hamburger__badge{
+  position:absolute;
+  inset:0;
+  z-index:1;
+
+  background-image: url("../assets/icons/fcbarcelonabadge.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 60px 60px;
+
+  opacity: 0;
+  transform: scale(0.90);
+  filter: drop-shadow(0 10px 18px rgba(16,24,40,0.16));
+
+  transition:
+    opacity 170ms ease,
+    transform 260ms cubic-bezier(.2,.9,.2,1),
+    filter 170ms ease;
+}
+
+/* Hover: lines out + underline in + badge in */
+.hamburger:hover::after{
+  opacity: 0.9;
+  transform: translateX(-50%) scaleX(1);
+}
+
+.hamburger:hover .hamburger__lines{
+  opacity: 0;
+  transform: translateY(1px) scale(0.92);
+}
+.hamburger:hover .hamburger__lines::before{
+  opacity: 0;
+  transform: translateY(3px);
+}
+.hamburger:hover .hamburger__lines::after{
+  opacity: 0;
+  transform: translateY(-3px);
+}
+.hamburger:hover .hamburger__badge{
+  opacity: 1;
+  transform: scale(1);
+  filter: drop-shadow(0 14px 22px rgba(16,24,40,0.20));
+}
+
+/* Open state: keep badge visible */
+.hamburger[aria-expanded="true"]::after{ opacity: 0; }
+.hamburger[aria-expanded="true"] .hamburger__lines{ opacity: 0; }
+.hamburger[aria-expanded="true"] .hamburger__badge{
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ===== Language flags (image-only buttons) ===== */
+.lang{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang__btn{
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.lang__flag{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+
+  box-shadow: 0 4px 12px rgba(16,24,40,0.25);
+  transition: transform 120ms ease, box-shadow 120ms ease, outline 120ms ease;
+}
+
+.lang__btn:hover .lang__flag{
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(16,24,40,0.30);
+}
+
+.lang__btn:focus-visible .lang__flag{
+  outline: 3px solid rgba(10,31,68,0.35);
+  outline-offset: 3px;
+}
+
+.lang__btn.is-active .lang__flag{
+  outline: 3px solid rgba(10,31,68,0.45);
+  outline-offset: 2px;
+  box-shadow: 0 6px 18px rgba(10,31,68,0.35);
+}
+
+/* ===== Overlay + Offcanvas ===== */
+.overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(16,24,40,0.45);
+  backdrop-filter: blur(2px);
+  z-index: 60;
+}
+
+.offcanvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+
+  /* width: previously ~390; now ~520 (wider) */
+  width: min(84vw, 520px);
+
+  background: rgba(255,255,255,0.92);
+  border-right: 1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  z-index: 70;
+
+  /*transform: translateX(-105%);*/
+  overflow-x: hidden;
+  transform: translateX(calc(-100% - 40px)); /* extra to fully hide shadow/overflow */
+  transition: transform 200ms ease;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.offcanvas.is-open{
+  transform: translateX(0);
+}
+
+/* ===== Menu ===== */
+.menu{
+  list-style: none;
+  padding: 20px 18px;
+  margin: 0;
+  display: grid;
+  gap: 15px;
+}
+
+/* arrow lives on LI (no pseudo collisions) */
+.menu li{
+  position: relative;
+}
+.menu li::after{
+  content: "›";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: rgba(16,24,40,0.55);
+  pointer-events: none;
+}
+/* no arrow on divider row */
+.menu li.menu-divider::after{
+  content: none;
+}
+
+.menu li:hover::after{
+  transform: translateY(-50%) translateX(2px);
+  color: rgba(16,24,40,0.75);
+}
+/*
+// extra arrow gap ONLY for last item (Über uns)
+.menu li:last-child .menu__link{
+  padding-right: 400px; // default was ~44px
+  //margin-top: 40px;
+}
+
+/* adjust whoosh start accordingly 
+.menu li:last-child .menu__link::after{
+  right: 30px;
+}
+*/
+
+
+/* link: text stays unchanged */
+.menu__link{
+  position: relative;
+  display: block;
+  padding: 16px 44px 16px 16px; /* right space for arrow */
+  border-radius: 16px;
+  text-decoration: none;
+
+  font-family: var(--font-nav);
+  font-weight: 400;
+  font-size: 23px;
+  letter-spacing: 0.7px;
+
+  color: var(--text);
+  border: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+/* sheen (subtle, optional) */
+.menu__link::before{
+  content:"";
+  position:absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.75), rgba(255,255,255,0.0) 60%);
+  opacity: 0.0;
+  transition: opacity 180ms ease;
+  pointer-events: none;
+}
+
+/* Catalunya stripes: whoosh from right to half, but STOP before arrow lane */
+.menu__link::after{
+  content:"";
+  position:absolute;
+  top: 0;
+  right: 30px;              /* ⬅ leave space for arrow */
+  height: 100%;
+  width: 35%;
+
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(214, 0, 28, 0.22) 0px,
+    rgba(214, 0, 28, 0.22) 10px,
+    rgba(255, 199, 44, 0.22) 10px,
+    rgba(255, 199, 44, 0.22) 20px
+  );
+
+  transform: translateX(110%);
+  transition: transform 260ms cubic-bezier(.2,.9,.2,1);
+  pointer-events: none;
+}
+
+
+/* Hover: ONLY whoosh (+ optional sheen), no text changes */
+.menu__link:hover{
+  transform: none;
+  background: transparent;
+  color: var(--text);
+  text-shadow: none;
+}
+
+.menu__link:hover::after{
+  transform: translateX(0%);
+}
+
+.menu__link:hover::before{
+  opacity: 0; /* set to 0 if you want literally only stripes */
+}
+
+/* optional active/current page */
+.menu__link[aria-current="page"]{
+  background: rgba(10,31,68,0.06);
+  color: var(--text);
+}
+.menu__link[aria-current="page"]::after{
+  transform: translateX(0%);
+}
+
+/* divider line (insert <li class="menu-divider"></li> before Über uns) */
+.menu-divider{
+  height: 1px;
+  margin: 12px 6px;
+  background: rgba(0,0,0,0.25);
+}
+
+/* footer */
+.offcanvas__footer{
+  margin-top: auto;
+  padding: 20px 20px;
+  border-top: 2px solid var(--stroke);
+}
+.muted{
+  color: var(--muted);
+  font-size: 15px;        /* was default ~12–13px */
+  font-weight: 500;       /* slightly stronger */
+  letter-spacing: 0.3px; /* matches your menu typography */
+}
+
+
+/* ===== Language dropdown: Flag Companion ===== */
+.lang__more {
+  -webkit-appearance: none;
+  appearance: none;
+
+  height: 38px;
+  padding: 0 42px 0 14px;
+  border-radius: 10px;
+
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.08);
+
+  font-weight: 700;
+  letter-spacing: .2px;
+  color: #111;
+
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.lang__more:hover {
+  border-color: rgba(0,0,0,0.18);
+}
+
+.lang__more:focus {
+  outline: none;
+  border-color: rgba(0,0,0,0.25);
+}
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "Štajerska Penya u Grazu",
+    "menu": {
+      "home": "Početna",
+      "join": "Postani član",
+      "contact": "Kontakt",
+      "faq": "FAQ",
+      "about": "O nama"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Navijački klub FC Barcelona u Grazu",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Dobrodošli u Penyu u Grazu — mjesto za Culése gdje zajedno gledamo utakmice, sklapamo prijateljstva i slavimo Barça kulturu u Štajerskoj.",
+    "ctaAbout": "O nama i naše osnivanje",
+
+    "meta": {
+      "venueLabel": "Naše mjesto okupljanja",
+      "locationLabel": "Lokacija",
+      "idLabel": "Naš zvanični Penya ID"
+    },
+
+    "infoTitle": "Informacije / Događaji",
+    "infoSubtitle": "Za novosti o događajima, nagradnim igrama i još mnogo toga — pratite nas na Instagramu.",
+    "infoText": "Rado bismo čuli od vas. Slobodno nam pišite u bilo koje vrijeme.",
+
+    "whyTitle": "Zašto Penya?",
+    "whyLead": "Penya je više od toga da budeš navijač — to je zajednica, tradicija i zajedničke emocije.",
+
+    "f1Title": "Doživljaj zajedno",
+    "f1Text": "Gledanje utakmica zajedno je jednostavno zabavnije — bilo liga ili Liga prvaka.",
+
+    "f2Title": "Zajednica u Grazu",
+    "f2Text": "Upoznajte Culése iz Graza i okoline — otvoreni, puni poštovanja i internacionalni.",
+
+    "f3Title": "Blaugrana duh",
+    "f3Text": "Vrijednosti, historija i kultura — „Més que un club“ i ovdje s nama."
+  },
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "Često postavljana pitanja o Penyama i našoj Penyi u Grazu.",
+
+    "q1": {
+      "title": "Šta je Penya? (Penya FC Barcelone)",
+      "text": "Penya je zvanični navijački klub FC Barcelone — organizovana grupa navijača koja dijeli strast prema klubu. Penye postoje širom svijeta i omogućavaju zajedničko gledanje utakmica, organizovanje događaja i življenje vrijednosti kluba — posebno povezanost s katalonskom kulturom i motom „Més que un club“."
+    },
+
+    "q2": {
+      "title": "Kada i zašto ima smisla pridružiti se Penyi?",
+      "text": "Pridruživanje Penyi ima smisla ako želite dijeliti svoju ljubav prema FC Barceloni s istomišljenicima i biti dio snažne zajednice. U Penyi ne doživljavate utakmice sami, već u živahnoj atmosferi s drugim navijačima. Možete učestvovati na događajima, sklapati prijateljstva i doživjeti strast prema klubu na nov način."
+    },
+
+    "q3": {
+      "title": "Koje su prednosti članstva u Penyi?",
+      "li1": "Zajedničko gledanje utakmica u pravoj navijačkoj atmosferi",
+      "li2": "Pristup navijačkim događajima, putovanjima i posebnim aktivnostima",
+      "li3": "Popusti na merchandise i ulaznice (ovisno o dostupnosti/akcijama)",
+      "li4": "Način da podržite klub i živite njegovu kulturu i tradiciju",
+      "li5": "Povezivanje s navijačima širom svijeta i nova prijateljstva",
+      "li6": "Zvanično priznanje kao dio Barça porodice"
+    },
+
+    "more": {
+      "title": "Više o Penyama",
+      "subtitle": "Zvanična stranica Penya FC Barcelone",
+      "text": "Ako želite saznati više o Penyama općenito, ovdje je zvanični pregled:",
+      "button": "▶ Otvori zvaničnu Penya web stranicu"
+    }
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Imate pitanja o članstvu, događajima ili Penyi općenito? Javite nam se putem jedne od sljedećih opcija.",
+    "directTitle": "Direktan kontakt",
+    "directSubtitle": "Javit ćemo vam se što je prije moguće",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "fastest": "Najbrži način je putem e-maila ili društvenih mreža.",
+    "socialTitle": "Društvene mreže",
+    "socialSubtitle": "Novosti, događaji i utisci iz Penye",
+    "follow": "Pratite nas za brze informacije o večerima utakmica, događajima i novostima.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Postani član – Penya Graz",
+    "title": "Postani član",
+    "lead": "Ovdje je jednostavan vodič korak po korak kako postati član naše Penye.",
+
+    "step1": "Preuzmi formular",
+    "step2": "Popuni formular",
+    "step2Text": "Popunite formular za članstvo u potpunosti. Posebno obratite pažnju na polja koja na kraju treba potpisati.",
+    "step3": "Potpiši",
+    "step3Text": "Molimo potpišite sva potrebna mjesta. Bez potpisa ne možemo obraditi prijavu.",
+    "step4": "Uplati članarinu",
+    "step4Text": "Molimo uplatite članarinu za odabranu vrstu članstva i sačuvajte potvrdu o uplati.",
+    "step5": "Pošalji e-mailom",
+    "step5Text": "Pošaljite nam popunjen formular za članstvo i potvrdu o uplati kao PDF putem e-maila. Zatim ćemo vas kontaktirati lično s narednim koracima.",
+
+    "memberContactTitle": "Kontakt za članstvo",
+    "memberContactSubtitle": "Za pitanja ili slanje dokumentacije, slobodno nas kontaktirajte putem e-maila.",
+    "emailLabel": "E-mail:",
+
+    "paymentTitle": "Detalji za uplatu",
+    "owner": "Vlasnik računa:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Više opcija kontakta",
+
+    "pricingTitle": "Planirana godišnja članarina",
+    "pAdult": "Odrasli:",
+    "pAdultVal": "20 € prve godine, zatim 15 € godišnje",
+    "pReduced": "Učenici / studenti / penzioneri (65+)",
+    "pReducedVal": "17 € prve godine, zatim 15 € godišnje",
+    "pKids": "Djeca mlađa od 14 godina",
+    "pKidsVal": "8 € godišnje",
+    "pFamily": "Porodični paketi",
+    "pFamilyVal": "35 € godišnje"
+  },
+
+  "about": {
+    "pageTitle": "O nama – Penya Graz",
+    "title": "O nama",
+    "lead": "Ko smo, za šta se zalažemo — i zašto Penya Blaugrana Graz postoji.",
+
+    "storyTitle": "Naša priča",
+    "storySubtitle": "Zvanična Penya FC Barcelone u Grazu",
+
+    "p1": "Mi smo zvanična Penya FC Barcelone, osnovana 2025. godine u Graz–Seiersbergu. Naša zajednica okuplja ljude iz cijele Štajerske koji dijele jednu strast: FC Barcelonu.",
+    "p2": "Naša misija je da vrijednosti i strast kluba oživimo ovdje u našoj regiji. Bilo da zajedno gledamo utakmice, razgovaramo o taktici ili slavimo velike pobjede — uvijek stojimo ujedinjeni iza Barçe.",
+    "p3": "Svi su srdačno dobrodošli. Radujemo se mnogim nezaboravnim blaugrana trenucima!",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "Naš grad, naše boje!"
+  }
+}

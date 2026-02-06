@@ -1,0 +1,72 @@
+<header class="site-header" role="banner">
+  <div class="topbar">
+    <button class="hamburger" type="button"
+            aria-label="Menü öffnen"
+            aria-controls="offcanvas"
+            aria-expanded="false"
+            id="menuToggle">
+      <span class="hamburger__lines" aria-hidden="true"></span>
+      <span class="hamburger__badge" aria-hidden="true"></span>
+    </button>
+
+    <a class="brand" href="index.html" aria-label="Startseite">
+      <span class="brand__title" data-i18n="site.brandTitle">FC Barcelonista Penya Graz</span>
+      <span class="brand__subtitle" data-i18n="site.brandSubtitle">Die steirische Penya in Graz</span>
+    </a>
+
+    <div class="lang" aria-label="Sprache wählen">
+      <button class="lang__btn is-active" type="button" aria-label="Deutsch" data-lang="de">
+        <img class="lang__flag" src="assets/img/language/german.png" alt="Deutsch">
+      </button>
+    
+      <button class="lang__btn" type="button" aria-label="English" data-lang="en">
+        <img class="lang__flag" src="assets/img/language/english.png" alt="English">
+      </button>
+    
+      <!-- More languages dropdown (basic for now; we style later) -->
+      <select class="lang__more" id="langMore" aria-label="More languages">
+        <option value="more" selected>More</option>
+      
+        <!-- requested order -->
+        <option value="catalan">Català</option>
+        <option value="spanish">Español</option>
+        <option value="french">Français</option>
+        <option value="hindi">हिंदी</option>
+        <option value="urdu">اردو</option>
+        <option value="portuguese">Português</option>
+        <option value="greek">Ελληνικά</option>
+        <option value="bosnian">Bosanski</option>
+        <option value="romanian">Română</option>
+        <option value="turkish">Türkçe</option>
+        <option value="arabic">العربية</option>
+        <option value="russian">Русский</option>
+        <option value="slovenian">Slovenščina</option>
+        <option value="italian">Italiano</option>
+        <option value="japanese">日本語</option>
+        <option value="chinese">中文</option>
+      
+        <!-- future: add more options here -->
+      </select>
+    </div>
+
+  </div>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <nav class="offcanvas" id="offcanvas" aria-label="Hauptmenü" hidden>
+    <ul class="menu">
+      <li><a class="menu__link" href="index.html" data-i18n="site.menu.home">Home</a></li>
+      <li><a class="menu__link" href="mitglied-werden.html" data-i18n="site.menu.join">Mitglied werden</a></li>
+      <li><a class="menu__link" href="kontakt.html" data-i18n="site.menu.contact">Kontakt</a></li>
+      <li><a class="menu__link" href="faq.html" data-i18n="site.menu.faq">FAQ</a></li>
+
+      <li class="menu-divider"></li>
+
+      <li><a class="menu__link" href="ueber-uns.html" data-i18n="site.menu.about">Über uns</a></li>
+    </ul>
+
+    <div class="offcanvas__footer">
+      <small class="muted" data-i18n="site.menuFooter">Visca Barça i visca Catalunya! · Graz</small>
+    </div>
+  </nav>
+</header>

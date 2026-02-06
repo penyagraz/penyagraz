@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "La Penya de Estiria en Graz",
+    "menu": {
+      "home": "Inicio",
+      "join": "Hazte socio",
+      "contact": "Contacto",
+      "faq": "FAQ",
+      "about": "Sobre nosotros"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Peña de aficionados del FC Barcelona en Graz",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Bienvenido/a a la Penya de Graz — un lugar para que los culés vean los partidos juntos, hagan amistades y celebren la cultura del Barça en Estiria.",
+    "ctaAbout": "Sobre nosotros y nuestra fundación",
+
+    "meta": {
+      "venueLabel": "Nuestro local",
+      "locationLabel": "Ubicación",
+      "idLabel": "Nuestra Penya ID oficial"
+    },
+
+    "infoTitle": "Información / Eventos",
+    "infoSubtitle": "Para novedades sobre eventos, sorteos y más — síguenos en Instagram.",
+    "infoText": "Nos encantaría saber de ti. Escríbenos cuando quieras.",
+
+    "whyTitle": "¿Por qué una Penya?",
+    "whyLead": "Una Penya es más que ser aficionado — es comunidad, tradición y emociones compartidas.",
+
+    "f1Title": "Vivirlo juntos",
+    "f1Text": "Ver los partidos juntos es simplemente más divertido — ya sea liga o Champions League.",
+
+    "f2Title": "Comunidad en Graz",
+    "f2Text": "Conoce a culés de Graz y alrededores — abiertos, respetuosos e internacionales.",
+
+    "f3Title": "Espíritu blaugrana",
+    "f3Text": "Valores, historia y cultura — “Més que un club” también aquí con nosotros."
+  },
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "Preguntas frecuentes sobre las Penyes y nuestra Penya en Graz.",
+
+    "q1": {
+      "title": "¿Qué es una Penya? (Penya del FC Barcelona)",
+      "text": "Una Penya es un club oficial de aficionados del FC Barcelona — un grupo organizado de seguidores que comparten su pasión por el club. Las Penyes existen en todo el mundo y ofrecen la posibilidad de ver partidos juntos, organizar eventos y vivir los valores del club — especialmente la conexión con la cultura catalana y el lema “Més que un club”."
+    },
+
+    "q2": {
+      "title": "¿Cuándo y por qué tiene sentido unirse a una Penya?",
+      "text": "Tiene sentido unirse a una Penya si quieres compartir tu pasión por el FC Barcelona con personas afines y formar parte de una comunidad fuerte. En una Penya no vives los partidos solo, sino en un ambiente animado con otros aficionados. Puedes participar en eventos, hacer amistades y vivir la pasión por el club de una forma diferente."
+    },
+
+    "q3": {
+      "title": "¿Cuáles son las ventajas de ser miembro de una Penya?",
+      "li1": "Ver partidos juntos con un auténtico ambiente de aficionados",
+      "li2": "Acceso a eventos, viajes y actividades especiales",
+      "li3": "Descuentos en merchandising y entradas (según disponibilidad/promociones)",
+      "li4": "Apoyar al club y vivir su cultura y tradiciones",
+      "li5": "Conectar con aficionados de todo el mundo y hacer nuevas amistades",
+      "li6": "Reconocimiento oficial como parte de la familia del Barça"
+    },
+
+    "more": {
+      "title": "Más sobre las Penyes",
+      "subtitle": "Página oficial de Penyes del FC Barcelona",
+      "text": "Si quieres saber más sobre las Penyes en general, aquí tienes la información oficial:",
+      "button": "▶ Abrir la web oficial de Penyes"
+    }
+  },
+
+  "contact": {
+    "title": "Contacto",
+    "lead": "¿Tienes preguntas sobre la membresía, eventos o la Penya en general? Contáctanos a través de una de las siguientes opciones.",
+    "directTitle": "Contacto directo",
+    "directSubtitle": "Te responderemos lo antes posible",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Teléfono",
+    "fastest": "La forma más rápida es por correo electrónico o redes sociales.",
+    "socialTitle": "Redes sociales",
+    "socialSubtitle": "Noticias, eventos y momentos de la Penya",
+    "follow": "Síguenos para recibir información de última hora sobre partidos y eventos.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Hazte socio – Penya Graz",
+    "title": "Hazte socio",
+    "lead": "Aquí encontrarás una guía sencilla paso a paso para hacerte miembro de nuestra Penya.",
+
+    "step1": "Descargar el formulario",
+    "step2": "Rellenar el formulario",
+    "step2Text": "Rellena el formulario de membresía por completo. Presta especial atención a los campos que deben firmarse al final.",
+    "step3": "Firmar",
+    "step3Text": "Por favor, firma todos los lugares requeridos. Sin firma no podemos tramitar la solicitud.",
+    "step4": "Pagar la cuota",
+    "step4Text": "Realiza el pago de la membresía elegida y conserva el comprobante de la transferencia.",
+    "step5": "Enviar por correo electrónico",
+    "step5Text": "Envíanos el formulario de membresía cumplimentado y el comprobante de pago en PDF por correo electrónico. Nos pondremos en contacto contigo con los siguientes pasos.",
+
+    "memberContactTitle": "Contacto para la membresía",
+    "memberContactSubtitle": "Para preguntas o para enviar la documentación, contáctanos por correo electrónico.",
+    "emailLabel": "Correo electrónico:",
+
+    "paymentTitle": "Datos de pago",
+    "owner": "Titular de la cuenta:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Más opciones de contacto",
+
+    "pricingTitle": "Cuota anual prevista",
+    "pAdult": "Adultos:",
+    "pAdultVal": "20 € el primer año, después 15 € al año",
+    "pReduced": "Estudiantes / escolares / mayores (65+)",
+    "pReducedVal": "17 € el primer año, después 15 € al año",
+    "pKids": "Niños menores de 14 años",
+    "pKidsVal": "8 € al año",
+    "pFamily": "Paquetes familiares",
+    "pFamilyVal": "35 € al año"
+  },
+
+  "about": {
+    "pageTitle": "Sobre nosotros – Penya Graz",
+    "title": "Sobre nosotros",
+    "lead": "Quiénes somos, qué representamos — y por qué existe la Penya Blaugrana Graz.",
+
+    "storyTitle": "Nuestra historia",
+    "storySubtitle": "Penya oficial del FC Barcelona en Graz",
+
+    "p1": "Somos una Penya oficial del FC Barcelona, fundada en 2025 en Graz–Seiersberg. Nuestra comunidad reúne a personas de toda Estiria que comparten una misma pasión: el FC Barcelona.",
+    "p2": "Nuestra misión es hacer vivir los valores y la pasión del club aquí en nuestra región. Ya sea viendo partidos juntos, hablando de táctica o celebrando grandes victorias — siempre estamos unidos detrás del Barça.",
+    "p3": "Todo el mundo es bienvenido. ¡Esperamos vivir muchos momentos blaugrana inolvidables!",
+
+    "cityTitle": "Graz y Blaugrana",
+    "citySubtitle": "¡Nuestra ciudad, nuestros colores!"
+  }
+}

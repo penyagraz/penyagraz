@@ -1,0 +1,146 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "Die steirische Penya in Graz",
+    "menu": {
+      "home": "Home",
+      "join": "Mitglied werden",
+      "contact": "Kontakt",
+      "faq": "FAQ",
+      "about": "Über uns"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Der FC Barcelona Fanclub in Graz",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Willkommen bei der Penya in Graz — ein Treffpunkt für Culés, die Spiele gemeinsam erleben, Freunde finden und die Barça-Kultur in der Steiermark feiern wollen.",
+    "ctaAbout": "Über uns und unsere Gründung",
+
+    "meta": {
+      "venueLabel": "Unser Treff-Lokal",
+      "locationLabel": "Ort",
+      "idLabel": "Unsere offizielle Penya-ID"
+    },
+
+    "infoTitle": "Informationen / Events",
+    "infoSubtitle": "Für aktuelle News zu Events, Gewinnspielen und mehr – folge uns doch auf Instagram.",
+    "infoText": "Wir würden uns freuen, von dir zu hören. Schreib uns gerne jederzeit an.",
+
+    "whyTitle": "Warum eine Penya?",
+    "whyLead": "Eine Penya ist mehr als nur „Fan sein“ — es ist Gemeinschaft, Tradition und gemeinsame Emotion.",
+
+    "f1Title": "Gemeinsam erleben",
+    "f1Text": "Spiele schauen macht zusammen einfach mehr Spaß — ob Liga Spiel oder Champions League.",
+
+    "f2Title": "Community in Graz",
+    "f2Text": "Lerne Culés aus Graz und Umgebung kennen — offen, respektvoll, international.",
+
+    "f3Title": "Blaugrana Spirit",
+    "f3Text": "Werte, Geschichte und Kultur — „Més que un club“ auch hier bei uns."
+  },
+
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "Häufig gestellte Fragen rund um Penyes und unsere Penya in Graz.",
+  
+    "q1": {
+      "title": "Was ist eine Penya? (FC Barcelonas Penya)",
+      "text": "Eine Penya ist ein offizieller Fanclub von FC Barcelona – also eine organisierte Gruppe von Fans, die ihre Leidenschaft für den Verein teilen. Penyes sind weltweit verteilt und bieten eine Plattform, um gemeinsam Spiele zu verfolgen, Events zu organisieren und die Werte des Clubs zu leben – besonders die Verbundenheit mit der katalanischen Kultur und dem Motto „Més que un club“."
+    },
+  
+    "q2": {
+      "title": "Wann und warum macht es Sinn, einer Penya beizutreten?",
+      "text": "Es macht Sinn, einer Penya beizutreten, wenn du deine Begeisterung für FC Barcelona mit Gleichgesinnten teilen willst und Teil einer starken Gemeinschaft sein möchtest. In einer Penya erlebst du Spiele nicht nur alleine, sondern in einer lebendigen Atmosphäre mit anderen Fans. Du kannst an Events teilnehmen, Freundschaften knüpfen und die Leidenschaft für den Verein auf eine neue Weise erleben. Außerdem unterstützt du die Werte und Traditionen von Barça."
+    },
+  
+    "q3": {
+      "title": "Welche Vorteile gibt es, Penya-Mitglied zu sein?",
+      "li1": "Gemeinsames Schauen von Spielen in Fan-Atmosphäre",
+      "li2": "Zugang zu Fan-Events, Reisen und Sonderaktionen",
+      "li3": "Rabatte auf Merchandise und Tickets (je nach Verfügbarkeit/Aktionen)",
+      "li4": "Möglichkeit, den Verein zu unterstützen und Kultur/Traditionen mitzuleben",
+      "li5": "Vernetzung mit Fans weltweit und neue Freundschaften",
+      "li6": "Offizielle Anerkennung als Teil der Barça-Familie"
+    },
+  
+    "more": {
+      "title": "Mehr Infos über Penyes",
+      "subtitle": "Offizielle Penyes-Seite von FC Barcelona",
+      "text": "Wenn du mehr über Penyes im Allgemeinen erfahren möchtest, findest du hier die offizielle Übersicht:",
+      "button": "▶ Zur offiziellen Penyes-Website"
+    }
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Du hast Fragen zur Mitgliedschaft, zu Events oder zur Penya allgemein? Kontaktiere uns gerne über einen der folgenden Wege.",
+    "directTitle": "Direkter Kontakt",
+    "directSubtitle": "Wir melden uns so schnell wie möglich zurück",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "fastest": "Am schnellsten erreichst du uns per E-Mail oder über Social Media.",
+    "socialTitle": "Social Media",
+    "socialSubtitle": "News, Events & Eindrücke aus der Penya",
+    "follow": "Folge uns für kurzfristige Infos zu Spielabenden, Events und Neuigkeiten.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Mitglied werden – Penya Graz",
+    "title": "Mitglied werden",
+    "lead": "Hier findest du eine einfache Schritt-für-Schritt Anleitung, wie du Mitglied unserer Penya wirst.",
+
+    "step1": "Formular herunterladen",
+    "step2": "Formular ausfüllen",
+    "step2Text": "Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder, die am Ende noch unterschrieben werden müssen.",
+    "step3": "Unterschreiben",
+    "step3Text": "Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag leider nicht bearbeiten.",
+    "step4": "Den Mitgliedsbeitrag einzahlen",
+    "step4Text": "Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit.",
+    "step5": "Per E-Mail senden",
+    "step5Text": "Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.",
+
+    "memberContactTitle": "Kontakt für die Mitgliedschaft",
+    "memberContactSubtitle": "Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.",
+    "emailLabel": "E-Mail:",
+
+    "paymentTitle": "Einzahlungsdetails",
+    "owner": "Kontoinhaber:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Weitere Kontaktmöglichkeiten",
+
+    "pricingTitle": "Geplanter Mitgliedsbeitrag pro Jahr",
+    "pAdult": "Erwachsene:",
+    "pAdultVal": "20 € im ersten Jahr, danach 15 € pro Jahr",
+    "pReduced": "Schüler / Studenten / Senioren (65+)",
+    "pReducedVal": "17 € im ersten Jahr, danach 15 € pro Jahr",
+    "pKids": "Kinder unter 14 Jahren",
+    "pKidsVal": "8 € jährlich",
+    "pFamily": "Familienpakete",
+    "pFamilyVal": "35 € jährlich"
+  },
+
+
+  "about": {
+    "pageTitle": "Über uns – Penya Graz",
+    "title": "Über uns",
+    "lead": "Wer wir sind, wofür wir stehen – und warum es die Penya Blaugrana Graz gibt.",
+  
+    "storyTitle": "Unsere Geschichte",
+    "storySubtitle": "Offizielle Penya des FC Barcelona in Graz",
+  
+    "p1": "Wir sind eine offizielle Penya des FC Barcelona, gegründet im Jahr 2025 in Graz-Seiersberg. Unsere Gemeinschaft vereint Menschen aus der ganzen Steiermark, die eine gemeinsame Leidenschaft teilen: den FC Barcelona.",
+    "p2": "Unsere Mission ist es, die Werte und die Begeisterung des Vereins hier in unserer Region erlebbar zu machen. Ob beim gemeinsamen Ansehen der Spiele, bei Diskussionen über Taktik oder beim Feiern großer Siege – wir stehen immer zusammen hinter Barça.",
+    "p3": "Jede und jeder ist bei uns herzlich willkommen. Wir freuen uns auf viele unvergessliche Momente in blaugrana!",
+  
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "Unsere Stadt, unsere Farben!"
+  }
+}
