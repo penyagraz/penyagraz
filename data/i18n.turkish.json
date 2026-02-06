@@ -93,37 +93,34 @@
   "join": {
     "pageTitle": "Üye Ol – Penya Graz",
     "title": "Üye Ol",
-    "lead": "Penya’mıza üye olmak için adım adım basit bir rehber.",
-
-    "step1": "Formu indir",
-    "step2": "Formu doldur",
-    "step2Text": "Üyelik formunu eksiksiz doldurun. Özellikle imza gerektiren alanlara dikkat edin.",
-    "step3": "İmzala",
-    "step3Text": "Lütfen gerekli tüm alanları imzalayın. İmza olmadan başvuru işleme alınamaz.",
-    "step4": "Üyelik ücretini öde",
-    "step4Text": "Seçtiğiniz üyeliğin ücretini ödeyin ve ödeme dekontunu saklayın.",
-    "step5": "E-posta ile gönder",
-    "step5Text": "Doldurulmuş üyelik formunu ve ödeme dekontunu PDF olarak e-posta ile bize gönderin. Sonraki adımlar için sizinle iletişime geçeceğiz.",
-
-    "memberContactTitle": "Üyelik için iletişim",
-    "memberContactSubtitle": "Sorularınız veya belgeleri göndermek için bize e-posta atabilirsiniz.",
-    "emailLabel": "E-posta:",
-
-    "paymentTitle": "Ödeme bilgileri",
-    "owner": "Hesap sahibi:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Diğer iletişim seçenekleri",
-
-    "pricingTitle": "Yıllık üyelik ücreti",
-    "pAdult": "Yetişkinler:",
-    "pAdultVal": "İlk yıl 20 €, sonrasında yıllık 15 €",
-    "pReduced": "Öğrenciler / öğrenciler / emekliler (65+)",
-    "pReducedVal": "İlk yıl 17 €, sonrasında yıllık 15 €",
-    "pKids": "14 yaş altı çocuklar",
-    "pKidsVal": "Yıllık 8 €",
-    "pFamily": "Aile paketleri",
-    "pFamilyVal": "Yıllık 35 €"
+    "lead": "Penyamıza üye olmak için adım adım basit bir rehber.",
+  
+    "step1": { "title": "Formu indir", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "Formu doldur", "text": "Üyelik formunu eksiksiz doldurun. Özellikle sonunda imza gereken alanlara dikkat edin." },
+    "step3": { "title": "İmzala", "text": "Lütfen gerekli tüm yerleri imzalayın. İmza olmadan başvuruyu işleme alamayız." },
+    "step4": { "title": "Üyelik ücretini öde", "text": "Seçtiğiniz üyeliğin ücretini ödeyin ve havale/transfer onayını saklayın." },
+    "step5": { "title": "E-posta ile gönder", "text": "Doldurulmuş üyelik formunu ve ödeme dekontunu PDF olarak e-posta ile bize gönderin. Sonraki adımlar için sizinle iletişime geçeceğiz." },
+  
+    "contact": {
+      "title": "Üyelik için iletişim",
+      "subtitle": "Sorularınız veya belgeleri göndermek için bize e-posta ile ulaşabilirsiniz.",
+      "emailLabel": "E-posta:",
+      "moreBtn": "Diğer iletişim seçenekleri"
+    },
+  
+    "payment": { "title": "Ödeme bilgileri", "ownerLabel": "Hesap sahibi:", "ibanLabel": "IBAN:" },
+  
+    "pricing": {
+      "title": "Yıllık üyelik ücreti",
+      "adultsLabel": "Yetişkinler:",
+      "adultsVal": "İlk yıl 20 €, sonrasında yıllık 15 €",
+      "reducedLabel": "Öğrenciler / öğrenciler / emekliler (65+)",
+      "reducedVal": "İlk yıl 17 €, sonrasında yıllık 15 €",
+      "kidsLabel": "14 yaş altı çocuklar",
+      "kidsVal": "Yıllık 8 €",
+      "familyLabel": "Aile paketleri",
+      "familyVal": "Yıllık 35 €"
+    }
   },
 
   "about": {

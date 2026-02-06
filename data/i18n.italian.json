@@ -94,36 +94,52 @@
     "pageTitle": "Diventa socio – Penya Graz",
     "title": "Diventa socio",
     "lead": "Guida semplice passo dopo passo per diventare membro della nostra Penya.",
-
-    "step1": "Scarica il modulo",
-    "step2": "Compila il modulo",
-    "step2Text": "Compila il modulo di iscrizione completamente. Presta attenzione ai campi da firmare.",
-    "step3": "Firma",
-    "step3Text": "Senza firma la richiesta non può essere elaborata.",
-    "step4": "Paga la quota",
-    "step4Text": "Paga la quota di iscrizione e conserva la ricevuta.",
-    "step5": "Invia via e-mail",
-    "step5Text": "Invia il modulo compilato e la ricevuta di pagamento in PDF via e-mail.",
-
-    "memberContactTitle": "Contatto per l’iscrizione",
-    "memberContactSubtitle": "Per domande o invio documenti, contattaci via e-mail.",
-    "emailLabel": "E-mail:",
-
-    "paymentTitle": "Dati di pagamento",
-    "owner": "Intestatario:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Altri contatti",
-
-    "pricingTitle": "Quota annuale",
-    "pAdult": "Adulti:",
-    "pAdultVal": "20 € il primo anno, poi 15 € all’anno",
-    "pReduced": "Studenti / scolari / anziani (65+)",
-    "pReducedVal": "17 € il primo anno, poi 15 € all’anno",
-    "pKids": "Bambini sotto i 14 anni",
-    "pKidsVal": "8 € all’anno",
-    "pFamily": "Pacchetti famiglia",
-    "pFamilyVal": "35 € all’anno"
+  
+    "step1": {
+      "title": "Scarica il modulo",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Compila il modulo",
+      "text": "Compila il modulo di iscrizione completamente. Presta attenzione ai campi da firmare alla fine."
+    },
+    "step3": {
+      "title": "Firma",
+      "text": "Per favore firma in tutti i punti richiesti. Senza firma non possiamo elaborare la richiesta."
+    },
+    "step4": {
+      "title": "Paga la quota",
+      "text": "Paga la quota per la membership scelta e tieni pronta la conferma del bonifico."
+    },
+    "step5": {
+      "title": "Invia via e-mail",
+      "text": "Inviaci il modulo compilato e la conferma del bonifico in PDF via e-mail. Ti contatteremo personalmente con i prossimi passi."
+    },
+  
+    "contact": {
+      "title": "Contatto per l’iscrizione",
+      "subtitle": "Per domande o invio documenti, contattaci via e-mail.",
+      "emailLabel": "E-mail:",
+      "moreBtn": "Altri contatti"
+    },
+  
+    "payment": {
+      "title": "Dati di pagamento",
+      "ownerLabel": "Intestatario:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "Quota annuale",
+      "adultsLabel": "Adulti:",
+      "adultsVal": "20 € il primo anno, poi 15 € all’anno",
+      "reducedLabel": "Studenti / scolari / anziani (65+)",
+      "reducedVal": "17 € il primo anno, poi 15 € all’anno",
+      "kidsLabel": "Bambini sotto i 14 anni",
+      "kidsVal": "8 € all’anno",
+      "familyLabel": "Pacchetti famiglia",
+      "familyVal": "35 € all’anno"
+    }
   },
 
   "about": {

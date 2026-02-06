@@ -94,36 +94,52 @@
     "pageTitle": "Postani član – Penya Graz",
     "title": "Postani član",
     "lead": "Ovdje je jednostavan vodič korak po korak kako postati član naše Penye.",
-
-    "step1": "Preuzmi formular",
-    "step2": "Popuni formular",
-    "step2Text": "Popunite formular za članstvo u potpunosti. Posebno obratite pažnju na polja koja na kraju treba potpisati.",
-    "step3": "Potpiši",
-    "step3Text": "Molimo potpišite sva potrebna mjesta. Bez potpisa ne možemo obraditi prijavu.",
-    "step4": "Uplati članarinu",
-    "step4Text": "Molimo uplatite članarinu za odabranu vrstu članstva i sačuvajte potvrdu o uplati.",
-    "step5": "Pošalji e-mailom",
-    "step5Text": "Pošaljite nam popunjen formular za članstvo i potvrdu o uplati kao PDF putem e-maila. Zatim ćemo vas kontaktirati lično s narednim koracima.",
-
-    "memberContactTitle": "Kontakt za članstvo",
-    "memberContactSubtitle": "Za pitanja ili slanje dokumentacije, slobodno nas kontaktirajte putem e-maila.",
-    "emailLabel": "E-mail:",
-
-    "paymentTitle": "Detalji za uplatu",
-    "owner": "Vlasnik računa:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Više opcija kontakta",
-
-    "pricingTitle": "Planirana godišnja članarina",
-    "pAdult": "Odrasli:",
-    "pAdultVal": "20 € prve godine, zatim 15 € godišnje",
-    "pReduced": "Učenici / studenti / penzioneri (65+)",
-    "pReducedVal": "17 € prve godine, zatim 15 € godišnje",
-    "pKids": "Djeca mlađa od 14 godina",
-    "pKidsVal": "8 € godišnje",
-    "pFamily": "Porodični paketi",
-    "pFamilyVal": "35 € godišnje"
+  
+    "step1": {
+      "title": "Preuzmi formular",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Popuni formular",
+      "text": "Popunite formular za članstvo u potpunosti. Posebno obratite pažnju na polja koja na kraju treba potpisati."
+    },
+    "step3": {
+      "title": "Potpiši",
+      "text": "Molimo potpišite sva potrebna mjesta. Bez potpisa ne možemo obraditi prijavu."
+    },
+    "step4": {
+      "title": "Uplati članarinu",
+      "text": "Molimo uplatite članarinu za odabranu vrstu članstva i sačuvajte potvrdu o uplati."
+    },
+    "step5": {
+      "title": "Pošalji e-mailom",
+      "text": "Pošaljite nam popunjen formular za članstvo i potvrdu o uplati kao PDF putem e-maila. Zatim ćemo vas kontaktirati lično s narednim koracima."
+    },
+  
+    "contact": {
+      "title": "Kontakt za članstvo",
+      "subtitle": "Za pitanja ili slanje dokumentacije, slobodno nas kontaktirajte putem e-maila.",
+      "emailLabel": "E-mail:",
+      "moreBtn": "Više opcija kontakta"
+    },
+  
+    "payment": {
+      "title": "Detalji za uplatu",
+      "ownerLabel": "Vlasnik računa:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "Planirana godišnja članarina",
+      "adultsLabel": "Odrasli:",
+      "adultsVal": "20 € prve godine, zatim 15 € godišnje",
+      "reducedLabel": "Učenici / studenti / penzioneri (65+)",
+      "reducedVal": "17 € prve godine, zatim 15 € godišnje",
+      "kidsLabel": "Djeca mlađa od 14 godina",
+      "kidsVal": "8 € godišnje",
+      "familyLabel": "Porodični paketi",
+      "familyVal": "35 € godišnje"
+    }
   },
 
   "about": {

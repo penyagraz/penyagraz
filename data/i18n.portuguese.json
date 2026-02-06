@@ -94,36 +94,33 @@
     "pageTitle": "Tornar-se membro – Penya Graz",
     "title": "Tornar-se membro",
     "lead": "Guia simples passo a passo para aderires à nossa Penya.",
-
-    "step1": "Descarregar o formulário",
-    "step2": "Preencher o formulário",
-    "step2Text": "Preenche o formulário completamente e assina onde necessário.",
-    "step3": "Assinar",
-    "step3Text": "Sem assinatura, o pedido não pode ser processado.",
-    "step4": "Pagar a quota",
-    "step4Text": "Efetua o pagamento e guarda o comprovativo.",
-    "step5": "Enviar por e-mail",
-    "step5Text": "Envia o formulário e o comprovativo em PDF por e-mail.",
-
-    "memberContactTitle": "Contacto para adesão",
-    "memberContactSubtitle": "Para questões ou envio de documentos.",
-    "emailLabel": "E-mail:",
-
-    "paymentTitle": "Detalhes de pagamento",
-    "owner": "Titular:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Mais contactos",
-
-    "pricingTitle": "Quota anual",
-    "pAdult": "Adultos:",
-    "pAdultVal": "20 € no primeiro ano, depois 15 € por ano",
-    "pReduced": "Estudantes / alunos / seniores (65+)",
-    "pReducedVal": "17 € no primeiro ano, depois 15 € por ano",
-    "pKids": "Crianças até 14 anos",
-    "pKidsVal": "8 € por ano",
-    "pFamily": "Pacotes familiares",
-    "pFamilyVal": "35 € por ano"
+  
+    "step1": { "title": "Descarregar o formulário", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "Preencher o formulário", "text": "Preenche o formulário de adesão completamente. Dá especial atenção aos campos que precisam de assinatura no fim." },
+    "step3": { "title": "Assinar", "text": "Por favor assina todos os locais obrigatórios. Sem assinatura não podemos processar o pedido." },
+    "step4": { "title": "Pagar a quota", "text": "Paga a quota da adesão escolhida e guarda o comprovativo da transferência." },
+    "step5": { "title": "Enviar por e-mail", "text": "Envia-nos o formulário preenchido e o comprovativo da transferência em PDF por e-mail. Depois entraremos em contacto com os próximos passos." },
+  
+    "contact": {
+      "title": "Contacto para adesão",
+      "subtitle": "Para questões ou para enviar a documentação, podes contactar-nos por e-mail.",
+      "emailLabel": "E-mail:",
+      "moreBtn": "Mais opções de contacto"
+    },
+  
+    "payment": { "title": "Detalhes de pagamento", "ownerLabel": "Titular:", "ibanLabel": "IBAN:" },
+  
+    "pricing": {
+      "title": "Quota anual",
+      "adultsLabel": "Adultos:",
+      "adultsVal": "20 € no primeiro ano, depois 15 € por ano",
+      "reducedLabel": "Estudantes / alunos / seniores (65+)",
+      "reducedVal": "17 € no primeiro ano, depois 15 € por ano",
+      "kidsLabel": "Crianças até 14 anos",
+      "kidsVal": "8 € por ano",
+      "familyLabel": "Pacotes familiares",
+      "familyVal": "35 € por ano"
+    }
   },
 
   "about": {

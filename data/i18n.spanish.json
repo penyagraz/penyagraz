@@ -94,36 +94,33 @@
     "pageTitle": "Hazte socio – Penya Graz",
     "title": "Hazte socio",
     "lead": "Aquí encontrarás una guía sencilla paso a paso para hacerte miembro de nuestra Penya.",
-
-    "step1": "Descargar el formulario",
-    "step2": "Rellenar el formulario",
-    "step2Text": "Rellena el formulario de membresía por completo. Presta especial atención a los campos que deben firmarse al final.",
-    "step3": "Firmar",
-    "step3Text": "Por favor, firma todos los lugares requeridos. Sin firma no podemos tramitar la solicitud.",
-    "step4": "Pagar la cuota",
-    "step4Text": "Realiza el pago de la membresía elegida y conserva el comprobante de la transferencia.",
-    "step5": "Enviar por correo electrónico",
-    "step5Text": "Envíanos el formulario de membresía cumplimentado y el comprobante de pago en PDF por correo electrónico. Nos pondremos en contacto contigo con los siguientes pasos.",
-
-    "memberContactTitle": "Contacto para la membresía",
-    "memberContactSubtitle": "Para preguntas o para enviar la documentación, contáctanos por correo electrónico.",
-    "emailLabel": "Correo electrónico:",
-
-    "paymentTitle": "Datos de pago",
-    "owner": "Titular de la cuenta:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Más opciones de contacto",
-
-    "pricingTitle": "Cuota anual prevista",
-    "pAdult": "Adultos:",
-    "pAdultVal": "20 € el primer año, después 15 € al año",
-    "pReduced": "Estudiantes / escolares / mayores (65+)",
-    "pReducedVal": "17 € el primer año, después 15 € al año",
-    "pKids": "Niños menores de 14 años",
-    "pKidsVal": "8 € al año",
-    "pFamily": "Paquetes familiares",
-    "pFamilyVal": "35 € al año"
+  
+    "step1": { "title": "Descargar el formulario", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "Rellenar el formulario", "text": "Rellena el formulario de membresía por completo. Presta especial atención a los campos que deben firmarse al final." },
+    "step3": { "title": "Firmar", "text": "Por favor, firma todos los lugares requeridos. Sin firma no podemos tramitar la solicitud." },
+    "step4": { "title": "Pagar la cuota", "text": "Realiza el pago de la membresía elegida y conserva el comprobante de la transferencia." },
+    "step5": { "title": "Enviar por correo electrónico", "text": "Envíanos el formulario cumplimentado y el comprobante de pago en PDF por correo electrónico. Nos pondremos en contacto contigo con los siguientes pasos." },
+  
+    "contact": {
+      "title": "Contacto para la membresía",
+      "subtitle": "Para preguntas o para enviar la documentación, contáctanos por correo electrónico.",
+      "emailLabel": "Correo electrónico:",
+      "moreBtn": "Más opciones de contacto"
+    },
+  
+    "payment": { "title": "Datos de pago", "ownerLabel": "Titular de la cuenta:", "ibanLabel": "IBAN:" },
+  
+    "pricing": {
+      "title": "Cuota anual prevista",
+      "adultsLabel": "Adultos:",
+      "adultsVal": "20 € el primer año, después 15 € al año",
+      "reducedLabel": "Estudiantes / escolares / mayores (65+)",
+      "reducedVal": "17 € el primer año, después 15 € al año",
+      "kidsLabel": "Niños menores de 14 años",
+      "kidsVal": "8 € al año",
+      "familyLabel": "Paquetes familiares",
+      "familyVal": "35 € al año"
+    }
   },
 
   "about": {

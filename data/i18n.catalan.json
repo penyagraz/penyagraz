@@ -94,36 +94,52 @@
     "pageTitle": "Fer-se membre – Penya Graz",
     "title": "Fer-se membre",
     "lead": "Aquí tens una guia senzilla pas a pas per fer-te membre de la nostra Penya.",
-
-    "step1": "Descarrega el formulari",
-    "step2": "Omple el formulari",
-    "step2Text": "Omple el formulari de membresia completament. Para especial atenció als camps que s’han de signar al final.",
-    "step3": "Signa",
-    "step3Text": "Si us plau, signa tots els llocs requerits. Sense signatura no podem tramitar la sol·licitud.",
-    "step4": "Paga la quota",
-    "step4Text": "Si us plau, paga la quota de la membresia que has triat i tingues a mà el comprovant de transferència.",
-    "step5": "Envia-ho per correu electrònic",
-    "step5Text": "Envia’ns per correu electrònic el formulari de membresia omplert i el comprovant de transferència en PDF. Ens posarem en contacte amb tu personalment amb els següents passos.",
-
-    "memberContactTitle": "Contacte per a la membresia",
-    "memberContactSubtitle": "Per a preguntes o per enviar la documentació, pots contactar-nos per correu electrònic.",
-    "emailLabel": "Correu electrònic:",
-
-    "paymentTitle": "Dades de pagament",
-    "owner": "Titular del compte:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Més opcions de contacte",
-
-    "pricingTitle": "Quota anual prevista",
-    "pAdult": "Adults:",
-    "pAdultVal": "20 € el primer any, després 15 € l’any",
-    "pReduced": "Estudiants / escolars / gent gran (65+)",
-    "pReducedVal": "17 € el primer any, després 15 € l’any",
-    "pKids": "Infants menors de 14 anys",
-    "pKidsVal": "8 € anuals",
-    "pFamily": "Paquets familiars",
-    "pFamilyVal": "35 € anuals"
+  
+    "step1": {
+      "title": "Descarrega el formulari",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Omple el formulari",
+      "text": "Omple el formulari de membresia completament. Para especial atenció als camps que s’han de signar al final."
+    },
+    "step3": {
+      "title": "Signa",
+      "text": "Si us plau, signa tots els llocs requerits. Sense signatura no podem tramitar la sol·licitud."
+    },
+    "step4": {
+      "title": "Paga la quota",
+      "text": "Si us plau, paga la quota de la membresia que has triat i tingues a mà el comprovant de transferència."
+    },
+    "step5": {
+      "title": "Envia-ho per correu electrònic",
+      "text": "Envia’ns per correu electrònic el formulari de membresia omplert i el comprovant de transferència en PDF. Ens posarem en contacte amb tu personalment amb els següents passos."
+    },
+  
+    "contact": {
+      "title": "Contacte per a la membresia",
+      "subtitle": "Per a preguntes o per enviar la documentació, pots contactar-nos per correu electrònic.",
+      "emailLabel": "Correu electrònic:",
+      "moreBtn": "Més opcions de contacte"
+    },
+  
+    "payment": {
+      "title": "Dades de pagament",
+      "ownerLabel": "Titular del compte:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "Quota anual prevista",
+      "adultsLabel": "Adults:",
+      "adultsVal": "20 € el primer any, després 15 € l’any",
+      "reducedLabel": "Estudiants / escolars / gent gran (65+)",
+      "reducedVal": "17 € el primer any, després 15 € l’any",
+      "kidsLabel": "Infants menors de 14 anys",
+      "kidsVal": "8 € anuals",
+      "familyLabel": "Paquets familiars",
+      "familyVal": "35 € anuals"
+    }
   },
 
   "about": {

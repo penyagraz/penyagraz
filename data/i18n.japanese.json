@@ -95,35 +95,32 @@
     "title": "入会する",
     "lead": "Penyaへの入会方法をステップごとにご案内します。",
 
-    "step1": "フォームをダウンロード",
-    "step2": "フォームに記入",
-    "step2Text": "必要事項をすべて記入してください。",
-    "step3": "署名する",
-    "step3Text": "署名がない場合、申請は処理できません。",
-    "step4": "会費を支払う",
-    "step4Text": "会費を支払い、控えを保管してください。",
-    "step5": "メールで送信",
-    "step5Text": "記入済みフォームと支払い確認をPDFでメール送信してください。",
+    "step1": { "title": "フォームをダウンロード", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "フォームに記入", "text": "会員フォームをすべて記入してください。最後に署名が必要な欄に特に注意してください。" },
+    "step3": { "title": "署名する", "text": "必要な箇所すべてに署名してください。署名がない場合、申請を処理できません。" },
+    "step4": { "title": "会費を支払う", "text": "選択した会員区分の会費を支払い、振込確認（控え）を保管してください。" },
+    "step5": { "title": "メールで送信", "text": "記入済みフォームと振込確認をPDFでメール送信してください。次の手順についてこちらからご連絡します。" },
 
-    "memberContactTitle": "入会に関するお問い合わせ",
-    "memberContactSubtitle": "ご質問や書類送付はこちらへ。",
-    "emailLabel": "メール:",
+    "contact": {
+      "title": "入会に関するお問い合わせ",
+      "subtitle": "ご質問や書類の送付は、メールでお気軽にご連絡ください。",
+      "emailLabel": "メール:",
+      "moreBtn": "その他の連絡方法"
+    },
 
-    "paymentTitle": "支払い情報",
-    "owner": "口座名義:",
-    "iban": "IBAN:",
+    "payment": { "title": "支払い情報", "ownerLabel": "口座名義:", "ibanLabel": "IBAN:" },
 
-    "moreContactsBtn": "その他の連絡方法",
-
-    "pricingTitle": "年会費",
-    "pAdult": "大人:",
-    "pAdultVal": "初年度20ユーロ、その後年15ユーロ",
-    "pReduced": "学生 / 高齢者 (65+)",
-    "pReducedVal": "初年度17ユーロ、その後年15ユーロ",
-    "pKids": "14歳未満の子ども",
-    "pKidsVal": "年8ユーロ",
-    "pFamily": "ファミリーパッケージ",
-    "pFamilyVal": "年35ユーロ"
+    "pricing": {
+      "title": "年会費",
+      "adultsLabel": "大人:",
+      "adultsVal": "初年度20ユーロ、その後年15ユーロ",
+      "reducedLabel": "学生 / 生徒 / シニア（65+）",
+      "reducedVal": "初年度17ユーロ、その後年15ユーロ",
+      "kidsLabel": "14歳未満の子ども",
+      "kidsVal": "年8ユーロ",
+      "familyLabel": "ファミリーパッケージ",
+      "familyVal": "年35ユーロ"
+    }
   },
 
   "about": {
