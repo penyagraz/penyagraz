@@ -94,37 +94,54 @@
     "pageTitle": "Join – Penya Graz",
     "title": "Join",
     "lead": "Here is a simple step-by-step guide on how to become a member of our Penya.",
-
-    "step1": "Download the form",
-    "step2": "Fill in the form",
-    "step2Text": "Fill out the membership form completely. Pay special attention to fields that must be signed at the end.",
-    "step3": "Sign",
-    "step3Text": "Please sign all required places. Without a signature we cannot process the application.",
-    "step4": "Pay the membership fee",
-    "step4Text": "Please pay the fee for your chosen membership and keep the transfer confirmation ready.",
-    "step5": "Send by email",
-    "step5Text": "Email us the completed membership form and the transfer confirmation as PDFs. We’ll contact you personally with the next steps.",
-
-    "memberContactTitle": "Membership contact",
-    "memberContactSubtitle": "For questions or to send your documents, feel free to contact us by email.",
-    "emailLabel": "Email:",
-
-    "paymentTitle": "Payment details",
-    "owner": "Account holder:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "More contact options",
-
-    "pricingTitle": "Planned yearly membership fee",
-    "pAdult": "Adults:",
-    "pAdultVal": "€20 in the first year, then €15 per year",
-    "pReduced": "Students / pupils / seniors (65+)",
-    "pReducedVal": "€17 in the first year, then €15 per year",
-    "pKids": "Children under 14",
-    "pKidsVal": "€8 per year",
-    "pFamily": "Family packages",
-    "pFamilyVal": "€35 per year"
+  
+    "step1": {
+      "title": "Download the form",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Fill in the form",
+      "text": "Fill out the membership form completely. Pay special attention to fields that must be signed at the end."
+    },
+    "step3": {
+      "title": "Sign",
+      "text": "Please sign all required places. Without a signature we cannot process the application."
+    },
+    "step4": {
+      "title": "Pay the membership fee",
+      "text": "Please pay the fee for your chosen membership and keep the transfer confirmation ready."
+    },
+    "step5": {
+      "title": "Send by email",
+      "text": "Email us the completed membership form and the transfer confirmation as PDFs. We’ll contact you personally with the next steps."
+    },
+  
+    "contact": {
+      "title": "Membership contact",
+      "subtitle": "For questions or to send your documents, feel free to contact us by email.",
+      "emailLabel": "Email:",
+      "moreBtn": "More contact options"
+    },
+  
+    "payment": {
+      "title": "Payment details",
+      "ownerLabel": "Account holder:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "Planned yearly membership fee",
+      "adultsLabel": "Adults:",
+      "adultsVal": "€20 in the first year, then €15 per year",
+      "reducedLabel": "Students / pupils / seniors (65+)",
+      "reducedVal": "€17 in the first year, then €15 per year",
+      "kidsLabel": "Children under 14",
+      "kidsVal": "€8 per year",
+      "familyLabel": "Family packages",
+      "familyVal": "€35 per year"
+    }
   },
+
 
   "about": {
     "pageTitle": "About us – Penya Graz",
