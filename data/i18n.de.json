@@ -18,26 +18,26 @@
     "title": "Penya Blaugrana Graz",
     "lead": "Willkommen bei der Penya in Graz — ein Treffpunkt für Culés, die Spiele gemeinsam erleben, Freunde finden und die Barça-Kultur in der Steiermark feiern wollen.",
     "ctaAbout": "Über uns und unsere Gründung",
-
+  
     "meta": {
       "venueLabel": "Unser Treff-Lokal",
       "locationLabel": "Ort",
       "idLabel": "Unsere offizielle Penya-ID"
     },
-
+  
     "infoTitle": "Informationen / Events",
     "infoSubtitle": "Für aktuelle News zu Events, Gewinnspielen und mehr – folge uns doch auf Instagram.",
     "infoText": "Wir würden uns freuen, von dir zu hören. Schreib uns gerne jederzeit an.",
-
+  
     "whyTitle": "Warum eine Penya?",
     "whyLead": "Eine Penya ist mehr als nur „Fan sein“ — es ist Gemeinschaft, Tradition und gemeinsame Emotion.",
-
+  
     "f1Title": "Gemeinsam erleben",
     "f1Text": "Spiele schauen macht zusammen einfach mehr Spaß — ob Liga Spiel oder Champions League.",
-
+  
     "f2Title": "Community in Graz",
     "f2Text": "Lerne Culés aus Graz und Umgebung kennen — offen, respektvoll, international.",
-
+  
     "f3Title": "Blaugrana Spirit",
     "f3Text": "Werte, Geschichte und Kultur — „Més que un club“ auch hier bei uns."
   },
@@ -68,10 +68,8 @@
   },
 
   "join": {
-    "pageTitle": "Mitglied werden – Penya Graz",
     "title": "Mitglied werden",
     "lead": "Hier findest du eine einfache Schritt-für-Schritt Anleitung, wie du Mitglied unserer Penya wirst.",
-  
     "step1": "Formular herunterladen",
     "step2": "Formular ausfüllen",
     "step2Text": "Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder, die am Ende noch unterschrieben werden müssen.",
@@ -81,17 +79,12 @@
     "step4Text": "Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit.",
     "step5": "Per E-Mail senden",
     "step5Text": "Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.",
-  
     "memberContactTitle": "Kontakt für die Mitgliedschaft",
     "memberContactSubtitle": "Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.",
-    "emailLabel": "E-Mail:",
-  
     "paymentTitle": "Einzahlungsdetails",
     "owner": "Kontoinhaber:",
     "iban": "IBAN:",
-  
     "moreContactsBtn": "Weitere Kontaktmöglichkeiten",
-  
     "pricingTitle": "Geplanter Mitgliedsbeitrag pro Jahr",
     "pAdult": "Erwachsene:",
     "pAdultVal": "20 € im ersten Jahr, danach 15 € pro Jahr",
@@ -102,7 +95,6 @@
     "pFamily": "Familienpakete",
     "pFamilyVal": "35 € jährlich"
   },
-
 
   "about": {
     "pageTitle": "Über uns – Penya Graz",
