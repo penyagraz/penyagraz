@@ -272,7 +272,9 @@ body{
   box-shadow: var(--shadow);
   z-index: 70;
 
-  transform: translateX(-105%);
+  /*transform: translateX(-105%);*/
+  overflow-x: hidden;
+  transform: translateX(calc(-100% - 40px)); /* extra to fully hide shadow/overflow */
   transition: transform 200ms ease;
 
   display: flex;
@@ -315,17 +317,18 @@ body{
   transform: translateY(-50%) translateX(2px);
   color: rgba(16,24,40,0.75);
 }
-
-/* extra arrow gap ONLY for last item (Über uns) */
+/*
+// extra arrow gap ONLY for last item (Über uns)
 .menu li:last-child .menu__link{
-  padding-right: 400px; /* default was ~44px */
-  /*margin-top: 40px;*/
+  padding-right: 400px; // default was ~44px
+  //margin-top: 40px;
 }
 
-/* adjust whoosh start accordingly */
+/* adjust whoosh start accordingly 
 .menu li:last-child .menu__link::after{
   right: 30px;
 }
+*/
 
 
 /* link: text stays unchanged */
