@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "Štajerska Penya v Gradcu",
+    "menu": {
+      "home": "Domov",
+      "join": "Postani član",
+      "contact": "Kontakt",
+      "faq": "FAQ",
+      "about": "O nas"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Navijaški klub FC Barcelona v Gradcu",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Dobrodošli v Penyi Graz — prostor za Culése, kjer skupaj gledamo tekme, sklepamo prijateljstva in praznujemo kulturo Barçe na Štajerskem.",
+    "ctaAbout": "O nas in naši ustanovitvi",
+
+    "meta": {
+      "venueLabel": "Naše prizorišče",
+      "locationLabel": "Lokacija",
+      "idLabel": "Uradni Penya ID"
+    },
+
+    "infoTitle": "Informacije / Dogodki",
+    "infoSubtitle": "Za dogodke in novosti — sledite nam na Instagramu.",
+    "infoText": "Veseli bomo vašega sporočila kadarkoli.",
+
+    "whyTitle": "Zakaj Penya?",
+    "whyLead": "Penya ni le navijanje — je skupnost, tradicija in skupna čustva.",
+
+    "f1Title": "Doživi skupaj",
+    "f1Text": "Gledanje tekem skupaj je vedno bolj zabavno.",
+
+    "f2Title": "Skupnost v Gradcu",
+    "f2Text": "Spoznajte Culése iz Gradca in okolice.",
+
+    "f3Title": "Blaugrana duh",
+    "f3Text": "Vrednote, zgodovina in kultura — »Més que un club«."
+  },
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "Pogosta vprašanja o Penyi.",
+
+    "q1": {
+      "title": "Kaj je Penya?",
+      "text": "Penya je uradni navijaški klub FC Barcelona."
+    },
+
+    "q2": {
+      "title": "Zakaj se pridružiti Penyi?",
+      "text": "Da deliš strast do FC Barcelone z drugimi navijači."
+    },
+
+    "q3": {
+      "title": "Prednosti članstva",
+      "li1": "Skupno gledanje tekem",
+      "li2": "Dostop do dogodkov",
+      "li3": "Popusti na izdelke in vstopnice",
+      "li4": "Podpora klubu",
+      "li5": "Nova prijateljstva",
+      "li6": "Uradno priznanje"
+    },
+
+    "more": {
+      "title": "Več o Penyi",
+      "subtitle": "Uradna stran FC Barcelona",
+      "text": "Več informacij tukaj:",
+      "button": "▶ Odpri uradno stran"
+    }
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Vprašanja o članstvu ali dogodkih?",
+    "directTitle": "Neposreden kontakt",
+    "directSubtitle": "Odgovorimo čim prej",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefon",
+    "fastest": "Najhitreje prek e-pošte ali družbenih omrežij.",
+    "socialTitle": "Družbena omrežja",
+    "socialSubtitle": "Novice in dogodki",
+    "follow": "Spremljajte nas za posodobitve.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Postani član – Penya Graz",
+    "title": "Postani član",
+    "lead": "Preprost vodnik za včlanitev.",
+
+    "step1": "Prenesi obrazec",
+    "step2": "Izpolni obrazec",
+    "step2Text": "Izpolnite vsa potrebna polja.",
+    "step3": "Podpiši",
+    "step3Text": "Brez podpisa prijave ni mogoče obdelati.",
+    "step4": "Plačaj članarino",
+    "step4Text": "Plačajte članarino in shranite potrdilo.",
+    "step5": "Pošlji po e-pošti",
+    "step5Text": "Pošljite dokumente v PDF obliki.",
+
+    "memberContactTitle": "Kontakt za članstvo",
+    "memberContactSubtitle": "Za vprašanja ali dokumente.",
+    "emailLabel": "E-pošta:",
+
+    "paymentTitle": "Podatki za plačilo",
+    "owner": "Imetnik računa:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Drugi kontakti",
+
+    "pricingTitle": "Letna članarina",
+    "pAdult": "Odrasli:",
+    "pAdultVal": "20 € prvo leto, nato 15 €",
+    "pReduced": "Študenti / seniorji",
+    "pReducedVal": "17 € prvo leto, nato 15 €",
+    "pKids": "Otroci do 14 let",
+    "pKidsVal": "8 €",
+    "pFamily": "Družinski paketi",
+    "pFamilyVal": "35 €"
+  },
+
+  "about": {
+    "pageTitle": "O nas – Penya Graz",
+    "title": "O nas",
+    "lead": "Kdo smo in zakaj obstajamo.",
+
+    "storyTitle": "Naša zgodba",
+    "storySubtitle": "Uradna Penya FC Barcelona",
+
+    "p1": "Uradna Penya, ustanovljena leta 2025.",
+    "p2": "Spodbujamo vrednote kluba.",
+    "p3": "Vsi ste dobrodošli!",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "Naše mesto, naše barve!"
+  }
+}

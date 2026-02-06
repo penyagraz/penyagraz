@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "Penya din Stiria la Graz",
+    "menu": {
+      "home": "Acasă",
+      "join": "Devino membru",
+      "contact": "Contact",
+      "faq": "FAQ",
+      "about": "Despre noi"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Clubul suporterilor FC Barcelona din Graz",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Bine ai venit la Penya Graz — un loc unde culés urmăresc meciurile împreună, leagă prietenii și celebrează cultura Barça în Stiria.",
+    "ctaAbout": "Despre noi și fondarea noastră",
+
+    "meta": {
+      "venueLabel": "Locația noastră",
+      "locationLabel": "Locație",
+      "idLabel": "ID-ul oficial Penya"
+    },
+
+    "infoTitle": "Informații / Evenimente",
+    "infoSubtitle": "Pentru evenimente și noutăți — urmărește-ne pe Instagram.",
+    "infoText": "Ne-ar plăcea să auzim de la tine. Scrie-ne oricând.",
+
+    "whyTitle": "De ce o Penya?",
+    "whyLead": "O Penya înseamnă mai mult decât a fi suporter — comunitate, tradiție și emoții împărtășite.",
+
+    "f1Title": "Trăiește împreună",
+    "f1Text": "Vizionarea meciurilor împreună este întotdeauna mai distractivă.",
+
+    "f2Title": "Comunitate în Graz",
+    "f2Text": "Cunoaște culés din Graz și împrejurimi.",
+
+    "f3Title": "Spirit Blaugrana",
+    "f3Text": "Valori, istorie și cultură — „Més que un club”."
+  },
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "Întrebări frecvente despre Penya.",
+
+    "q1": {
+      "title": "Ce este o Penya?",
+      "text": "O Penya este un club oficial de suporteri FC Barcelona."
+    },
+
+    "q2": {
+      "title": "De ce să te alături unei Penya?",
+      "text": "Pentru a împărtăși pasiunea pentru FC Barcelona cu alți suporteri."
+    },
+
+    "q3": {
+      "title": "Avantajele calității de membru",
+      "li1": "Vizionarea meciurilor împreună",
+      "li2": "Acces la evenimente și activități",
+      "li3": "Reduceri la produse și bilete",
+      "li4": "Susținerea clubului",
+      "li5": "Prietenii noi",
+      "li6": "Recunoaștere oficială"
+    },
+
+    "more": {
+      "title": "Mai multe despre Penya",
+      "subtitle": "Pagina oficială FC Barcelona",
+      "text": "Mai multe informații sunt disponibile aici:",
+      "button": "▶ Deschide site-ul oficial"
+    }
+  },
+
+  "contact": {
+    "title": "Contact",
+    "lead": "Întrebări despre membri sau evenimente?",
+    "directTitle": "Contact direct",
+    "directSubtitle": "Răspundem cât mai rapid",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "fastest": "Cel mai rapid prin e-mail sau social media.",
+    "socialTitle": "Social media",
+    "socialSubtitle": "Știri și evenimente",
+    "follow": "Urmărește-ne pentru actualizări.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Devino membru – Penya Graz",
+    "title": "Devino membru",
+    "lead": "Ghid simplu pentru înscriere.",
+
+    "step1": "Descarcă formularul",
+    "step2": "Completează formularul",
+    "step2Text": "Completează toate câmpurile necesare.",
+    "step3": "Semnează",
+    "step3Text": "Fără semnătură, cererea nu poate fi procesată.",
+    "step4": "Plătește cotizația",
+    "step4Text": "Achită cotizația și păstrează dovada.",
+    "step5": "Trimite prin e-mail",
+    "step5Text": "Trimite documentele în format PDF.",
+
+    "memberContactTitle": "Contact membri",
+    "memberContactSubtitle": "Pentru întrebări sau documente.",
+    "emailLabel": "E-mail:",
+
+    "paymentTitle": "Detalii plată",
+    "owner": "Titular cont:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Alte contacte",
+
+    "pricingTitle": "Cotizație anuală",
+    "pAdult": "Adulți:",
+    "pAdultVal": "20 € primul an, apoi 15 €",
+    "pReduced": "Studenți / seniori",
+    "pReducedVal": "17 € primul an, apoi 15 €",
+    "pKids": "Copii sub 14 ani",
+    "pKidsVal": "8 €",
+    "pFamily": "Pachete familie",
+    "pFamilyVal": "35 €"
+  },
+
+  "about": {
+    "pageTitle": "Despre noi – Penya Graz",
+    "title": "Despre noi",
+    "lead": "Cine suntem și ce reprezentăm.",
+
+    "storyTitle": "Povestea noastră",
+    "storySubtitle": "Penya oficială FC Barcelona",
+
+    "p1": "Penya oficială fondată în 2025.",
+    "p2": "Promovăm valorile clubului.",
+    "p3": "Toată lumea este binevenită!",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "Orașul nostru, culorile noastre!"
+  }
+}
