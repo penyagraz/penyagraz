@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "Graz’daki Steiermark Penya’sı",
+    "menu": {
+      "home": "Ana Sayfa",
+      "join": "Üye Ol",
+      "contact": "İletişim",
+      "faq": "SSS",
+      "about": "Hakkımızda"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "Graz’daki FC Barcelona taraftar kulübü",
+    "title": "Penya Blaugrana Graz",
+    "lead": "Graz’daki Penya’ya hoş geldiniz — Culé’lerin maçları birlikte izlediği, dostluklar kurduğu ve Steiermark’ta Barça kültürünü yaşattığı bir buluşma noktası.",
+    "ctaAbout": "Hakkımızda ve kuruluşumuz",
+
+    "meta": {
+      "venueLabel": "Mekanımız",
+      "locationLabel": "Konum",
+      "idLabel": "Resmî Penya Kimliğimiz"
+    },
+
+    "infoTitle": "Bilgi / Etkinlikler",
+    "infoSubtitle": "Etkinlikler, çekilişler ve haberler için — bizi Instagram’da takip edin.",
+    "infoText": "Sizden haber almak bizi mutlu eder. İstediğiniz zaman bize yazabilirsiniz.",
+
+    "whyTitle": "Neden bir Penya?",
+    "whyLead": "Penya sadece taraftar olmak değildir — topluluk, gelenek ve paylaşılan duygulardır.",
+
+    "f1Title": "Birlikte yaşamak",
+    "f1Text": "Maçları birlikte izlemek her zaman daha keyiflidir — lig ya da Şampiyonlar Ligi fark etmez.",
+
+    "f2Title": "Graz’da topluluk",
+    "f2Text": "Graz ve çevresindeki Culé’lerle tanışın — açık fikirli, saygılı ve uluslararası.",
+
+    "f3Title": "Blaugrana ruhu",
+    "f3Text": "Değerler, tarih ve kültür — “Més que un club” burada da bizimle."
+  },
+
+  "faq": {
+    "pageTitle": "SSS – Penya Graz",
+    "title": "SSS",
+    "lead": "Penya’lar ve Graz’daki Penya’mız hakkında sıkça sorulan sorular.",
+
+    "q1": {
+      "title": "Penya nedir? (FC Barcelona Penya’sı)",
+      "text": "Penya, FC Barcelona’nın resmî bir taraftar kulübüdür — kulübe olan tutkularını paylaşan taraftarların oluşturduğu organize bir topluluktur. Penya’lar dünya genelinde bulunur ve maçları birlikte izleme, etkinlikler düzenleme ve kulübün değerlerini yaşama imkânı sunar — özellikle Katalan kültürü ve “Més que un club” mottosu ile bağ kurar."
+    },
+
+    "q2": {
+      "title": "Ne zaman ve neden bir Penya’ya katılmak mantıklıdır?",
+      "text": "FC Barcelona’ya olan ilginizi benzer düşünen insanlarla paylaşmak ve güçlü bir topluluğun parçası olmak istiyorsanız bir Penya’ya katılmak mantıklıdır. Penya’da maçları yalnız değil, diğer taraftarlarla birlikte canlı bir atmosferde yaşarsınız. Etkinliklere katılabilir, arkadaşlıklar kurabilir ve kulübe olan bağlılığınızı farklı bir şekilde hissedebilirsiniz."
+    },
+
+    "q3": {
+      "title": "Bir Penya üyesi olmanın avantajları nelerdir?",
+      "li1": "Gerçek taraftar atmosferinde maçları birlikte izlemek",
+      "li2": "Taraftar etkinlikleri, seyahatler ve özel aktivitelere erişim",
+      "li3": "Ürünler ve biletlerde indirimler (kampanya/mevcudiyete bağlı)",
+      "li4": "Kulübü destekleme ve kültürünü, geleneklerini yaşama fırsatı",
+      "li5": "Dünya çapındaki taraftarlarla bağlantı kurma ve yeni dostluklar",
+      "li6": "Barça ailesinin resmî bir parçası olarak tanınma"
+    },
+
+    "more": {
+      "title": "Penya’lar hakkında daha fazla bilgi",
+      "subtitle": "FC Barcelona resmî Penya sayfası",
+      "text": "Genel olarak Penya’lar hakkında daha fazla bilgi almak isterseniz, resmî sayfaya buradan ulaşabilirsiniz:",
+      "button": "▶ Resmî Penya web sitesini aç"
+    }
+  },
+
+  "contact": {
+    "title": "İletişim",
+    "lead": "Üyelik, etkinlikler veya Penya hakkında sorularınız mı var? Aşağıdaki seçeneklerden biriyle bize ulaşabilirsiniz.",
+    "directTitle": "Doğrudan iletişim",
+    "directSubtitle": "En kısa sürede size geri döneceğiz",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon",
+    "fastest": "En hızlı yol e-posta veya sosyal medyadır.",
+    "socialTitle": "Sosyal medya",
+    "socialSubtitle": "Penya’dan haberler, etkinlikler ve anlar",
+    "follow": "Maç geceleri, etkinlikler ve güncellemeler için bizi takip edin.",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "Üye Ol – Penya Graz",
+    "title": "Üye Ol",
+    "lead": "Penya’mıza üye olmak için adım adım basit bir rehber.",
+
+    "step1": "Formu indir",
+    "step2": "Formu doldur",
+    "step2Text": "Üyelik formunu eksiksiz doldurun. Özellikle imza gerektiren alanlara dikkat edin.",
+    "step3": "İmzala",
+    "step3Text": "Lütfen gerekli tüm alanları imzalayın. İmza olmadan başvuru işleme alınamaz.",
+    "step4": "Üyelik ücretini öde",
+    "step4Text": "Seçtiğiniz üyeliğin ücretini ödeyin ve ödeme dekontunu saklayın.",
+    "step5": "E-posta ile gönder",
+    "step5Text": "Doldurulmuş üyelik formunu ve ödeme dekontunu PDF olarak e-posta ile bize gönderin. Sonraki adımlar için sizinle iletişime geçeceğiz.",
+
+    "memberContactTitle": "Üyelik için iletişim",
+    "memberContactSubtitle": "Sorularınız veya belgeleri göndermek için bize e-posta atabilirsiniz.",
+    "emailLabel": "E-posta:",
+
+    "paymentTitle": "Ödeme bilgileri",
+    "owner": "Hesap sahibi:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "Diğer iletişim seçenekleri",
+
+    "pricingTitle": "Yıllık üyelik ücreti",
+    "pAdult": "Yetişkinler:",
+    "pAdultVal": "İlk yıl 20 €, sonrasında yıllık 15 €",
+    "pReduced": "Öğrenciler / öğrenciler / emekliler (65+)",
+    "pReducedVal": "İlk yıl 17 €, sonrasında yıllık 15 €",
+    "pKids": "14 yaş altı çocuklar",
+    "pKidsVal": "Yıllık 8 €",
+    "pFamily": "Aile paketleri",
+    "pFamilyVal": "Yıllık 35 €"
+  },
+
+  "about": {
+    "pageTitle": "Hakkımızda – Penya Graz",
+    "title": "Hakkımızda",
+    "lead": "Biz kimiz, neyi temsil ediyoruz — ve Penya Blaugrana Graz neden var.",
+
+    "storyTitle": "Hikâyemiz",
+    "storySubtitle": "Graz’daki resmî FC Barcelona Penya’sı",
+
+    "p1": "Biz, 2025 yılında Graz–Seiersberg’de kurulmuş resmî bir FC Barcelona Penya’sıyız. Topluluğumuz, Steiermark’ın dört bir yanından gelen ve ortak bir tutkuyu paylaşan insanları bir araya getirir: FC Barcelona.",
+    "p2": "Misyonumuz, kulübün değerlerini ve tutkusunu bölgemizde yaşatmaktır. Birlikte maç izlerken, taktik konuşurken ya da büyük zaferleri kutlarken — her zaman Barça’nın arkasında birleşiriz.",
+    "p3": "Herkes aramıza hoş geldin. Birlikte birçok unutulmaz blaugrana anı yaşamayı sabırsızlıkla bekliyoruz!",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "Şehrimiz, renklerimiz!"
+  }
+}
