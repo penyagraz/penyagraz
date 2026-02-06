@@ -24,19 +24,53 @@ function applyTranslations() {
   });
 }
 
-function setActiveFlag(lang) {
-  document.querySelectorAll(".lang__btn").forEach((btn) => {
+// Sync UI controls:
+// - If lang is de/en => highlight button, dropdown shows "More"
+// - If lang is from dropdown => no button active, dropdown shows that language
+function syncLanguageControls(lang) {
+  const buttons = document.querySelectorAll(".lang__btn[data-lang]");
+  const moreSelect = document.getElementById("langMore") || document.querySelector(".lang__more");
+
+  buttons.forEach((btn) => {
     btn.classList.toggle("is-active", btn.dataset.lang === lang);
   });
+
+  if (!moreSelect) return;
+
+  if (lang === "de" || lang === "en") {
+    moreSelect.value = "more";
+  } else {
+    // if the option exists, show it; otherwise fall back to "more"
+    const hasOption = Array.from(moreSelect.options).some((o) => o.value === lang);
+    moreSelect.value = hasOption ? lang : "more";
+  }
 }
 
 async function setLanguage(lang) {
-  I18N.current = lang === "en" ? "en" : "de";
-  localStorage.setItem("lang", I18N.current);
+  // allow ANY lang suffix: de, en, catalan, spanish, french, ...
+  const next = (lang || "de").trim();
 
-  I18N.dict = await loadDict(I18N.current);
-  applyTranslations();
-  setActiveFlag(I18N.current);
+  try {
+    I18N.current = next;
+    localStorage.setItem("lang", I18N.current);
+
+    I18N.dict = await loadDict(I18N.current);
+    applyTranslations();
+    syncLanguageControls(I18N.current);
+  } catch (err) {
+    console.warn(`[i18n] Failed to load "${next}", falling back to "de".`, err);
+
+    I18N.current = "de";
+    localStorage.setItem("lang", "de");
+
+    try {
+      I18N.dict = await loadDict("de");
+      applyTranslations();
+      syncLanguageControls("de");
+    } catch (err2) {
+      console.error("[i18n] Failed to load fallback language 'de' too.", err2);
+    }
+  }
 }
 
 function bindLanguageButtons() {
@@ -45,18 +79,38 @@ function bindLanguageButtons() {
   });
 }
 
+function bindMoreDropdown() {
+  const moreSelect = document.getElementById("langMore") || document.querySelector(".lang__more");
+  if (!moreSelect) return;
+
+  moreSelect.addEventListener("change", () => {
+    const val = moreSelect.value;
+
+    // If user picks "More", do nothing
+    if (!val || val === "more") return;
+
+    // Dropdown selection overrides DE/EN
+    setLanguage(val);
+  });
+}
+
 async function initI18n() {
   const saved = localStorage.getItem("lang");
-  const lang = saved === "en" ? "en" : "de";
+  const initial = saved ? saved : "de";
 
-  I18N.current = lang;
-  I18N.dict = await loadDict(lang);
+  I18N.current = initial;
+  I18N.dict = await loadDict(initial);
 
   applyTranslations();
   bindLanguageButtons();
-  setActiveFlag(lang);
+  bindMoreDropdown();
+  syncLanguageControls(initial);
 }
 
 document.addEventListener("includes:loaded", () => {
-  initI18n().catch(console.error);
+  initI18n().catch((err) => {
+    console.error("[i18n] init failed:", err);
+    // last-resort fallback
+    setLanguage("de");
+  });
 });
