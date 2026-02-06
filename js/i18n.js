@@ -1,5 +1,8 @@
 const I18N = { current: "de", dict: {} };
 
+let LAST_DROPDOWN_LANG = null;
+
+
 function getByPath(obj, path) {
   return path.split(".").reduce((acc, k) => (acc && acc[k] != null ? acc[k] : null), obj);
 }
@@ -37,14 +40,20 @@ function syncLanguageControls(lang) {
 
   if (!moreSelect) return;
 
-  if (lang === "de" || lang === "en") {
+  const isPrimary = (lang === "de" || lang === "en");
+
+  if (isPrimary) {
+    // show placeholder
     moreSelect.value = "more";
-  } else {
-    // if the option exists, show it; otherwise fall back to "more"
-    const hasOption = Array.from(moreSelect.options).some((o) => o.value === lang);
-    moreSelect.value = hasOption ? lang : "more";
+    return;
   }
+
+  // otherwise show the chosen dropdown language
+  const hasOption = Array.from(moreSelect.options).some((o) => o.value === lang);
+  moreSelect.value = hasOption ? lang : "more";
 }
+
+
 
 async function setLanguage(lang) {
   // allow ANY lang suffix: de, en, catalan, spanish, french, ...
@@ -85,14 +94,12 @@ function bindMoreDropdown() {
 
   moreSelect.addEventListener("change", () => {
     const val = moreSelect.value;
-
-    // If user picks "More", do nothing
-    if (!val || val === "more") return;
-
-    // Dropdown selection overrides DE/EN
+    if (!val || val === "more") return; // "more" can't be chosen anyway, but safe
     setLanguage(val);
   });
 }
+
+
 
 async function initI18n() {
   const saved = localStorage.getItem("lang");
