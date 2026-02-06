@@ -95,36 +95,52 @@
     "pageTitle": "Mitglied werden – Penya Graz",
     "title": "Mitglied werden",
     "lead": "Hier findest du eine einfache Schritt-für-Schritt Anleitung, wie du Mitglied unserer Penya wirst.",
-
-    "step1": "Formular herunterladen",
-    "step2": "Formular ausfüllen",
-    "step2Text": "Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder, die am Ende noch unterschrieben werden müssen.",
-    "step3": "Unterschreiben",
-    "step3Text": "Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag leider nicht bearbeiten.",
-    "step4": "Den Mitgliedsbeitrag einzahlen",
-    "step4Text": "Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit.",
-    "step5": "Per E-Mail senden",
-    "step5Text": "Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir.",
-
-    "memberContactTitle": "Kontakt für die Mitgliedschaft",
-    "memberContactSubtitle": "Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.",
-    "emailLabel": "E-Mail:",
-
-    "paymentTitle": "Einzahlungsdetails",
-    "owner": "Kontoinhaber:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Weitere Kontaktmöglichkeiten",
-
-    "pricingTitle": "Geplanter Mitgliedsbeitrag pro Jahr",
-    "pAdult": "Erwachsene:",
-    "pAdultVal": "20 € im ersten Jahr, danach 15 € pro Jahr",
-    "pReduced": "Schüler / Studenten / Senioren (65+)",
-    "pReducedVal": "17 € im ersten Jahr, danach 15 € pro Jahr",
-    "pKids": "Kinder unter 14 Jahren",
-    "pKidsVal": "8 € jährlich",
-    "pFamily": "Familienpakete",
-    "pFamilyVal": "35 € jährlich"
+  
+    "step1": {
+      "title": "Formular herunterladen",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Formular ausfüllen",
+      "text": "Fülle das Mitgliedsformular vollständig aus. Achte besonders auf Felder, die am Ende noch unterschrieben werden müssen."
+    },
+    "step3": {
+      "title": "Unterschreiben",
+      "text": "Bitte unterschreibe alle markierten Stellen. Ohne Unterschrift können wir den Antrag leider nicht bearbeiten."
+    },
+    "step4": {
+      "title": "Den Mitgliedsbeitrag einzahlen",
+      "text": "Bitte bezahle den Beitrag deiner gewünschten Mitgliedschaft und halte die Überweisungsbestätigung bereit."
+    },
+    "step5": {
+      "title": "Per E-Mail senden",
+      "text": "Schick uns das ausgefüllte Mitgliedschaftsformular und die Überweisungsbestätigung bitte als PDF per E-Mail. Wir melden uns anschließend persönlich mit den nächsten Schritten bei dir."
+    },
+  
+    "contact": {
+      "title": "Kontakt für die Mitgliedschaft",
+      "subtitle": "Für Fragen oder zum Einsenden der Unterlagen kannst du uns gerne per E-Mail kontaktieren.",
+      "emailLabel": "E-Mail:",
+      "moreBtn": "Weitere Kontaktmöglichkeiten"
+    },
+  
+    "payment": {
+      "title": "Einzahlungsdetails",
+      "ownerLabel": "Kontoinhaber:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "Geplanter Mitgliedsbeitrag pro Jahr",
+      "adultsLabel": "Erwachsene:",
+      "adultsVal": "20 € im ersten Jahr, danach 15 € pro Jahr",
+      "reducedLabel": "Schüler / Studenten / Senioren (65+)",
+      "reducedVal": "17 € im ersten Jahr, danach 15 € pro Jahr",
+      "kidsLabel": "Kinder unter 14 Jahren",
+      "kidsVal": "8 € jährlich",
+      "familyLabel": "Familienpakete",
+      "familyVal": "35 € jährlich"
+    }
   },
 
 

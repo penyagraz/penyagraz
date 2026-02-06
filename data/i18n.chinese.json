@@ -94,36 +94,52 @@
     "pageTitle": "加入我们 – Penya Graz",
     "title": "加入我们",
     "lead": "加入 Penya 的简单分步指南。",
-
-    "step1": "下载表格",
-    "step2": "填写表格",
-    "step2Text": "请完整填写会员表格，并注意需要签名的部分。",
-    "step3": "签名",
-    "step3Text": "没有签名将无法处理申请。",
-    "step4": "支付会费",
-    "step4Text": "请支付所选会员类型的费用，并保留付款凭证。",
-    "step5": "通过电子邮箱发送",
-    "step5Text": "请将填写好的表格和付款凭证以 PDF 形式通过电子邮箱发送给我们。",
-
-    "memberContactTitle": "会员联系",
-    "memberContactSubtitle": "如有问题或提交文件，请通过电子邮箱联系。",
-    "emailLabel": "电子邮箱:",
-
-    "paymentTitle": "付款信息",
-    "owner": "账户持有人:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "更多联系方式",
-
-    "pricingTitle": "年度会费",
-    "pAdult": "成人:",
-    "pAdultVal": "首年 20 欧元，其后每年 15 欧元",
-    "pReduced": "学生 / 老年人 (65+)",
-    "pReducedVal": "首年 17 欧元，其后每年 15 欧元",
-    "pKids": "14 岁以下儿童",
-    "pKidsVal": "每年 8 欧元",
-    "pFamily": "家庭套餐",
-    "pFamilyVal": "每年 35 欧元"
+  
+    "step1": {
+      "title": "下载表格",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "填写表格",
+      "text": "请完整填写会员表格，并注意需要在最后签名的字段。"
+    },
+    "step3": {
+      "title": "签名",
+      "text": "请在所有要求的位置签名。没有签名我们无法处理申请。"
+    },
+    "step4": {
+      "title": "支付会费",
+      "text": "请支付所选会员类型的费用，并保留转账凭证。"
+    },
+    "step5": {
+      "title": "通过电子邮箱发送",
+      "text": "请将填写好的会员表格和转账凭证以 PDF 形式通过电子邮箱发送给我们。我们会与您联系并告知下一步。"
+    },
+  
+    "contact": {
+      "title": "会员联系",
+      "subtitle": "如有问题或提交文件，请通过电子邮箱联系。",
+      "emailLabel": "电子邮箱:",
+      "moreBtn": "更多联系方式"
+    },
+  
+    "payment": {
+      "title": "付款信息",
+      "ownerLabel": "账户持有人:",
+      "ibanLabel": "IBAN:"
+    },
+  
+    "pricing": {
+      "title": "年度会费",
+      "adultsLabel": "成人:",
+      "adultsVal": "首年 20 欧元，其后每年 15 欧元",
+      "reducedLabel": "学生 / 在校生 / 老年人 (65+)",
+      "reducedVal": "首年 17 欧元，其后每年 15 欧元",
+      "kidsLabel": "14 岁以下儿童",
+      "kidsVal": "每年 8 欧元",
+      "familyLabel": "家庭套餐",
+      "familyVal": "每年 35 欧元"
+    }
   },
 
   "about": {

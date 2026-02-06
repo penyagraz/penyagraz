@@ -93,38 +93,36 @@
   "join": {
     "pageTitle": "Postani član – Penya Graz",
     "title": "Postani član",
-    "lead": "Preprost vodnik za včlanitev.",
-
-    "step1": "Prenesi obrazec",
-    "step2": "Izpolni obrazec",
-    "step2Text": "Izpolnite vsa potrebna polja.",
-    "step3": "Podpiši",
-    "step3Text": "Brez podpisa prijave ni mogoče obdelati.",
-    "step4": "Plačaj članarino",
-    "step4Text": "Plačajte članarino in shranite potrdilo.",
-    "step5": "Pošlji po e-pošti",
-    "step5Text": "Pošljite dokumente v PDF obliki.",
-
-    "memberContactTitle": "Kontakt za članstvo",
-    "memberContactSubtitle": "Za vprašanja ali dokumente.",
-    "emailLabel": "E-pošta:",
-
-    "paymentTitle": "Podatki za plačilo",
-    "owner": "Imetnik računa:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Drugi kontakti",
-
-    "pricingTitle": "Letna članarina",
-    "pAdult": "Odrasli:",
-    "pAdultVal": "20 € prvo leto, nato 15 €",
-    "pReduced": "Študenti / seniorji",
-    "pReducedVal": "17 € prvo leto, nato 15 €",
-    "pKids": "Otroci do 14 let",
-    "pKidsVal": "8 €",
-    "pFamily": "Družinski paketi",
-    "pFamilyVal": "35 €"
+    "lead": "Preprost vodnik korak za korakom, kako postati član naše Penye.",
+  
+    "step1": { "title": "Prenesi obrazec", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "Izpolni obrazec", "text": "Obrazec za članstvo izpolni v celoti. Posebej pazi na polja, ki jih je treba na koncu podpisati." },
+    "step3": { "title": "Podpiši", "text": "Prosimo, podpiši vsa zahtevana mesta. Brez podpisa vloge ne moremo obdelati." },
+    "step4": { "title": "Plačaj članarino", "text": "Plačaj članarino za izbrano članstvo in shrani potrdilo o nakazilu." },
+    "step5": { "title": "Pošlji po e-pošti", "text": "Po e-pošti nam pošlji izpolnjen obrazec in potrdilo o nakazilu v PDF. Nato te osebno kontaktiramo z naslednjimi koraki." },
+  
+    "contact": {
+      "title": "Kontakt za članstvo",
+      "subtitle": "Za vprašanja ali pošiljanje dokumentov nas kontaktiraj po e-pošti.",
+      "emailLabel": "E-pošta:",
+      "moreBtn": "Več kontaktnih možnosti"
+    },
+  
+    "payment": { "title": "Podatki za plačilo", "ownerLabel": "Imetnik računa:", "ibanLabel": "IBAN:" },
+  
+    "pricing": {
+      "title": "Letna članarina",
+      "adultsLabel": "Odrasli:",
+      "adultsVal": "20 € prvo leto, nato 15 € na leto",
+      "reducedLabel": "Študenti / šolarji / seniorji (65+)",
+      "reducedVal": "17 € prvo leto, nato 15 € na leto",
+      "kidsLabel": "Otroci do 14 let",
+      "kidsVal": "8 € na leto",
+      "familyLabel": "Družinski paketi",
+      "familyVal": "35 € na leto"
+    }
   },
+
 
   "about": {
     "pageTitle": "O nas – Penya Graz",

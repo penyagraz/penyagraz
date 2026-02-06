@@ -94,36 +94,52 @@
     "pageTitle": "Devenir membre – Penya Graz",
     "title": "Devenir membre",
     "lead": "Voici un guide simple étape par étape pour devenir membre de notre Penya.",
-
-    "step1": "Télécharger le formulaire",
-    "step2": "Remplir le formulaire",
-    "step2Text": "Remplissez le formulaire d’adhésion entièrement. Faites attention aux champs nécessitant une signature.",
-    "step3": "Signer",
-    "step3Text": "Veuillez signer à tous les endroits requis. Sans signature, la demande ne peut pas être traitée.",
-    "step4": "Payer la cotisation",
-    "step4Text": "Veuillez payer la cotisation choisie et conserver la confirmation du paiement.",
-    "step5": "Envoyer par e-mail",
-    "step5Text": "Envoyez-nous le formulaire complété et la confirmation de paiement en PDF par e-mail. Nous vous contacterons ensuite avec les prochaines étapes.",
-
-    "memberContactTitle": "Contact pour l’adhésion",
-    "memberContactSubtitle": "Pour toute question ou pour envoyer vos documents, contactez-nous par e-mail.",
-    "emailLabel": "E-mail :",
-
-    "paymentTitle": "Détails de paiement",
-    "owner": "Titulaire du compte :",
-    "iban": "IBAN :",
-
-    "moreContactsBtn": "Autres moyens de contact",
-
-    "pricingTitle": "Cotisation annuelle prévue",
-    "pAdult": "Adultes :",
-    "pAdultVal": "20 € la première année, puis 15 € par an",
-    "pReduced": "Étudiants / élèves / seniors (65+)",
-    "pReducedVal": "17 € la première année, puis 15 € par an",
-    "pKids": "Enfants de moins de 14 ans",
-    "pKidsVal": "8 € par an",
-    "pFamily": "Forfaits familiaux",
-    "pFamilyVal": "35 € par an"
+  
+    "step1": {
+      "title": "Télécharger le formulaire",
+      "button": "📄 mitgliedschaftsformular.pdf"
+    },
+    "step2": {
+      "title": "Remplir le formulaire",
+      "text": "Remplissez le formulaire d’adhésion entièrement. Faites attention aux champs nécessitant une signature."
+    },
+    "step3": {
+      "title": "Signer",
+      "text": "Veuillez signer à tous les endroits requis. Sans signature, la demande ne peut pas être traitée."
+    },
+    "step4": {
+      "title": "Payer la cotisation",
+      "text": "Veuillez payer la cotisation choisie et conserver la confirmation du paiement."
+    },
+    "step5": {
+      "title": "Envoyer par e-mail",
+      "text": "Envoyez-nous le formulaire complété et la confirmation de paiement en PDF par e-mail. Nous vous contacterons ensuite avec les prochaines étapes."
+    },
+  
+    "contact": {
+      "title": "Contact pour l’adhésion",
+      "subtitle": "Pour toute question ou pour envoyer vos documents, contactez-nous par e-mail.",
+      "emailLabel": "E-mail :",
+      "moreBtn": "Autres moyens de contact"
+    },
+  
+    "payment": {
+      "title": "Détails de paiement",
+      "ownerLabel": "Titulaire du compte :",
+      "ibanLabel": "IBAN :"
+    },
+  
+    "pricing": {
+      "title": "Cotisation annuelle prévue",
+      "adultsLabel": "Adultes :",
+      "adultsVal": "20 € la première année, puis 15 € par an",
+      "reducedLabel": "Étudiants / élèves / seniors (65+)",
+      "reducedVal": "17 € la première année, puis 15 € par an",
+      "kidsLabel": "Enfants de moins de 14 ans",
+      "kidsVal": "8 € par an",
+      "familyLabel": "Forfaits familiaux",
+      "familyVal": "35 € par an"
+    }
   },
 
   "about": {

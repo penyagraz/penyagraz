@@ -93,37 +93,34 @@
   "join": {
     "pageTitle": "Devino membru – Penya Graz",
     "title": "Devino membru",
-    "lead": "Ghid simplu pentru înscriere.",
-
-    "step1": "Descarcă formularul",
-    "step2": "Completează formularul",
-    "step2Text": "Completează toate câmpurile necesare.",
-    "step3": "Semnează",
-    "step3Text": "Fără semnătură, cererea nu poate fi procesată.",
-    "step4": "Plătește cotizația",
-    "step4Text": "Achită cotizația și păstrează dovada.",
-    "step5": "Trimite prin e-mail",
-    "step5Text": "Trimite documentele în format PDF.",
-
-    "memberContactTitle": "Contact membri",
-    "memberContactSubtitle": "Pentru întrebări sau documente.",
-    "emailLabel": "E-mail:",
-
-    "paymentTitle": "Detalii plată",
-    "owner": "Titular cont:",
-    "iban": "IBAN:",
-
-    "moreContactsBtn": "Alte contacte",
-
-    "pricingTitle": "Cotizație anuală",
-    "pAdult": "Adulți:",
-    "pAdultVal": "20 € primul an, apoi 15 €",
-    "pReduced": "Studenți / seniori",
-    "pReducedVal": "17 € primul an, apoi 15 €",
-    "pKids": "Copii sub 14 ani",
-    "pKidsVal": "8 €",
-    "pFamily": "Pachete familie",
-    "pFamilyVal": "35 €"
+    "lead": "Ghid simplu pas cu pas pentru a deveni membru al Penyei noastre.",
+  
+    "step1": { "title": "Descarcă formularul", "button": "📄 mitgliedschaftsformular.pdf" },
+    "step2": { "title": "Completează formularul", "text": "Completează formularul de membership în întregime. Acordă atenție câmpurilor care trebuie semnate la final." },
+    "step3": { "title": "Semnează", "text": "Te rugăm să semnezi toate locurile necesare. Fără semnătură nu putem procesa cererea." },
+    "step4": { "title": "Plătește cotizația", "text": "Plătește cotizația pentru membership-ul ales și păstrează dovada transferului." },
+    "step5": { "title": "Trimite prin e-mail", "text": "Trimite-ne formularul completat și dovada transferului ca PDF prin e-mail. Te vom contacta cu pașii următori." },
+  
+    "contact": {
+      "title": "Contact pentru membership",
+      "subtitle": "Pentru întrebări sau pentru trimiterea documentelor, ne poți contacta prin e-mail.",
+      "emailLabel": "E-mail:",
+      "moreBtn": "Mai multe opțiuni de contact"
+    },
+  
+    "payment": { "title": "Detalii plată", "ownerLabel": "Titular cont:", "ibanLabel": "IBAN:" },
+  
+    "pricing": {
+      "title": "Cotizație anuală",
+      "adultsLabel": "Adulți:",
+      "adultsVal": "20 € în primul an, apoi 15 € pe an",
+      "reducedLabel": "Elevi / studenți / seniori (65+)",
+      "reducedVal": "17 € în primul an, apoi 15 € pe an",
+      "kidsLabel": "Copii sub 14 ani",
+      "kidsVal": "8 € pe an",
+      "familyLabel": "Pachete familie",
+      "familyVal": "35 € pe an"
+    }
   },
 
   "about": {
