@@ -18,37 +18,61 @@
     "title": "Penya Blaugrana Graz",
     "lead": "Welcome to the Penya in Graz — a place for Culés to watch matches together, make friends, and celebrate Barça culture in Styria.",
     "ctaAbout": "About us and our founding",
-  
+
     "meta": {
       "venueLabel": "Our venue",
       "locationLabel": "Location",
       "idLabel": "Our official Penya ID"
     },
-  
+
     "infoTitle": "Info / Events",
     "infoSubtitle": "For updates about events, giveaways and more — follow us on Instagram.",
     "infoText": "We’d love to hear from you. Feel free to message us anytime.",
-  
+
     "whyTitle": "Why a Penya?",
     "whyLead": "A Penya is more than just being a fan — it’s community, tradition, and shared emotions.",
-  
+
     "f1Title": "Experience together",
     "f1Text": "Watching matches is simply more fun together — league games or Champions League.",
-  
+
     "f2Title": "Community in Graz",
     "f2Text": "Meet Culés from Graz and the region — open, respectful, international.",
-  
+
     "f3Title": "Blaugrana spirit",
     "f3Text": "Values, history, culture — “Més que un club” here with us too."
   },
 
   "faq": {
+    "pageTitle": "FAQ – Penya Graz",
     "title": "FAQ",
     "lead": "Frequently asked questions about Penyes and our Penya in Graz.",
-    "moreInfoTitle": "More about Penyes",
-    "moreInfoSubtitle": "Official FC Barcelona Penyes page",
-    "moreInfoText": "If you want to learn more about Penyes in general, here is the official overview:",
-    "moreInfoBtn": "▶ Open the official Penyes website"
+  
+    "q1": {
+      "title": "What is a Penya? (FC Barcelona Penya)",
+      "text": "A Penya is an official FC Barcelona supporters’ club — an organized group of fans who share their passion for the club. Penyes exist worldwide and provide a way to watch matches together, organize events, and live the club’s values — especially the connection to Catalan culture and the motto “Més que un club”."
+    },
+  
+    "q2": {
+      "title": "When and why does it make sense to join a Penya?",
+      "text": "Joining a Penya makes sense if you want to share your enthusiasm for FC Barcelona with like-minded people and be part of a strong community. In a Penya you don’t experience matches alone, but in a lively atmosphere with other fans. You can join events, build friendships, and experience the passion for the club in a new way. You also support Barça’s values and traditions."
+    },
+  
+    "q3": {
+      "title": "What are the benefits of being a Penya member?",
+      "li1": "Watching matches together with a real fan atmosphere",
+      "li2": "Access to fan events, trips and special activities",
+      "li3": "Discounts on merchandise and tickets (depending on availability/promotions)",
+      "li4": "A way to support the club and live its culture and traditions",
+      "li5": "Connect with fans worldwide and make new friends",
+      "li6": "Official recognition as part of the Barça family"
+    },
+  
+    "more": {
+      "title": "More about Penyes",
+      "subtitle": "Official FC Barcelona Penyes page",
+      "text": "If you want to learn more about Penyes in general, here is the official overview:",
+      "button": "▶ Open the official Penyes website"
+    }
   },
 
   "contact": {
@@ -67,8 +91,10 @@
   },
 
   "join": {
+    "pageTitle": "Join – Penya Graz",
     "title": "Join",
     "lead": "Here is a simple step-by-step guide on how to become a member of our Penya.",
+
     "step1": "Download the form",
     "step2": "Fill in the form",
     "step2Text": "Fill out the membership form completely. Pay special attention to fields that must be signed at the end.",
@@ -78,12 +104,17 @@
     "step4Text": "Please pay the fee for your chosen membership and keep the transfer confirmation ready.",
     "step5": "Send by email",
     "step5Text": "Email us the completed membership form and the transfer confirmation as PDFs. We’ll contact you personally with the next steps.",
+
     "memberContactTitle": "Membership contact",
     "memberContactSubtitle": "For questions or to send your documents, feel free to contact us by email.",
+    "emailLabel": "Email:",
+
     "paymentTitle": "Payment details",
     "owner": "Account holder:",
     "iban": "IBAN:",
+
     "moreContactsBtn": "More contact options",
+
     "pricingTitle": "Planned yearly membership fee",
     "pAdult": "Adults:",
     "pAdultVal": "€20 in the first year, then €15 per year",
