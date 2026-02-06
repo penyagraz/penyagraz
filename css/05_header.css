@@ -272,7 +272,9 @@ body{
   box-shadow: var(--shadow);
   z-index: 70;
 
-  transform: translateX(-105%);
+  /*transform: translateX(-105%);*/
+  overflow-x: hidden;
+  transform: translateX(calc(-100% - 40px)); /* extra to fully hide shadow/overflow */
   transition: transform 200ms ease;
 
   display: flex;
@@ -315,17 +317,18 @@ body{
   transform: translateY(-50%) translateX(2px);
   color: rgba(16,24,40,0.75);
 }
-
-/* extra arrow gap ONLY for last item (Über uns) */
+/*
+// extra arrow gap ONLY for last item (Über uns)
 .menu li:last-child .menu__link{
-  padding-right: 400px; /* default was ~44px */
-  /*margin-top: 40px;*/
+  padding-right: 400px; // default was ~44px
+  //margin-top: 40px;
 }
 
-/* adjust whoosh start accordingly */
+/* adjust whoosh start accordingly 
 .menu li:last-child .menu__link::after{
   right: 30px;
 }
+*/
 
 
 /* link: text stays unchanged */
@@ -425,5 +428,39 @@ body{
   font-weight: 500;       /* slightly stronger */
   letter-spacing: 0.3px; /* matches your menu typography */
 }
+
+
+/* ===== Language dropdown: Flag Companion ===== */
+.lang__more {
+  -webkit-appearance: none;
+  appearance: none;
+
+  height: 38px;
+  padding: 0 42px 0 14px;
+  border-radius: 10px;
+
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.08);
+
+  font-weight: 700;
+  letter-spacing: .2px;
+  color: #111;
+
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.lang__more:hover {
+  border-color: rgba(0,0,0,0.18);
+}
+
+.lang__more:focus {
+  outline: none;
+  border-color: rgba(0,0,0,0.25);
+}
+
+
+
+
 
 

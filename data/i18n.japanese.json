@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "グラーツのシュタイアーマルク・ペーニャ",
+    "menu": {
+      "home": "ホーム",
+      "join": "入会する",
+      "contact": "お問い合わせ",
+      "faq": "FAQ",
+      "about": "私たちについて"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "グラーツのFCバルセロナ公式ファンクラブ",
+    "title": "Penya Blaugrana Graz",
+    "lead": "グラーツのペーニャへようこそ — クレ（Culé）たちが一緒に試合を観戦し、交流し、シュタイアーマルクでバルサ文化を祝う場所です。",
+    "ctaAbout": "私たちについて・設立について",
+
+    "meta": {
+      "venueLabel": "会場",
+      "locationLabel": "所在地",
+      "idLabel": "公式Penya ID"
+    },
+
+    "infoTitle": "情報 / イベント",
+    "infoSubtitle": "イベントや最新情報はInstagramでチェックしてください。",
+    "infoText": "いつでもお気軽にご連絡ください。",
+
+    "whyTitle": "なぜPenya？",
+    "whyLead": "Penyaは単なるファンクラブではありません — コミュニティであり、伝統であり、共有する感動です。",
+
+    "f1Title": "一緒に体験",
+    "f1Text": "試合観戦は一緒の方がずっと楽しい — リーグ戦でもチャンピオンズリーグでも。",
+
+    "f2Title": "グラーツのコミュニティ",
+    "f2Text": "グラーツや周辺地域のCuléとつながりましょう。",
+
+    "f3Title": "ブラウグラナの精神",
+    "f3Text": "価値、歴史、文化 — 「Més que un club」をここでも。"
+  },
+
+  "faq": {
+    "pageTitle": "FAQ – Penya Graz",
+    "title": "FAQ",
+    "lead": "PenyaおよびグラーツのPenyaに関するよくある質問。",
+
+    "q1": {
+      "title": "Penyaとは？（FCバルセロナ）",
+      "text": "PenyaはFCバルセロナの公式ファンクラブです。クラブへの情熱を共有するサポーターの組織です。"
+    },
+
+    "q2": {
+      "title": "なぜPenyaに参加するのですか？",
+      "text": "FCバルセロナへの想いを仲間と共有し、強いコミュニティの一員になるためです。"
+    },
+
+    "q3": {
+      "title": "Penya会員のメリットは？",
+      "li1": "ファンの雰囲気の中で一緒に試合観戦",
+      "li2": "イベントや遠征への参加",
+      "li3": "グッズやチケットの割引",
+      "li4": "クラブの価値と文化を支援",
+      "li5": "世界中のファンとの交流",
+      "li6": "バルサファミリーとしての公式認定"
+    },
+
+    "more": {
+      "title": "Penyaについてもっと知る",
+      "subtitle": "FCバルセロナ公式Penyaページ",
+      "text": "Penyaについての詳細はこちら：",
+      "button": "▶ 公式Penyaサイトを開く"
+    }
+  },
+
+  "contact": {
+    "title": "お問い合わせ",
+    "lead": "入会やイベントについてのご質問はお気軽にご連絡ください。",
+    "directTitle": "直接のお問い合わせ",
+    "directSubtitle": "できるだけ早くご返信します",
+    "emailLabel": "メール",
+    "phoneLabel": "電話",
+    "fastest": "メールまたはSNSが最も早いです。",
+    "socialTitle": "ソーシャルメディア",
+    "socialSubtitle": "Penyaの最新情報",
+    "follow": "試合やイベントの最新情報をフォローしてください。",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "入会する – Penya Graz",
+    "title": "入会する",
+    "lead": "Penyaへの入会方法をステップごとにご案内します。",
+
+    "step1": "フォームをダウンロード",
+    "step2": "フォームに記入",
+    "step2Text": "必要事項をすべて記入してください。",
+    "step3": "署名する",
+    "step3Text": "署名がない場合、申請は処理できません。",
+    "step4": "会費を支払う",
+    "step4Text": "会費を支払い、控えを保管してください。",
+    "step5": "メールで送信",
+    "step5Text": "記入済みフォームと支払い確認をPDFでメール送信してください。",
+
+    "memberContactTitle": "入会に関するお問い合わせ",
+    "memberContactSubtitle": "ご質問や書類送付はこちらへ。",
+    "emailLabel": "メール:",
+
+    "paymentTitle": "支払い情報",
+    "owner": "口座名義:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "その他の連絡方法",
+
+    "pricingTitle": "年会費",
+    "pAdult": "大人:",
+    "pAdultVal": "初年度20ユーロ、その後年15ユーロ",
+    "pReduced": "学生 / 高齢者 (65+)",
+    "pReducedVal": "初年度17ユーロ、その後年15ユーロ",
+    "pKids": "14歳未満の子ども",
+    "pKidsVal": "年8ユーロ",
+    "pFamily": "ファミリーパッケージ",
+    "pFamilyVal": "年35ユーロ"
+  },
+
+  "about": {
+    "pageTitle": "私たちについて – Penya Graz",
+    "title": "私たちについて",
+    "lead": "私たちは誰か、何を大切にしているか。",
+
+    "storyTitle": "私たちの物語",
+    "storySubtitle": "グラーツのFCバルセロナ公式Penya",
+
+    "p1": "私たちは2025年に設立されたFCバルセロナの公式Penyaです。",
+    "p2": "クラブの価値と情熱を地域に広めることが使命です。",
+    "p3": "どなたでも歓迎します！",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "私たちの街、私たちの色！"
+  }
+}

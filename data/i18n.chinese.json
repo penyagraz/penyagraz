@@ -1,0 +1,144 @@
+{
+  "site": {
+    "brandTitle": "FC Barcelonista Penya Graz",
+    "brandSubtitle": "格拉茨的施泰尔马克球迷会",
+    "menu": {
+      "home": "首页",
+      "join": "加入我们",
+      "contact": "联系",
+      "faq": "常见问题",
+      "about": "关于我们"
+    },
+    "menuFooter": "Visca Barça i visca Catalunya! · Graz"
+  },
+
+  "home": {
+    "pageTitle": "Penya Graz",
+    "badge": "格拉茨的 FC Barcelona 球迷会",
+    "title": "Penya Blaugrana Graz",
+    "lead": "欢迎来到格拉茨的 Penya —— 这里是 Culé 们一起看球、结交朋友、在施泰尔马克庆祝巴萨文化的地方。",
+    "ctaAbout": "关于我们与成立背景",
+
+    "meta": {
+      "venueLabel": "我们的聚会地点",
+      "locationLabel": "位置",
+      "idLabel": "官方 Penya 编号"
+    },
+
+    "infoTitle": "信息 / 活动",
+    "infoSubtitle": "想了解活动、抽奖和最新消息 —— 请关注我们的 Instagram。",
+    "infoText": "我们很乐意听到你的声音，欢迎随时联系我们。",
+
+    "whyTitle": "为什么选择 Penya？",
+    "whyLead": "Penya 不只是支持球队 —— 更是一种社区、传统与共同的情感。",
+
+    "f1Title": "一起体验",
+    "f1Text": "一起看比赛总是更有乐趣 —— 无论是联赛还是欧冠。",
+
+    "f2Title": "格拉茨的社区",
+    "f2Text": "认识来自格拉茨及周边地区的 Culé —— 开放、友好、国际化。",
+
+    "f3Title": "Blaugrana 精神",
+    "f3Text": "价值、历史与文化 —— “不仅仅是一家俱乐部”。"
+  },
+
+  "faq": {
+    "pageTitle": "常见问题 – Penya Graz",
+    "title": "常见问题",
+    "lead": "关于 Penya 以及格拉茨 Penya 的常见问题。",
+
+    "q1": {
+      "title": "什么是 Penya？（FC Barcelona Penya）",
+      "text": "Penya 是 FC Barcelona 的官方球迷会 —— 由热爱俱乐部的球迷组成的组织化社群。Penya 遍布世界各地，提供一起看球、组织活动以及传承俱乐部价值观的机会，尤其是与加泰罗尼亚文化及 “Més que un club” 理念的联系。"
+    },
+
+    "q2": {
+      "title": "什么时候、为什么加入 Penya？",
+      "text": "如果你希望与志同道合的人分享对 FC Barcelona 的热爱，并成为一个强大社区的一部分，那么加入 Penya 是非常合适的选择。在 Penya 中，你不会独自看球，而是与其他球迷一起感受热烈的氛围。"
+    },
+
+    "q3": {
+      "title": "成为 Penya 成员有哪些好处？",
+      "li1": "在真正的球迷氛围中一起观看比赛",
+      "li2": "参加球迷活动、旅行和特别活动",
+      "li3": "商品和门票折扣（视情况而定）",
+      "li4": "支持俱乐部并体验其文化与传统",
+      "li5": "结识来自世界各地的球迷",
+      "li6": "作为巴萨大家庭一员的官方认可"
+    },
+
+    "more": {
+      "title": "关于 Penya 的更多信息",
+      "subtitle": "FC Barcelona 官方 Penya 页面",
+      "text": "如果你想进一步了解 Penya，这里是官方介绍页面：",
+      "button": "▶ 打开官方 Penya 网站"
+    }
+  },
+
+  "contact": {
+    "title": "联系",
+    "lead": "对会员、活动或 Penya 有疑问？欢迎联系我们。",
+    "directTitle": "直接联系",
+    "directSubtitle": "我们会尽快回复你",
+    "emailLabel": "电子邮箱",
+    "phoneLabel": "电话",
+    "fastest": "最快的方式是通过电子邮箱或社交媒体。",
+    "socialTitle": "社交媒体",
+    "socialSubtitle": "Penya 的新闻、活动与精彩瞬间",
+    "follow": "关注我们，获取比赛之夜和活动的最新消息。",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+
+  "join": {
+    "pageTitle": "加入我们 – Penya Graz",
+    "title": "加入我们",
+    "lead": "加入 Penya 的简单分步指南。",
+
+    "step1": "下载表格",
+    "step2": "填写表格",
+    "step2Text": "请完整填写会员表格，并注意需要签名的部分。",
+    "step3": "签名",
+    "step3Text": "没有签名将无法处理申请。",
+    "step4": "支付会费",
+    "step4Text": "请支付所选会员类型的费用，并保留付款凭证。",
+    "step5": "通过电子邮箱发送",
+    "step5Text": "请将填写好的表格和付款凭证以 PDF 形式通过电子邮箱发送给我们。",
+
+    "memberContactTitle": "会员联系",
+    "memberContactSubtitle": "如有问题或提交文件，请通过电子邮箱联系。",
+    "emailLabel": "电子邮箱:",
+
+    "paymentTitle": "付款信息",
+    "owner": "账户持有人:",
+    "iban": "IBAN:",
+
+    "moreContactsBtn": "更多联系方式",
+
+    "pricingTitle": "年度会费",
+    "pAdult": "成人:",
+    "pAdultVal": "首年 20 欧元，其后每年 15 欧元",
+    "pReduced": "学生 / 老年人 (65+)",
+    "pReducedVal": "首年 17 欧元，其后每年 15 欧元",
+    "pKids": "14 岁以下儿童",
+    "pKidsVal": "每年 8 欧元",
+    "pFamily": "家庭套餐",
+    "pFamilyVal": "每年 35 欧元"
+  },
+
+  "about": {
+    "pageTitle": "关于我们 – Penya Graz",
+    "title": "关于我们",
+    "lead": "我们是谁、我们代表什么 —— 以及 Penya Blaugrana Graz 的意义。",
+
+    "storyTitle": "我们的故事",
+    "storySubtitle": "格拉茨的 FC Barcelona 官方 Penya",
+
+    "p1": "我们是 FC Barcelona 的官方 Penya，成立于 2025 年。",
+    "p2": "我们的使命是在本地区传递俱乐部的价值与激情。",
+    "p3": "欢迎所有人加入我们！",
+
+    "cityTitle": "Graz & Blaugrana",
+    "citySubtitle": "我们的城市，我们的颜色！"
+  }
+}

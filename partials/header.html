@@ -18,10 +18,37 @@
       <button class="lang__btn is-active" type="button" aria-label="Deutsch" data-lang="de">
         <img class="lang__flag" src="assets/img/language/german.png" alt="Deutsch">
       </button>
+    
       <button class="lang__btn" type="button" aria-label="English" data-lang="en">
         <img class="lang__flag" src="assets/img/language/english.png" alt="English">
       </button>
+    
+      <!-- More languages dropdown (basic for now; we style later) -->
+      <select class="lang__more" id="langMore" aria-label="More languages">
+        <option value="more" selected>More</option>
+      
+        <!-- requested order -->
+        <option value="catalan">Català</option>
+        <option value="spanish">Español</option>
+        <option value="french">Français</option>
+        <option value="hindi">हिंदी</option>
+        <option value="urdu">اردو</option>
+        <option value="portuguese">Português</option>
+        <option value="greek">Ελληνικά</option>
+        <option value="bosnian">Bosanski</option>
+        <option value="romanian">Română</option>
+        <option value="turkish">Türkçe</option>
+        <option value="arabic">العربية</option>
+        <option value="russian">Русский</option>
+        <option value="slovenian">Slovenščina</option>
+        <option value="italian">Italiano</option>
+        <option value="japanese">日本語</option>
+        <option value="chinese">中文</option>
+      
+        <!-- future: add more options here -->
+      </select>
     </div>
+
   </div>
 
   <div class="overlay" id="overlay" hidden></div>
