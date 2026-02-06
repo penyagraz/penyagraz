@@ -1,7 +1,7 @@
 {
   "site": {
     "brandTitle": "FC Barcelonista Penya Graz",
-    "brandSubtitle": "گراز میں اسٹیریئن پینیا",
+    "brandSubtitle": "گراز میں اسٹیرین پینیا",
     "menu": {
       "home": "ہوم",
       "join": "رکنیت حاصل کریں",
@@ -22,7 +22,7 @@
     "meta": {
       "venueLabel": "ہمارا مقام",
       "locationLabel": "مقام",
-      "idLabel": "ہماری سرکاری Penya ID"
+      "idLabel": "Penya ID ہماری سرکاری "
     },
 
     "infoTitle": "معلومات / تقریبات",
