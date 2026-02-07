@@ -459,6 +459,115 @@ body{
   border-color: rgba(0,0,0,0.25);
 }
 
+/* =========================================================
+   Responsive header layout (mobile + tablet)
+   Paste at END of css/05_header.css
+   ========================================================= */
+
+/* Tablet and below */
+@media (max-width: 900px) {
+  .topbar{
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  /* Brand should be allowed to wrap and not force overflow */
+  .brand{
+    flex: 1 1 auto;
+    min-width: 0;          /* IMPORTANT for flex overflow */
+  }
+
+  .brand__title{
+    font-size: 22px;
+    line-height: 1.05;
+  }
+
+  .brand__subtitle{
+    font-size: 14px;
+  }
+
+  /* Keep language controls visible */
+  .lang{
+    flex: 0 0 auto;
+    margin-left: auto;
+    gap: 8px;
+  }
+
+  .lang__btn{
+    width: 36px;
+    height: 36px;
+  }
+
+  .lang__flag{
+    width: 28px;
+    height: 28px;
+  }
+
+  .lang__more{
+    height: 36px;
+    max-width: 140px;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .topbar{
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  /* 1st row: hamburger + brand
+     2nd row: languages */
+  .hamburger{
+    order: 1;
+  }
+
+  .brand{
+    order: 2;
+    flex: 1 1 auto;
+  }
+
+  .lang{
+    order: 3;
+    width: 100%;
+    justify-content: flex-end;
+    margin-left: 0;
+    padding-top: 6px;
+  }
+
+  /* Make brand fit nicely on small screens */
+  .brand__title{
+    font-size: 20px;
+    letter-spacing: 0.06em; /* calmer on small widths */
+  }
+
+  /* Often looks better hidden on very small screens */
+  .brand__subtitle{
+    display: none;
+  }
+
+  /* Slightly smaller controls */
+  .lang__btn{
+    width: 34px;
+    height: 34px;
+  }
+
+  .lang__flag{
+    width: 26px;
+    height: 26px;
+  }
+
+  .lang__more{
+    height: 34px;
+    max-width: 140px;
+  }
+}
+
+/* Extra safety: never allow horizontal scrolling caused by header */
+html, body{
+  overflow-x: hidden;
+}
 
 
 
