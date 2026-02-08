@@ -6,10 +6,9 @@
 
   <title>Über uns – Penya Blaugrana Graz</title>
   <meta name="i18n-title-key" content="about.pageTitle">
-  <!-- Favicon / Tab / Bookmark -->
-  <link rel="icon" type="image/png" href="assets/icons/penyagrazbadge.png">
 
-  <!-- iOS / iPad Home Screen Icon -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icons/penyagrazbadge.png">
   <link rel="apple-touch-icon" href="assets/icons/penyagrazbadge.png">
 
   <!-- Global styles -->
@@ -19,12 +18,11 @@
   <link rel="stylesheet" href="css/03_components.css">
   <link rel="stylesheet" href="css/04_pages.css">
 
-  <!-- Header -->
+  <!-- Header / Footer -->
   <link rel="stylesheet" href="css/05_header.css">
   <link rel="stylesheet" href="css/06_footer.css">
 
-
-  <!-- Icons (Instagram / TikTok) -->
+  <!-- Icons -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous" />
@@ -36,6 +34,8 @@
   <main class="page">
     <section class="section">
       <div class="container">
+
+        <!-- PAGE HEADER -->
         <header class="section__header">
           <h1 class="section__title" data-i18n="about.title">Über uns</h1>
           <p class="section__lead" data-i18n="about.lead">
@@ -44,40 +44,87 @@
         </header>
 
         <div class="split">
-          <!-- LEFT: Story -->
-          <section class="card">
-            <div class="card__header">
-              <h2 class="card__title" data-i18n="about.storyTitle">Unsere Geschichte</h2>
-              <p class="card__subtitle" data-i18n="about.storySubtitle">Offizielle Penya des FC Barcelona in Graz</p>
-            </div>
 
-            <div class="card__content">
-              <p class="muted" style="margin-top:0;" data-i18n="about.p1">
-                Wir sind eine offizielle Penya des FC Barcelona, gegründet im Jahr 2025 in Graz-Seiersberg.
-                Unsere Gemeinschaft vereint Menschen aus der ganzen Steiermark, die eine gemeinsame Leidenschaft teilen:
-                den FC Barcelona.
-              </p>
+          <!-- LEFT COLUMN: LEGO STACK -->
+          <div style="display:flex; flex-direction:column; gap:1.5rem;">
 
-              <p class="muted" data-i18n="about.p2">
-                Unsere Mission ist es, die Werte und die Begeisterung des Vereins hier in unserer Region erlebbar zu machen.
-                Ob beim gemeinsamen Ansehen der Spiele, bei Diskussionen über Taktik oder beim Feiern großer Siege –
-                wir stehen immer zusammen hinter Barça.
-              </p>
+            <!-- STORY -->
+            <section class="card">
+              <div class="card__header">
+                <h2 class="card__title" data-i18n="about.storyTitle">Unsere Geschichte</h2>
+                <p class="card__subtitle" data-i18n="about.storySubtitle">
+                  Offizielle Penya des FC Barcelona in Graz
+                </p>
+              </div>
 
-              <p class="muted" style="margin-bottom:0;" data-i18n="about.p3">
-                Jede und jeder ist bei uns herzlich willkommen. Wir freuen uns auf viele unvergessliche Momente
-                in blaugrana!
-              </p>
+              <div class="card__content">
+                <p class="muted" style="margin-top:0;" data-i18n="about.p1">
+                  Wir sind eine offizielle Penya des FC Barcelona, gegründet im Jahr 2025 in Graz-Seiersberg.
+                  Unsere Gemeinschaft vereint Menschen aus der ganzen Steiermark, die eine gemeinsame Leidenschaft teilen:
+                  den FC Barcelona.
+                </p>
 
-              <div class="divider"></div>
-            </div>
-          </section>
+                <p class="muted" data-i18n="about.p2">
+                  Unsere Mission ist es, die Werte und die Begeisterung des Vereins hier in unserer Region erlebbar zu machen.
+                  Ob beim gemeinsamen Ansehen der Spiele, bei Diskussionen über Taktik oder beim Feiern großer Siege –
+                  wir stehen immer zusammen hinter Barça.
+                </p>
 
-          <!-- RIGHT: Images -->
+                <p class="muted" style="margin-bottom:0;" data-i18n="about.p3">
+                  Jede und jeder ist bei uns herzlich willkommen. Wir freuen uns auf viele unvergessliche Momente
+                  in blaugrana!
+                </p>
+
+                <div class="divider"></div>
+              </div>
+            </section>
+
+            <!-- FANS BLOCK (FULL-WIDTH STACKED IMAGES) -->
+            <section class="card">
+              <div class="card__header">
+                <h2 class="card__title" data-i18n="about.fansTitle">Unsere Fans</h2>
+                <p class="card__subtitle" data-i18n="about.fansLead">
+                  Leidenschaft, Gemeinschaft und echte Blaugrana-Momente.
+                </p>
+              </div>
+
+              <div class="card__content" style="padding-top:0;">
+                <div style="display:flex; flex-direction:column; gap:1rem;">
+
+                  <img
+                    src="assets/img/aboutus/fan-picture1.jpg"
+                    alt="Penya Fans"
+                    loading="lazy"
+                    style="width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:14px;"
+                  />
+
+                  <img
+                    src="assets/img/aboutus/fan-picture2.jpg"
+                    alt="Penya Fans"
+                    loading="lazy"
+                    style="width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:14px;"
+                  />
+
+                  <img
+                    src="assets/img/aboutus/fan-picture3.jpg"
+                    alt="Penya Fans"
+                    loading="lazy"
+                    style="width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:14px;"
+                  />
+
+                </div>
+              </div>
+            </section>
+
+          </div>
+
+          <!-- RIGHT COLUMN -->
           <aside class="card card--glass">
             <div class="card__header">
               <h2 class="card__title" data-i18n="about.cityTitle">Graz & Blaugrana</h2>
-              <p class="card__subtitle" data-i18n="about.citySubtitle">Unsere Stadt, unsere Farben!</p>
+              <p class="card__subtitle" data-i18n="about.citySubtitle">
+                Unsere Stadt, unsere Farben!
+              </p>
             </div>
 
             <div class="card__content about-images">
@@ -85,18 +132,19 @@
                 src="assets/img/aboutus/penyabadge_aboutus.png"
                 alt="Penya Blaugrana Graz Badge"
                 class="about-img"
+                loading="lazy"
               />
 
               <img
                 src="assets/img/aboutus/schlossberg_broschuere.jpeg"
                 alt="Graz Schlossberg"
                 class="about-img"
+                loading="lazy"
               />
             </div>
           </aside>
 
         </div>
-
       </div>
     </section>
   </main>
